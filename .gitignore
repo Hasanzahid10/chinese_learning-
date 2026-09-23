@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI / models
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Node
+node_modules/

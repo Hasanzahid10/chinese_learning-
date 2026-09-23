@@ -1,0 +1,3488 @@
+[
+  {
+    "hsk_level": 1,
+    "Chinese": "爱好",
+    "Pinyin": "àihào",
+    "EN": "hobby",
+    "BN": "শখ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "八",
+    "Pinyin": "bā",
+    "EN": "eight",
+    "BN": "আট"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "爸爸｜爸",
+    "Pinyin": "bàba ｜ bà",
+    "EN": "dad",
+    "BN": "বাবা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "吧",
+    "Pinyin": "ba",
+    "EN": "(interjection particle)",
+    "BN": "আবেগ প্রকাশের অব্যয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "白（形）",
+    "Pinyin": "bái",
+    "EN": "white",
+    "BN": "সাদা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "白天",
+    "Pinyin": "bái tiān",
+    "EN": "day",
+    "BN": "দিন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "百",
+    "Pinyin": "bǎi",
+    "EN": "hundred",
+    "BN": "একশো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "班",
+    "Pinyin": "bān",
+    "EN": "class",
+    "BN": "ক্লাস / শ্রেণি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "半",
+    "Pinyin": "bàn",
+    "EN": "half",
+    "BN": "অর্ধেক / আধা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "半年",
+    "Pinyin": "bàn nián",
+    "EN": "half a year",
+    "BN": "ছয় মাস / অর্ধ বছর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "半天",
+    "Pinyin": "bàn tiān",
+    "EN": "half day",
+    "BN": "আধা দিন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "帮",
+    "Pinyin": "bāng",
+    "EN": "help",
+    "BN": "সাহায্য করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "帮忙",
+    "Pinyin": "bāng máng",
+    "EN": "help",
+    "BN": "সাহায্য করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "包",
+    "Pinyin": "bāo",
+    "EN": "package",
+    "BN": "প্যাকেট"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "包子",
+    "Pinyin": "bāozi",
+    "EN": "bun",
+    "BN": "বান / ছোট পাউরুটি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "杯",
+    "Pinyin": "bēi",
+    "EN": "cup",
+    "BN": "কাপ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "杯子",
+    "Pinyin": "bēizi",
+    "EN": "cup",
+    "BN": "কাপ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "北",
+    "Pinyin": "běi",
+    "EN": "north",
+    "BN": "উত্তর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "北边",
+    "Pinyin": "běi biān",
+    "EN": "North side",
+    "BN": "উত্তর দিক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "北京",
+    "Pinyin": "běi jīng",
+    "EN": "Beijing",
+    "BN": "বেইজিং"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "本（量）",
+    "Pinyin": "běn",
+    "EN": "(measure word for books or volumes)",
+    "BN": "বই বা খণ্ড গণনার পরিমাপক শব্দ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "本子",
+    "Pinyin": "běnzi",
+    "EN": "book",
+    "BN": "বই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "比",
+    "Pinyin": "bǐ",
+    "EN": "particle used for comparison",
+    "BN": "তুলনা বোঝানোর অব্যয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "别（副）",
+    "Pinyin": "bié",
+    "EN": "Don’t",
+    "BN": "করো না / করবেন না"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "别的",
+    "Pinyin": "biéde",
+    "EN": "other",
+    "BN": "অন্য"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "别人",
+    "Pinyin": "bié·rén",
+    "EN": "other people",
+    "BN": "অন্য মানুষ / অন্যরা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "病",
+    "Pinyin": "bìng",
+    "EN": "disease",
+    "BN": "রোগ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "病人",
+    "Pinyin": "bìng rén",
+    "EN": "patient",
+    "BN": "রোগী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "不大",
+    "Pinyin": "búdà",
+    "EN": "not big",
+    "BN": "বড় নয় / তেমন বড় না"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "不对",
+    "Pinyin": "bú duì",
+    "EN": "wrong",
+    "BN": "ভুল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "不客气",
+    "Pinyin": "bú kè qì",
+    "EN": "You’re welcome",
+    "BN": "স্বাগতম / কোনো সমস্যা নেই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "不用",
+    "Pinyin": "bú yòng",
+    "EN": "No need to",
+    "BN": "দরকার নেই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "不",
+    "Pinyin": "bù",
+    "EN": "No",
+    "BN": "না"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "菜",
+    "Pinyin": "cài",
+    "EN": "dish",
+    "BN": "খাবারের পদ / ডিশ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "茶",
+    "Pinyin": "chá",
+    "EN": "tea",
+    "BN": "চা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "差",
+    "Pinyin": "chà",
+    "EN": "differ from; bad; short of",
+    "BN": "ভিন্ন হওয়া; খারাপ; কম পড়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "常",
+    "Pinyin": "cháng",
+    "EN": "often",
+    "BN": "প্রায়ই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "常常",
+    "Pinyin": "cháng cháng",
+    "EN": "often",
+    "BN": "প্রায়ই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "唱",
+    "Pinyin": "chàng",
+    "EN": "sing",
+    "BN": "গান গাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "唱歌",
+    "Pinyin": "chàng gē",
+    "EN": "sing",
+    "BN": "গান গাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "车",
+    "Pinyin": "chē",
+    "EN": "car",
+    "BN": "গাড়ি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "车票",
+    "Pinyin": "chēpiào",
+    "EN": "ticket",
+    "BN": "টিকিট"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "车上",
+    "Pinyin": "chēshàng",
+    "EN": "in the car",
+    "BN": "গাড়িতে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "车站",
+    "Pinyin": "chēzhàn",
+    "EN": "station",
+    "BN": "স্টেশন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "吃",
+    "Pinyin": "chī",
+    "EN": "eat",
+    "BN": "খাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "吃饭",
+    "Pinyin": "chī fàn",
+    "EN": "have meal",
+    "BN": "খাবার খাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "出",
+    "Pinyin": "chū",
+    "EN": "out",
+    "BN": "বাইরে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "出来",
+    "Pinyin": "chū lái",
+    "EN": "come",
+    "BN": "আসা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "出去",
+    "Pinyin": "chū qù",
+    "EN": "go out",
+    "BN": "বাইরে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "穿",
+    "Pinyin": "chuān",
+    "EN": "wear",
+    "BN": "পরা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "床",
+    "Pinyin": "chuáng",
+    "EN": "bed",
+    "BN": "বিছানা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "次（量）",
+    "Pinyin": "cì",
+    "EN": "(measure word for times, frequency)",
+    "BN": "বার বা কতবার বোঝানোর পরিমাপক শব্দ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "从",
+    "Pinyin": "cóng",
+    "EN": "from",
+    "BN": "থেকে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "错",
+    "Pinyin": "cuò",
+    "EN": "wrong",
+    "BN": "ভুল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "打（动）",
+    "Pinyin": "dǎ",
+    "EN": "hit, take",
+    "BN": "মারা; নেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "打车",
+    "Pinyin": "dǎchē",
+    "EN": "take a taxi",
+    "BN": "ট্যাক্সি নেওয়া / ট্যাক্সিতে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "打电话",
+    "Pinyin": "dǎdiàn huà",
+    "EN": "make a phonecall",
+    "BN": "ফোন করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "打开",
+    "Pinyin": "dǎkāi",
+    "EN": "turn on",
+    "BN": "চালু করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "打球",
+    "Pinyin": "dǎqiú",
+    "EN": "play ball",
+    "BN": "বল খেলা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "大",
+    "Pinyin": "dà",
+    "EN": "large, big",
+    "BN": "বড় / বিশাল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "大学",
+    "Pinyin": "dàxué",
+    "EN": "university",
+    "BN": "বিশ্ববিদ্যালয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "大学生",
+    "Pinyin": "dàxué shēng",
+    "EN": "university student",
+    "BN": "বিশ্ববিদ্যালয়ের শিক্ষার্থী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "到",
+    "Pinyin": "dào",
+    "EN": "reach",
+    "BN": "পৌঁছানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "得到",
+    "Pinyin": "dédào",
+    "EN": "get",
+    "BN": "পাওয়া / নেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "地",
+    "Pinyin": "de",
+    "EN": "auxiliary word",
+    "BN": "সহায়ক অব্যয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "的",
+    "Pinyin": "de",
+    "EN": "(aux.)",
+    "BN": "সহায়ক শব্দ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "等（动）",
+    "Pinyin": "děng",
+    "EN": "wait",
+    "BN": "অপেক্ষা করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "地",
+    "Pinyin": "dì",
+    "EN": "ground",
+    "BN": "মাটি / মাঠ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "地点",
+    "Pinyin": "dìdiǎn",
+    "EN": "location",
+    "BN": "অবস্থান / জায়গা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "地方",
+    "Pinyin": "dìfang",
+    "EN": "local",
+    "BN": "স্থানীয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "地上",
+    "Pinyin": "dìshàng",
+    "EN": "on the ground",
+    "BN": "মাটিতে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "地图",
+    "Pinyin": "dìtú",
+    "EN": "Map",
+    "BN": "মানচিত্র"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "弟弟｜弟",
+    "Pinyin": "dì di ｜ dì",
+    "EN": "younger brother",
+    "BN": "ছোট ভাই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "第（第二）",
+    "Pinyin": "dì （ dì èr ）",
+    "EN": "auxiliary word for ordinal numbers (secon",
+    "BN": "ক্রমবাচক সংখ্যার জন্য ব্যবহৃত সহায়ক শব্দ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "点",
+    "Pinyin": "diǎn",
+    "EN": "spot",
+    "BN": "জায়গা / স্থান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "电",
+    "Pinyin": "diàn",
+    "EN": "electricity",
+    "BN": "বিদ্যুৎ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "电话",
+    "Pinyin": "diàn huà",
+    "EN": "phone",
+    "BN": "ফোন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "电脑",
+    "Pinyin": "diànnǎo",
+    "EN": "Computer",
+    "BN": "কম্পিউটার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "电视",
+    "Pinyin": "diànshì",
+    "EN": "television",
+    "BN": "টেলিভিশন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "电视机",
+    "Pinyin": "diàn shì jī",
+    "EN": "television",
+    "BN": "টেলিভিশন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "电影",
+    "Pinyin": "diànyǐng",
+    "EN": "Film",
+    "BN": "সিনেমা / চলচ্চিত্র"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "电影院",
+    "Pinyin": "diàn yǐng yuàn",
+    "EN": "cinema; movie theater",
+    "BN": "সিনেমা হল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "东",
+    "Pinyin": "dōng",
+    "EN": "east",
+    "BN": "পূর্ব"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "东边",
+    "Pinyin": "dōng biān",
+    "EN": "east side",
+    "BN": "পূর্ব দিক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "东西",
+    "Pinyin": "dōngxi",
+    "EN": "thing",
+    "BN": "জিনিস / বিষয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "动",
+    "Pinyin": "dòng",
+    "EN": "move",
+    "BN": "নড়া / সরানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "动作",
+    "Pinyin": "dòngzuò",
+    "EN": "action",
+    "BN": "কাজ / কার্যকলাপ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "都",
+    "Pinyin": "dōu",
+    "EN": "all",
+    "BN": "সব / সবাই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "读",
+    "Pinyin": "dú",
+    "EN": "read",
+    "BN": "পড়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "读书",
+    "Pinyin": "dúshū",
+    "EN": "reading; study",
+    "BN": "পড়া / পড়াশোনা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "对（形）",
+    "Pinyin": "duì",
+    "EN": "right",
+    "BN": "সঠিক / ডান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "对不起",
+    "Pinyin": "duìbuqǐ",
+    "EN": "I’m sorry.",
+    "BN": "আমি দুঃখিত।"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "多（形、代）",
+    "Pinyin": "duō",
+    "EN": "many; much; more",
+    "BN": "অনেক; বেশি; আরও"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "多少",
+    "Pinyin": "duōshao",
+    "EN": "how much",
+    "BN": "কত / কতটা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "饿",
+    "Pinyin": "è",
+    "EN": "hungry",
+    "BN": "ক্ষুধার্ত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "儿子",
+    "Pinyin": "érzi",
+    "EN": "Son",
+    "BN": "ছেলে / পুত্র"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "二",
+    "Pinyin": "èr",
+    "EN": "Two",
+    "BN": "দুই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "饭",
+    "Pinyin": "fàn",
+    "EN": "rice; meal",
+    "BN": "ভাত; খাবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "饭店",
+    "Pinyin": "fàndiàn",
+    "EN": "restaurant",
+    "BN": "রেস্তোরাঁ / খাবারের দোকান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "房间",
+    "Pinyin": "fángjiān",
+    "EN": "Room",
+    "BN": "ঘর / কক্ষ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "房子",
+    "Pinyin": "fángzi",
+    "EN": "house; building",
+    "BN": "বাড়ি; ভবন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "放",
+    "Pinyin": "fàng",
+    "EN": "discharge",
+    "BN": "ছুটি দেওয়া / ছাড়পত্র দেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "放假",
+    "Pinyin": "fàngjià",
+    "EN": "holiday; have a holiday",
+    "BN": "ছুটি; ছুটি কাটানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "放学",
+    "Pinyin": "fàng xué",
+    "EN": "off school",
+    "BN": "স্কুল ছুটি / স্কুল বন্ধ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "飞",
+    "Pinyin": "fēi",
+    "EN": "fly",
+    "BN": "উড়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "飞机",
+    "Pinyin": "fēijī",
+    "EN": "aircraft",
+    "BN": "বিমান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "非常",
+    "Pinyin": "fēicháng",
+    "EN": "very",
+    "BN": "খুব"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "分（名、量）",
+    "Pinyin": "fēn",
+    "EN": "minute; point; part; (measure word)",
+    "BN": "মিনিট; বিন্দু; অংশ; পরিমাপক শব্দ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "风",
+    "Pinyin": "fēng",
+    "EN": "wind",
+    "BN": "বাতাস"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "干",
+    "Pinyin": "gān",
+    "EN": "dry",
+    "BN": "শুকনো / শুকানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "干净",
+    "Pinyin": "gānjìng",
+    "EN": "clean",
+    "BN": "পরিষ্কার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "干",
+    "Pinyin": "gàn",
+    "EN": "do",
+    "BN": "করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "干什么",
+    "Pinyin": "gànshénme",
+    "EN": "What to do",
+    "BN": "কী করা / কী করতে হবে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "高",
+    "Pinyin": "gāo",
+    "EN": "high",
+    "BN": "উঁচু / উচ্চ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "高兴",
+    "Pinyin": "gāoxìng",
+    "EN": "happy",
+    "BN": "খুশি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "告诉",
+    "Pinyin": "gàosu",
+    "EN": "tell",
+    "BN": "বলা / জানানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "哥哥｜哥",
+    "Pinyin": "gē ge ｜ gē",
+    "EN": "elder brother",
+    "BN": "বড় ভাই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "歌",
+    "Pinyin": "gē",
+    "EN": "song",
+    "BN": "গান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "个",
+    "Pinyin": "gè",
+    "EN": "individual",
+    "BN": "ব্যক্তি / একজন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "给",
+    "Pinyin": "gěi",
+    "EN": "give",
+    "BN": "দেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "跟",
+    "Pinyin": "gēn",
+    "EN": "with",
+    "BN": "সঙ্গে / দিয়ে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "工人",
+    "Pinyin": "gōngrén",
+    "EN": "Worker",
+    "BN": "কর্মী / শ্রমিক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "工作",
+    "Pinyin": "gōngzuò",
+    "EN": "work",
+    "BN": "কাজ / কাজ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "关（动）",
+    "Pinyin": "guān",
+    "EN": "shut; close; turn off",
+    "BN": "বন্ধ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "关上",
+    "Pinyin": "guānshàng",
+    "EN": "close;shut to; turn off",
+    "BN": "বন্ধ করা / বন্ধ করে দেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "贵",
+    "Pinyin": "guì",
+    "EN": "noble",
+    "BN": "মহৎ / সম্মানিত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "国",
+    "Pinyin": "guó",
+    "EN": "country; state; nation",
+    "BN": "দেশ / রাষ্ট্র"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "国家",
+    "Pinyin": "guójiā",
+    "EN": "Country",
+    "BN": "দেশ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "国外",
+    "Pinyin": "guó wài",
+    "EN": "foreign; oversea; abroad",
+    "BN": "বিদেশি / বিদেশে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "过",
+    "Pinyin": "guò",
+    "EN": "pass",
+    "BN": "পাস করা / পার হওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "还",
+    "Pinyin": "hái",
+    "EN": "also; still; yet",
+    "BN": "এছাড়াও; এখনও; তবুও"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "还是",
+    "Pinyin": "háishi",
+    "EN": "still",
+    "BN": "এখনও / তবুও"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "还有",
+    "Pinyin": "háiyǒu",
+    "EN": "also; in addition; besides",
+    "BN": "এছাড়াও / উপরন্তু"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "孩子",
+    "Pinyin": "háizi",
+    "EN": "Children",
+    "BN": "শিশুরা / বাচ্চারা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "汉语",
+    "Pinyin": "hànyǔ",
+    "EN": "Chinese",
+    "BN": "চীনা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "汉字",
+    "Pinyin": "hàn zì",
+    "EN": "Chinese character",
+    "BN": "চীনা অক্ষর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "好（形）",
+    "Pinyin": "hǎo",
+    "EN": "good",
+    "BN": "ভালো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "好吃",
+    "Pinyin": "hǎochī",
+    "EN": "Yummy",
+    "BN": "সুস্বাদু / মজার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "好看",
+    "Pinyin": "hǎokàn",
+    "EN": "good looking",
+    "BN": "দেখতে সুন্দর / সুদর্শন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "好听",
+    "Pinyin": "hǎotīng",
+    "EN": "pleasant to hear",
+    "BN": "শুনতে ভালো লাগে / শ্রুতিমধুর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "好玩儿",
+    "Pinyin": "hǎowánr",
+    "EN": "fun; interesting",
+    "BN": "মজার / আকর্ষণীয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "号",
+    "Pinyin": "hào",
+    "EN": "Number/date",
+    "BN": "সংখ্যা / তারিখ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "喝",
+    "Pinyin": "hē",
+    "EN": "drink",
+    "BN": "পান করা / পানীয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "和",
+    "Pinyin": "hé",
+    "EN": "and",
+    "BN": "এবং / আর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "很",
+    "Pinyin": "hěn",
+    "EN": "very",
+    "BN": "খুব"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "后",
+    "Pinyin": "hòu",
+    "EN": "back; behind; after; later",
+    "BN": "পেছনে; পরে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "后边",
+    "Pinyin": "hòu biān",
+    "EN": "behind; back",
+    "BN": "পেছনে / পিছনে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "后天",
+    "Pinyin": "hòu tiān",
+    "EN": "day after tomorrow",
+    "BN": "পরশু"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "花（名）",
+    "Pinyin": "huā",
+    "EN": "flower",
+    "BN": "ফুল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "话",
+    "Pinyin": "huà",
+    "EN": "word; words",
+    "BN": "শব্দ / শব্দগুলো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "坏",
+    "Pinyin": "huài",
+    "EN": "bad",
+    "BN": "খারাপ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "还",
+    "Pinyin": "huán",
+    "EN": "return; pay back",
+    "BN": "ফেরত দেওয়া / পরিশোধ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "回（动）",
+    "Pinyin": "huí",
+    "EN": "go back; return",
+    "BN": "ফিরে যাওয়া / ফিরে আসা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "回答",
+    "Pinyin": "huídá",
+    "EN": "Answer",
+    "BN": "উত্তর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "回到",
+    "Pinyin": "huí dào",
+    "EN": "back to",
+    "BN": "ফিরে / আবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "回家",
+    "Pinyin": "huíjiā",
+    "EN": "go home; return home",
+    "BN": "বাড়ি যাওয়া / বাড়ি ফেরা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "回来",
+    "Pinyin": "huí lái",
+    "EN": "come back; return",
+    "BN": "ফিরে আসা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "回去",
+    "Pinyin": "huí qù",
+    "EN": "go back",
+    "BN": "ফিরে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "会（动）",
+    "Pinyin": "huì",
+    "EN": "can; be able to",
+    "BN": "পারা / সক্ষম হওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "火车",
+    "Pinyin": "huǒchē",
+    "EN": "train",
+    "BN": "ট্রেন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "机场",
+    "Pinyin": "jīchǎng",
+    "EN": "Airport",
+    "BN": "বিমানবন্দর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "机票",
+    "Pinyin": "jī piào",
+    "EN": "air ticket",
+    "BN": "বিমানের টিকিট"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "鸡蛋",
+    "Pinyin": "jīdàn",
+    "EN": "Egg",
+    "BN": "ডিম"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "几",
+    "Pinyin": "jǐ",
+    "EN": "several",
+    "BN": "কয়েকটি / কয়েকজন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "记",
+    "Pinyin": "jì",
+    "EN": "remember",
+    "BN": "মনে রাখা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "记得",
+    "Pinyin": "jìdé",
+    "EN": "remember",
+    "BN": "মনে রাখা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "记住",
+    "Pinyin": "jì zhù",
+    "EN": "remember; keep in mind",
+    "BN": "মনে রাখা / মনে রাখা উচিত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "家",
+    "Pinyin": "jiā",
+    "EN": "home",
+    "BN": "বাড়ি / ঘর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "家里",
+    "Pinyin": "jiālǐ",
+    "EN": "In the home",
+    "BN": "বাড়িতে / ঘরের মধ্যে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "家人",
+    "Pinyin": "jiārén",
+    "EN": "family",
+    "BN": "পরিবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "间",
+    "Pinyin": "jiān",
+    "EN": "between; measure word for rooms",
+    "BN": "মাঝে / কক্ষ গণনার পরিমাপক শব্দ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "见",
+    "Pinyin": "jiàn",
+    "EN": "see; meet",
+    "BN": "দেখা / দেখা করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "见面",
+    "Pinyin": "jiànmiàn",
+    "EN": "meet",
+    "BN": "দেখা করা / সাক্ষাৎ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "教",
+    "Pinyin": "jiāo",
+    "EN": "teach",
+    "BN": "পড়ানো / শেখানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "叫（动）",
+    "Pinyin": "jiào",
+    "EN": "call; be called",
+    "BN": "ডাকা / নামে পরিচিত হওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "教学楼",
+    "Pinyin": "jiàoxué lóu",
+    "EN": "teaching building",
+    "BN": "শিক্ষা ভবন / একাডেমিক ভবন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "姐姐｜姐",
+    "Pinyin": "jiě jie ｜ jiě",
+    "EN": "elder sister",
+    "BN": "বড় বোন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "介绍",
+    "Pinyin": "jièshào",
+    "EN": "introduce",
+    "BN": "পরিচয় করিয়ে দেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "今年",
+    "Pinyin": "jīn nián",
+    "EN": "this year",
+    "BN": "এই বছর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "今天",
+    "Pinyin": "jīntiān",
+    "EN": "Today",
+    "BN": "আজ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "进",
+    "Pinyin": "jìn",
+    "EN": "enter",
+    "BN": "প্রবেশ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "进来",
+    "Pinyin": "jìn lái",
+    "EN": "come in",
+    "BN": "ভিতরে আসা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "进去",
+    "Pinyin": "jìn qù",
+    "EN": "go in",
+    "BN": "ভিতরে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "九",
+    "Pinyin": "jiǔ",
+    "EN": "Nine",
+    "BN": "নয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "就",
+    "Pinyin": "jiù",
+    "EN": "as soon as; right away; then",
+    "BN": "সঙ্গে সঙ্গে; তৎক্ষণাৎ; তারপর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "觉得",
+    "Pinyin": "juéde",
+    "EN": "Think",
+    "BN": "ভাবা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "开",
+    "Pinyin": "kāi",
+    "EN": "open",
+    "BN": "খোলা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "开车",
+    "Pinyin": "kāichē",
+    "EN": "drive; drive a car",
+    "BN": "গাড়ি চালানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "开会",
+    "Pinyin": "kāihuì",
+    "EN": "have a meeting",
+    "BN": "মিটিং করা / সভা করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "开玩笑",
+    "Pinyin": "kāiwánxiào",
+    "EN": "Make fun of",
+    "BN": "মজা করা / ঠাট্টা করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "看",
+    "Pinyin": "kàn",
+    "EN": "see",
+    "BN": "দেখা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "看病",
+    "Pinyin": "kànbìng",
+    "EN": "see a doctor",
+    "BN": "ডাক্তার দেখানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "看到",
+    "Pinyin": "kàndào",
+    "EN": "see",
+    "BN": "দেখা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "看见",
+    "Pinyin": "kànjiàn",
+    "EN": "seeing",
+    "BN": "দেখা / দেখার কাজ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "考",
+    "Pinyin": "kǎo",
+    "EN": "test; examine",
+    "BN": "পরীক্ষা করা / পরীক্ষা নেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "考试",
+    "Pinyin": "kǎoshì",
+    "EN": "Examination",
+    "BN": "পরীক্ষা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "渴",
+    "Pinyin": "kě",
+    "EN": "thirsty",
+    "BN": "তৃষ্ণার্ত / পিপাসার্ত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "课",
+    "Pinyin": "kè",
+    "EN": "course",
+    "BN": "কোর্স / পাঠ্যক্রম"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "课本",
+    "Pinyin": "kè běn",
+    "EN": "textbook",
+    "BN": "পাঠ্যবই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "课文",
+    "Pinyin": "kè wén",
+    "EN": "text",
+    "BN": "লেখা / পাঠ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "口",
+    "Pinyin": "kǒu",
+    "EN": "mouth",
+    "BN": "মুখ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "块",
+    "Pinyin": "kuài",
+    "EN": "block",
+    "BN": "ব্লক / খণ্ড"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "快",
+    "Pinyin": "kuài",
+    "EN": "fast",
+    "BN": "দ্রুত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "来",
+    "Pinyin": "lái",
+    "EN": "come",
+    "BN": "আসা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "来到",
+    "Pinyin": "lái dào",
+    "EN": "come; arrive",
+    "BN": "আসা; পৌঁছানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "老（形）",
+    "Pinyin": "lǎo",
+    "EN": "old; aged",
+    "BN": "পুরোনো / বয়স্ক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "老人",
+    "Pinyin": "lǎo rén",
+    "EN": "old people; the aged",
+    "BN": "বয়স্ক মানুষ / বয়োজ্যেষ্ঠরা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "老师",
+    "Pinyin": "lǎoshī",
+    "EN": "Teacher",
+    "BN": "শিক্ষক / শিক্ষিকা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "了",
+    "Pinyin": "le",
+    "EN": "past tense marker",
+    "BN": "অতীতকাল বোঝানোর চিহ্ন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "累",
+    "Pinyin": "lèi",
+    "EN": "tired",
+    "BN": "ক্লান্ত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "冷",
+    "Pinyin": "lěng",
+    "EN": "cold",
+    "BN": "ঠান্ডা / ঠান্ডা লাগা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "里",
+    "Pinyin": "lǐ",
+    "EN": "in",
+    "BN": "ভিতরে / মধ্যে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "里边",
+    "Pinyin": "lǐbiān",
+    "EN": "inside",
+    "BN": "ভিতরে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "两（数）",
+    "Pinyin": "liǎng",
+    "EN": "two",
+    "BN": "দুই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "零｜〇",
+    "Pinyin": "líng ｜ líng",
+    "EN": "zero",
+    "BN": "শূন্য"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "六",
+    "Pinyin": "liù",
+    "EN": "Six",
+    "BN": "ছয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "楼",
+    "Pinyin": "lóu",
+    "EN": "floor",
+    "BN": "তলা / মেঝে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "楼上",
+    "Pinyin": "lóushàng",
+    "EN": "upstairs",
+    "BN": "উপরের তলায়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "楼下",
+    "Pinyin": "lóu xià",
+    "EN": "downstairs",
+    "BN": "নিচের তলায়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "路",
+    "Pinyin": "lù",
+    "EN": "road",
+    "BN": "রাস্তা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "路口",
+    "Pinyin": "lù kǒu",
+    "EN": "intersection; crossing",
+    "BN": "মোড় / রাস্তা পার হওয়ার জায়গা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "路上",
+    "Pinyin": "lùshàng",
+    "EN": "on the road",
+    "BN": "রাস্তায়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "妈妈｜妈",
+    "Pinyin": "mā ma ｜ mā",
+    "EN": "mom; mother",
+    "BN": "মা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "马路",
+    "Pinyin": "mǎ lù",
+    "EN": "road; street",
+    "BN": "রাস্তা / সড়ক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "马上",
+    "Pinyin": "mǎshàng",
+    "EN": "Right off",
+    "BN": "সঙ্গে সঙ্গেই / একেবারে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "吗",
+    "Pinyin": "ma",
+    "EN": "auxiliary word",
+    "BN": "সহায়ক অব্যয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "买",
+    "Pinyin": "mǎi",
+    "EN": "buy",
+    "BN": "কেনা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "慢",
+    "Pinyin": "màn",
+    "EN": "slow",
+    "BN": "ধীর / আস্তে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "忙",
+    "Pinyin": "máng",
+    "EN": "busy",
+    "BN": "ব্যস্ত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "毛（量）",
+    "Pinyin": "máo",
+    "EN": "a fractional unit of money in China (measu",
+    "BN": "চীনের মুদ্রার একটি ছোট একক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "没",
+    "Pinyin": "méi",
+    "EN": "no",
+    "BN": "না"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "没关系",
+    "Pinyin": "méiguānxi",
+    "EN": "No problem",
+    "BN": "কোনো সমস্যা নেই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "没什么",
+    "Pinyin": "méishénme",
+    "EN": "It’s nothing",
+    "BN": "কিছু না / এটা কোনো ব্যাপার না"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "没事儿",
+    "Pinyin": "méishìr",
+    "EN": "It’s okay",
+    "BN": "ঠিক আছে / সমস্যা নেই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "没有",
+    "Pinyin": "méiyǒu",
+    "EN": "have not; no",
+    "BN": "নেই / না"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "妹妹｜妹",
+    "Pinyin": "mèi mei ｜ mèi",
+    "EN": "younger sister",
+    "BN": "ছোট বোন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "门",
+    "Pinyin": "mén",
+    "EN": "door",
+    "BN": "দরজা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "门口",
+    "Pinyin": "mén kǒu",
+    "EN": "doorway",
+    "BN": "দরজার মুখ / প্রবেশপথ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "门票",
+    "Pinyin": "mén piào",
+    "EN": "tickets",
+    "BN": "টিকিটগুলো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "们（朋友们）",
+    "Pinyin": "men （ péng yǒu men",
+    "EN": "plural marker for pronouns and a few anim",
+    "BN": "সর্বনাম ও কিছু জীববাচক শব্দের বহুবচন বোঝানোর চিহ্ন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "米饭",
+    "Pinyin": "mǐfàn",
+    "EN": "Steamed Rice",
+    "BN": "ভাত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "面包",
+    "Pinyin": "miànbāo",
+    "EN": "Bread",
+    "BN": "রুটি / পাউরুটি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "面条儿",
+    "Pinyin": "miàn tiáor",
+    "EN": "noodles",
+    "BN": "নুডলস"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "名字",
+    "Pinyin": "míngzi",
+    "EN": "Name",
+    "BN": "নাম"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "明白",
+    "Pinyin": "míngbai",
+    "EN": "clear",
+    "BN": "পরিষ্কার / স্পষ্ট"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "明年",
+    "Pinyin": "míng nián",
+    "EN": "next year",
+    "BN": "আগামী বছর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "明天",
+    "Pinyin": "míngtiān",
+    "EN": "Tomorrow",
+    "BN": "আগামীকাল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "拿",
+    "Pinyin": "ná",
+    "EN": "take",
+    "BN": "নেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "哪",
+    "Pinyin": "nǎ",
+    "EN": "which",
+    "BN": "কোন / কোনটি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "哪里",
+    "Pinyin": "nǎlǐ",
+    "EN": "where",
+    "BN": "কোথায়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "哪儿",
+    "Pinyin": "nǎr",
+    "EN": "where",
+    "BN": "কোথায়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "哪些",
+    "Pinyin": "nǎxiē",
+    "EN": "which",
+    "BN": "কোন / কোনটি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "那（代）",
+    "Pinyin": "nà",
+    "EN": "that",
+    "BN": "সেটা / ওই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "那边",
+    "Pinyin": "nàbiān",
+    "EN": "there",
+    "BN": "সেখানে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "那里",
+    "Pinyin": "nàlǐ",
+    "EN": "there",
+    "BN": "সেখানে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "那儿",
+    "Pinyin": "nàr",
+    "EN": "there",
+    "BN": "সেখানে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "那些",
+    "Pinyin": "nàxiē",
+    "EN": "those",
+    "BN": "সেগুলো / ওগুলো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "奶",
+    "Pinyin": "nǎi",
+    "EN": "milk",
+    "BN": "দুধ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "奶奶",
+    "Pinyin": "nǎinai",
+    "EN": "grandma",
+    "BN": "দাদি / নানি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "男",
+    "Pinyin": "nán",
+    "EN": "Man",
+    "BN": "পুরুষ / লোক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "男孩儿",
+    "Pinyin": "nán háir",
+    "EN": "boy",
+    "BN": "ছেলে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "男朋友",
+    "Pinyin": "nán péng yǒu",
+    "EN": "boyfriend",
+    "BN": "প্রেমিক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "男人",
+    "Pinyin": "nán ren",
+    "EN": "man",
+    "BN": "পুরুষ / লোক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "男生",
+    "Pinyin": "nán shēng",
+    "EN": "boy",
+    "BN": "ছেলে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "南",
+    "Pinyin": "nán",
+    "EN": "south",
+    "BN": "দক্ষিণ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "南边",
+    "Pinyin": "nánbiān",
+    "EN": "south; south side",
+    "BN": "দক্ষিণ / দক্ষিণ দিক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "难",
+    "Pinyin": "nán",
+    "EN": "disaster; blame",
+    "BN": "দুর্যোগ; দোষ দেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "呢",
+    "Pinyin": "ne",
+    "EN": "auxiliary word",
+    "BN": "সহায়ক অব্যয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "能",
+    "Pinyin": "néng",
+    "EN": "can",
+    "BN": "পারা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "你",
+    "Pinyin": "nǐ",
+    "EN": "you",
+    "BN": "তুমি / আপনি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "你们",
+    "Pinyin": "nǐ men",
+    "EN": "you",
+    "BN": "তুমি / আপনি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "年",
+    "Pinyin": "nián",
+    "EN": "year",
+    "BN": "বছর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "您",
+    "Pinyin": "nín",
+    "EN": "you",
+    "BN": "তুমি / আপনি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "牛奶",
+    "Pinyin": "niúnǎi",
+    "EN": "milk",
+    "BN": "দুধ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "女",
+    "Pinyin": "nǚ",
+    "EN": "woman",
+    "BN": "মহিলা / নারী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "女儿",
+    "Pinyin": "nǚ’ér",
+    "EN": "daughter",
+    "BN": "মেয়ে / কন্যা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "女孩儿",
+    "Pinyin": "nǚ háir",
+    "EN": "girl",
+    "BN": "মেয়ে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "女朋友",
+    "Pinyin": "nǚ péng yǒu",
+    "EN": "girlfriend",
+    "BN": "প্রেমিকা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "女人",
+    "Pinyin": "nǚ ren",
+    "EN": "woman",
+    "BN": "মহিলা / নারী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "女生",
+    "Pinyin": "nǚ shēng",
+    "EN": "girl",
+    "BN": "মেয়ে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "旁边",
+    "Pinyin": "pángbiān",
+    "EN": "Side",
+    "BN": "দিক / পাশ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "跑",
+    "Pinyin": "pǎo",
+    "EN": "run",
+    "BN": "দৌড়ানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "朋友",
+    "Pinyin": "péngyou",
+    "EN": "Friend",
+    "BN": "বন্ধু"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "票",
+    "Pinyin": "piào",
+    "EN": "ticket",
+    "BN": "টিকিট"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "七",
+    "Pinyin": "qī",
+    "EN": "Seven",
+    "BN": "সাত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "起",
+    "Pinyin": "qǐ",
+    "EN": "get up; start; rise",
+    "BN": "ওঠা / শুরু হওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "起床",
+    "Pinyin": "qǐchuáng",
+    "EN": "Get up",
+    "BN": "ওঠো / ঘুম থেকে ওঠো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "起来",
+    "Pinyin": "qǐlái",
+    "EN": "get up",
+    "BN": "ঘুম থেকে ওঠা / ওঠা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "汽车",
+    "Pinyin": "qìchē",
+    "EN": "car",
+    "BN": "গাড়ি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "前",
+    "Pinyin": "qián",
+    "EN": "front",
+    "BN": "সামনে / সামনের অংশ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "前边",
+    "Pinyin": "qián biān",
+    "EN": "in front",
+    "BN": "সামনে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "前天",
+    "Pinyin": "qián tiān",
+    "EN": "the day before yesterday",
+    "BN": "গত পরশু"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "钱",
+    "Pinyin": "qián",
+    "EN": "money",
+    "BN": "টাকা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "钱包",
+    "Pinyin": "qián bāo",
+    "EN": "wallet",
+    "BN": "মানিব্যাগ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "请",
+    "Pinyin": "qǐng",
+    "EN": "please",
+    "BN": "দয়া করে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "请假",
+    "Pinyin": "qǐngjià",
+    "EN": "ask for leave",
+    "BN": "ছুটি চাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "请进",
+    "Pinyin": "qǐng jìn",
+    "EN": "please come in",
+    "BN": "দয়া করে ভিতরে আসুন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "请问",
+    "Pinyin": "qǐng wèn",
+    "EN": "excuse me",
+    "BN": "মাফ করবেন / একটু শুনবেন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "请坐",
+    "Pinyin": "qǐng zuò",
+    "EN": "please have a seat",
+    "BN": "দয়া করে বসুন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "球",
+    "Pinyin": "qiú",
+    "EN": "ball",
+    "BN": "বল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "去",
+    "Pinyin": "qù",
+    "EN": "go",
+    "BN": "যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "去年",
+    "Pinyin": "qùnián",
+    "EN": "Last year",
+    "BN": "গত বছর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "热",
+    "Pinyin": "rè",
+    "EN": "heat",
+    "BN": "গরম / তাপ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "人",
+    "Pinyin": "rén",
+    "EN": "people",
+    "BN": "মানুষ / লোকজন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "认识",
+    "Pinyin": "rènshi",
+    "EN": "know",
+    "BN": "জানা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "认真",
+    "Pinyin": "rènzhēn",
+    "EN": "earnest",
+    "BN": "আন্তরিক / মনোযোগী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "日",
+    "Pinyin": "rì",
+    "EN": "date",
+    "BN": "তারিখ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "日期",
+    "Pinyin": "rìqī",
+    "EN": "Date",
+    "BN": "তারিখ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "肉",
+    "Pinyin": "ròu",
+    "EN": "meat",
+    "BN": "মাংস"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "三",
+    "Pinyin": "sān",
+    "EN": "Three",
+    "BN": "তিন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "山",
+    "Pinyin": "shān",
+    "EN": "mountain",
+    "BN": "পাহাড়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "商场",
+    "Pinyin": "shāngchǎng",
+    "EN": "mall; shopping mall",
+    "BN": "শপিং মল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "商店",
+    "Pinyin": "shāngdiàn",
+    "EN": "Shop",
+    "BN": "দোকান / কেনাকাটা করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上",
+    "Pinyin": "shàng",
+    "EN": "upper",
+    "BN": "উপরের"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上班",
+    "Pinyin": "shàngbān",
+    "EN": "go to work",
+    "BN": "কাজে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上边",
+    "Pinyin": "shàngbiān",
+    "EN": "above; on",
+    "BN": "উপরে / ওপর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上车",
+    "Pinyin": "shàngchē",
+    "EN": "get on",
+    "BN": "ওঠা / গাড়িতে ওঠা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上次",
+    "Pinyin": "shàngcì",
+    "EN": "last time",
+    "BN": "গতবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上课",
+    "Pinyin": "shàngkè",
+    "EN": "attend class; have a class",
+    "BN": "ক্লাস করা / ক্লাসে অংশ নেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上网",
+    "Pinyin": "shàngwǎng",
+    "EN": "Surf the Internet",
+    "BN": "ইন্টারনেট ব্রাউজ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上午",
+    "Pinyin": "shàngwǔ",
+    "EN": "morning",
+    "BN": "সকাল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上学",
+    "Pinyin": "shàngxué",
+    "EN": "go to school",
+    "BN": "স্কুলে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "少",
+    "Pinyin": "shǎo",
+    "EN": "less",
+    "BN": "কম"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "谁",
+    "Pinyin": "shéi",
+    "EN": "who",
+    "BN": "কে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "身上",
+    "Pinyin": "shēnshàng",
+    "EN": "body; on one’s body",
+    "BN": "শরীর; শরীরে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "身体",
+    "Pinyin": "shēntǐ",
+    "EN": "body",
+    "BN": "শরীর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "什么",
+    "Pinyin": "shénme",
+    "EN": "What",
+    "BN": "কী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "生病",
+    "Pinyin": "shēngbìng",
+    "EN": "Fall ill",
+    "BN": "অসুস্থ হয়ে পড়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "生气",
+    "Pinyin": "shēngqì",
+    "EN": "get angry",
+    "BN": "রেগে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "生日",
+    "Pinyin": "shēngrì",
+    "EN": "Birthday",
+    "BN": "জন্মদিন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "十",
+    "Pinyin": "shí",
+    "EN": "Ten",
+    "BN": "দশ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "时候",
+    "Pinyin": "shíhou",
+    "EN": "time",
+    "BN": "সময় / বার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "时间",
+    "Pinyin": "shíjiān",
+    "EN": "time",
+    "BN": "সময় / বার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "事",
+    "Pinyin": "shì",
+    "EN": "thing",
+    "BN": "জিনিস / বিষয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "试",
+    "Pinyin": "shì",
+    "EN": "try",
+    "BN": "চেষ্টা করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "是",
+    "Pinyin": "shì",
+    "EN": "yes",
+    "BN": "হ্যাঁ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "是不是",
+    "Pinyin": "shì bú shì",
+    "EN": "isn’t it?",
+    "BN": "তাই না?"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "手",
+    "Pinyin": "shǒu",
+    "EN": "hand",
+    "BN": "হাত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "手机",
+    "Pinyin": "shǒujī",
+    "EN": "Mobile phone",
+    "BN": "মোবাইল ফোন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "书",
+    "Pinyin": "shū",
+    "EN": "book",
+    "BN": "বই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "书包",
+    "Pinyin": "shū bāo",
+    "EN": "school bag",
+    "BN": "স্কুলব্যাগ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "书店",
+    "Pinyin": "shū diàn",
+    "EN": "bookstore",
+    "BN": "বইয়ের দোকান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "树",
+    "Pinyin": "shù",
+    "EN": "tree",
+    "BN": "গাছ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "水",
+    "Pinyin": "shuǐ",
+    "EN": "water",
+    "BN": "পানি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "水果",
+    "Pinyin": "shuǐguǒ",
+    "EN": "Fruits",
+    "BN": "ফল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "睡",
+    "Pinyin": "shuì",
+    "EN": "sleep",
+    "BN": "ঘুমানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "睡觉",
+    "Pinyin": "shuìjiào",
+    "EN": "sleep",
+    "BN": "ঘুমানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "说",
+    "Pinyin": "shuō",
+    "EN": "speak",
+    "BN": "কথা বলা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "说话",
+    "Pinyin": "shuōhuà",
+    "EN": "talk",
+    "BN": "কথা বলা / আলাপ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "四",
+    "Pinyin": "sì",
+    "EN": "Four",
+    "BN": "চার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "送",
+    "Pinyin": "sòng",
+    "EN": "give",
+    "BN": "দেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "岁",
+    "Pinyin": "suì",
+    "EN": "year, age",
+    "BN": "বছর / বয়স"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "他",
+    "Pinyin": "tā",
+    "EN": "he",
+    "BN": "সে / তিনি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "他们",
+    "Pinyin": "tā men",
+    "EN": "they",
+    "BN": "তারা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "她",
+    "Pinyin": "tā",
+    "EN": "she",
+    "BN": "সে / তিনি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "她们",
+    "Pinyin": "tā men",
+    "EN": "they",
+    "BN": "তারা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "太",
+    "Pinyin": "tài",
+    "EN": "too",
+    "BN": "এছাড়াও / খুব বেশি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "天",
+    "Pinyin": "tiān",
+    "EN": "day",
+    "BN": "দিন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "天气",
+    "Pinyin": "tiānqì",
+    "EN": "weather",
+    "BN": "আবহাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "听",
+    "Pinyin": "tīng",
+    "EN": "hear",
+    "BN": "শোনা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "听到",
+    "Pinyin": "tīng dào",
+    "EN": "hear",
+    "BN": "শোনা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "听见",
+    "Pinyin": "tīngjiàn",
+    "EN": "hear",
+    "BN": "শোনা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "听写",
+    "Pinyin": "tīngxiě",
+    "EN": "dictation; dictate",
+    "BN": "শ্রুতিলিখন; বলে লিখিয়ে নেওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "同学",
+    "Pinyin": "tóngxué",
+    "EN": "Classmate",
+    "BN": "সহপাঠী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "图书馆",
+    "Pinyin": "túshūguǎn",
+    "EN": "Library",
+    "BN": "লাইব্রেরি / গ্রন্থাগার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "外",
+    "Pinyin": "wài",
+    "EN": "abroad, outside",
+    "BN": "বিদেশে / বাইরে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "外边",
+    "Pinyin": "wài biān",
+    "EN": "outside",
+    "BN": "বাইরে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "外国",
+    "Pinyin": "wài guó",
+    "EN": "foreign country",
+    "BN": "বিদেশ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "外语",
+    "Pinyin": "wàiyǔ",
+    "EN": "foreign language",
+    "BN": "বিদেশি ভাষা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "玩儿",
+    "Pinyin": "wánr",
+    "EN": "play",
+    "BN": "খেলা / বাজানো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "晚",
+    "Pinyin": "wǎn",
+    "EN": "late",
+    "BN": "দেরি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "晚饭",
+    "Pinyin": "wǎn fàn",
+    "EN": "dinner",
+    "BN": "রাতের খাবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "晚上",
+    "Pinyin": "wǎnshang",
+    "EN": "Night",
+    "BN": "রাত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "网上",
+    "Pinyin": "wǎngshàng",
+    "EN": "online",
+    "BN": "অনলাইনে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "网友",
+    "Pinyin": "wǎng yǒu",
+    "EN": "net friend",
+    "BN": "অনলাইন বন্ধু"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "忘",
+    "Pinyin": "wàng",
+    "EN": "forget",
+    "BN": "ভুলে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "忘记",
+    "Pinyin": "wàngjì",
+    "EN": "forget",
+    "BN": "ভুলে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "问",
+    "Pinyin": "wèn",
+    "EN": "ask",
+    "BN": "জিজ্ঞাসা করা / চাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "我",
+    "Pinyin": "wǒ",
+    "EN": "I",
+    "BN": "আমি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "我们",
+    "Pinyin": "wǒmen",
+    "EN": "We",
+    "BN": "আমরা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "五",
+    "Pinyin": "wǔ",
+    "EN": "Five",
+    "BN": "পাঁচ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "午饭",
+    "Pinyin": "wǔ fàn",
+    "EN": "lunch",
+    "BN": "দুপুরের খাবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "西",
+    "Pinyin": "xī",
+    "EN": "west",
+    "BN": "পশ্চিম"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "西边",
+    "Pinyin": "xī biān",
+    "EN": "west; west side",
+    "BN": "পশ্চিম / পশ্চিম দিক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "洗",
+    "Pinyin": "xǐ",
+    "EN": "wash",
+    "BN": "ধোয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "洗手间",
+    "Pinyin": "xǐshǒujiān",
+    "EN": "Restroom",
+    "BN": "টয়লেট / শৌচাগার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "喜欢",
+    "Pinyin": "xǐhuan",
+    "EN": "like",
+    "BN": "পছন্দ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "下（名、动）",
+    "Pinyin": "xià",
+    "EN": "below; under; next; go down; get off",
+    "BN": "নিচে; অধীনে; পরের; নিচে নামা; নেমে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "下班",
+    "Pinyin": "xià bān",
+    "EN": "get off work",
+    "BN": "কাজ শেষ করা / কাজ থেকে ছুটি হওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "下边",
+    "Pinyin": "xià biān",
+    "EN": "below; under",
+    "BN": "নিচে / অধীনে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "下车",
+    "Pinyin": "xiàchē",
+    "EN": "get off",
+    "BN": "নামা / নেমে যাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "下次",
+    "Pinyin": "xià cì",
+    "EN": "next time",
+    "BN": "পরের বার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "下课",
+    "Pinyin": "xià kè",
+    "EN": "finish class",
+    "BN": "ক্লাস শেষ করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "下午",
+    "Pinyin": "xiàwǔ",
+    "EN": "Afternoon",
+    "BN": "বিকেল / অপরাহ্ণ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "下雨",
+    "Pinyin": "xiàyǔ",
+    "EN": "rain",
+    "BN": "বৃষ্টি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "先",
+    "Pinyin": "xiān",
+    "EN": "before",
+    "BN": "আগে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "先生",
+    "Pinyin": "xiānsheng",
+    "EN": "Sir",
+    "BN": "স্যার / জনাব"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "现在",
+    "Pinyin": "xiànzài",
+    "EN": "Now",
+    "BN": "এখন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "想",
+    "Pinyin": "xiǎng",
+    "EN": "think",
+    "BN": "ভাবা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "小",
+    "Pinyin": "xiǎo",
+    "EN": "Small",
+    "BN": "ছোট"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "小孩儿",
+    "Pinyin": "xiǎo háir",
+    "EN": "child; kid",
+    "BN": "শিশু / বাচ্চা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "小姐",
+    "Pinyin": "xiǎojiě",
+    "EN": "Miss",
+    "BN": "মিস / কুমারী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "小朋友",
+    "Pinyin": "xiǎo péng yǒu",
+    "EN": "child; kid",
+    "BN": "শিশু / বাচ্চা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "小时",
+    "Pinyin": "xiǎoshí",
+    "EN": "hour",
+    "BN": "ঘণ্টা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "小学",
+    "Pinyin": "xiǎo xué",
+    "EN": "primary school; elementary schoo",
+    "BN": "প্রাথমিক বিদ্যালয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "小学生",
+    "Pinyin": "xiǎo xué shēng",
+    "EN": "elementary school student",
+    "BN": "প্রাথমিক বিদ্যালয়ের শিক্ষার্থী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "笑",
+    "Pinyin": "xiào",
+    "EN": "laugh",
+    "BN": "হাসা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "写",
+    "Pinyin": "xiě",
+    "EN": "write",
+    "BN": "লেখা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "谢谢",
+    "Pinyin": "xièxie",
+    "EN": "Thank you",
+    "BN": "ধন্যবাদ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "新",
+    "Pinyin": "xīn",
+    "EN": "new",
+    "BN": "নতুন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "新年",
+    "Pinyin": "xīn nián",
+    "EN": "New Year",
+    "BN": "নববর্ষ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "星期",
+    "Pinyin": "xīngqī",
+    "EN": "week",
+    "BN": "সপ্তাহ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "星期日",
+    "Pinyin": "xīngqīrì",
+    "EN": "Sunday",
+    "BN": "রবিবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "星期天",
+    "Pinyin": "xīngqītiān",
+    "EN": "Sunday",
+    "BN": "রবিবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "行",
+    "Pinyin": "xíng",
+    "EN": "That’s ok",
+    "BN": "ঠিক আছে / সমস্যা নেই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "休息",
+    "Pinyin": "xiūxi",
+    "EN": "Rest",
+    "BN": "বিশ্রাম"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "学",
+    "Pinyin": "xué",
+    "EN": "learn; study",
+    "BN": "শেখা / পড়াশোনা করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "学生",
+    "Pinyin": "xuésheng",
+    "EN": "Student",
+    "BN": "শিক্ষার্থী / ছাত্রছাত্রী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "学习",
+    "Pinyin": "xuéxí",
+    "EN": "Study",
+    "BN": "পড়াশোনা / অধ্যয়ন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "学校",
+    "Pinyin": "xuéxiào",
+    "EN": "School",
+    "BN": "স্কুল / বিদ্যালয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "学院",
+    "Pinyin": "xué yuàn",
+    "EN": "college; academy",
+    "BN": "কলেজ / একাডেমি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "要（动）",
+    "Pinyin": "yào",
+    "EN": "want",
+    "BN": "চাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "爷爷",
+    "Pinyin": "yéye",
+    "EN": "grandpa",
+    "BN": "দাদা / নানা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "也",
+    "Pinyin": "yě",
+    "EN": "also",
+    "BN": "এছাড়াও"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "页",
+    "Pinyin": "yè",
+    "EN": "page",
+    "BN": "পৃষ্ঠা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一",
+    "Pinyin": "yī",
+    "EN": "One",
+    "BN": "এক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "衣服",
+    "Pinyin": "yīfu",
+    "EN": "clothes",
+    "BN": "কাপড় / পোশাক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "医生",
+    "Pinyin": "yīshēng",
+    "EN": "Doctor",
+    "BN": "ডাক্তার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "医院",
+    "Pinyin": "yīyuàn",
+    "EN": "Hospital",
+    "BN": "হাসপাতাল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一半",
+    "Pinyin": "yí bàn",
+    "EN": "half",
+    "BN": "অর্ধেক / আধা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一会儿",
+    "Pinyin": "yíhuìr",
+    "EN": "A little while",
+    "BN": "অল্পক্ষণ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一块儿",
+    "Pinyin": "yí kuàir",
+    "EN": "together",
+    "BN": "একসাথে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一下儿",
+    "Pinyin": "yí xiàr",
+    "EN": "a little bit",
+    "BN": "একটু / অল্প একটু"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一样",
+    "Pinyin": "yíyàng",
+    "EN": "equally",
+    "BN": "সমানভাবে / একইভাবে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一边",
+    "Pinyin": "yìbiān",
+    "EN": "One side",
+    "BN": "এক পাশ / একদিকে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一点儿",
+    "Pinyin": "yīdiǎnr",
+    "EN": "a little bit",
+    "BN": "একটু / অল্প একটু"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一起",
+    "Pinyin": "yìqǐ",
+    "EN": "together",
+    "BN": "একসাথে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "一些",
+    "Pinyin": "yì xiē",
+    "EN": "some",
+    "BN": "কিছু / কয়েকটি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "用",
+    "Pinyin": "yòng",
+    "EN": "use",
+    "BN": "ব্যবহার করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "有",
+    "Pinyin": "yǒu",
+    "EN": "have",
+    "BN": "আছে / থাকা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "有的",
+    "Pinyin": "yǒude",
+    "EN": "some",
+    "BN": "কিছু / কয়েকটি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "有名",
+    "Pinyin": "yǒumíng",
+    "EN": "Famous",
+    "BN": "বিখ্যাত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "有时候｜有时",
+    "Pinyin": "yǒushí hòu ｜yǒushí",
+    "EN": "sometimes",
+    "BN": "মাঝে মাঝে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "有（一）些",
+    "Pinyin": "yǒu（ yì ） xiē",
+    "EN": "some",
+    "BN": "কিছু / কয়েকটি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "有用",
+    "Pinyin": "yǒuyòng",
+    "EN": "useful",
+    "BN": "উপকারী / কাজে লাগে এমন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "右",
+    "Pinyin": "yòu",
+    "EN": "right",
+    "BN": "সঠিক / ডান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "右边",
+    "Pinyin": "yòubian",
+    "EN": "Right",
+    "BN": "সঠিক / ডান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "雨",
+    "Pinyin": "yǔ",
+    "EN": "rain",
+    "BN": "বৃষ্টি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "元",
+    "Pinyin": "yuán",
+    "EN": "element; Yuan",
+    "BN": "উপাদান; ইউয়ান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "远",
+    "Pinyin": "yuǎn",
+    "EN": "far",
+    "BN": "দূরে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "月",
+    "Pinyin": "yuè",
+    "EN": "month",
+    "BN": "মাস"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "再",
+    "Pinyin": "zài",
+    "EN": "again",
+    "BN": "আবার"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "再见",
+    "Pinyin": "zàijiàn",
+    "EN": "Bye",
+    "BN": "বিদায় / বাই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "在",
+    "Pinyin": "zài",
+    "EN": "stay; in process of",
+    "BN": "থাকা; করতে থাকা / চলমান থাকা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "在家",
+    "Pinyin": "zàijiā",
+    "EN": "at home",
+    "BN": "বাড়িতে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "饭",
+    "Pinyin": "zǎo fàn",
+    "EN": "breakfast",
+    "BN": "সকালের নাশতা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "上",
+    "Pinyin": "zǎoshang",
+    "EN": "Morning",
+    "BN": "সকাল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "怎么",
+    "Pinyin": "zěnme",
+    "EN": "How",
+    "BN": "কীভাবে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "站（名）",
+    "Pinyin": "zhàn",
+    "EN": "station",
+    "BN": "স্টেশন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "找",
+    "Pinyin": "zhǎo",
+    "EN": "look for",
+    "BN": "খোঁজা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "找到",
+    "Pinyin": "zhǎo dào",
+    "EN": "find",
+    "BN": "খুঁজে পাওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "这",
+    "Pinyin": "zhè",
+    "EN": "Here (here)",
+    "BN": "এখানে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "这边",
+    "Pinyin": "zhèbiān",
+    "EN": "here",
+    "BN": "এখানে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "这里",
+    "Pinyin": "zhèlǐ",
+    "EN": "here",
+    "BN": "এখানে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "这儿",
+    "Pinyin": "zhèr",
+    "EN": "here",
+    "BN": "এখানে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "这些",
+    "Pinyin": "zhèxiē",
+    "EN": "these",
+    "BN": "এগুলো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "着",
+    "Pinyin": "zhe",
+    "EN": "in process of",
+    "BN": "করতে থাকা / চলছে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "真",
+    "Pinyin": "zhēn",
+    "EN": "really",
+    "BN": "সত্যিই / আসলেই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "真的",
+    "Pinyin": "zhēnde",
+    "EN": "really",
+    "BN": "সত্যিই / আসলেই"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "正（副）",
+    "Pinyin": "zhèng",
+    "EN": "just; exactly",
+    "BN": "ঠিক / একদম"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "正在",
+    "Pinyin": "zhèngzài",
+    "EN": "in process of",
+    "BN": "করতে থাকা / চলছে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "知道",
+    "Pinyin": "zhīdào",
+    "EN": "know",
+    "BN": "জানা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "知识",
+    "Pinyin": "zhīshi",
+    "EN": "knowledge",
+    "BN": "জ্ঞান"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "中",
+    "Pinyin": "zhōng",
+    "EN": "middle; in",
+    "BN": "মাঝে / মধ্যে"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "中国",
+    "Pinyin": "zhōngguó",
+    "EN": "China",
+    "BN": "চীন"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "中间",
+    "Pinyin": "zhōngjiān",
+    "EN": "Middle",
+    "BN": "মাঝখান / মধ্য"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "中文",
+    "Pinyin": "zhōngwén",
+    "EN": "Chinese",
+    "BN": "চীনা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "中午",
+    "Pinyin": "zhōngwǔ",
+    "EN": "Noon",
+    "BN": "দুপুর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "中学",
+    "Pinyin": "zhōngxué",
+    "EN": "middle school",
+    "BN": "মাধ্যমিক বিদ্যালয়"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "中学生",
+    "Pinyin": "zhōngxué shēng",
+    "EN": "middle School student",
+    "BN": "মাধ্যমিক বিদ্যালয়ের শিক্ষার্থী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "重",
+    "Pinyin": "zhòng",
+    "EN": "heavy",
+    "BN": "ভারী"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "重要",
+    "Pinyin": "zhòngyào",
+    "EN": "important",
+    "BN": "গুরুত্বপূর্ণ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "住",
+    "Pinyin": "zhù",
+    "EN": "live",
+    "BN": "বসবাস করা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "准备",
+    "Pinyin": "zhǔnbèi",
+    "EN": "Get ready",
+    "BN": "প্রস্তুত হওয়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "桌子",
+    "Pinyin": "zhuōzi",
+    "EN": "Table",
+    "BN": "টেবিল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "字",
+    "Pinyin": "zì",
+    "EN": "word, character",
+    "BN": "শব্দ / অক্ষর"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "子（桌子）",
+    "Pinyin": "zi（ zhuōzi）",
+    "EN": "noun suffix (table)",
+    "BN": "বিশেষ্য-পরবর্তী শব্দাংশ"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "走",
+    "Pinyin": "zǒu",
+    "EN": "go, walk",
+    "BN": "যাওয়া / হাঁটা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "走路",
+    "Pinyin": "zǒu lù",
+    "EN": "walk",
+    "BN": "হাঁটা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "最",
+    "Pinyin": "zuì",
+    "EN": "most",
+    "BN": "সবচেয়ে বেশি"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "最好",
+    "Pinyin": "zuìhǎo",
+    "EN": "Best",
+    "BN": "সবচেয়ে ভালো"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "最后",
+    "Pinyin": "zuìhòu",
+    "EN": "Last",
+    "BN": "শেষ / গত"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "昨天",
+    "Pinyin": "zuótiān",
+    "EN": "Yesterday",
+    "BN": "গতকাল"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "左",
+    "Pinyin": "zuǒ",
+    "EN": "left",
+    "BN": "বাম / বাম দিক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "左边",
+    "Pinyin": "zuǒbian",
+    "EN": "left",
+    "BN": "বাম / বাম দিক"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "坐",
+    "Pinyin": "zuò",
+    "EN": "sit",
+    "BN": "বসা"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "坐下",
+    "Pinyin": "zuò xià",
+    "EN": "sit down",
+    "BN": "বসে পড়া"
+  },
+  {
+    "hsk_level": 1,
+    "Chinese": "做",
+    "Pinyin": "zuò",
+    "EN": "do",
+    "BN": "করা"
+  }
+]

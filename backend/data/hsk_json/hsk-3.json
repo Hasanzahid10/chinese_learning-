@@ -1,0 +1,6799 @@
+[
+  {
+    "hsk_level": 3,
+    "Chinese": "爱心",
+    "Pinyin": "àixīn",
+    "EN": "love",
+    "BN": "ভালোবাসা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "安排",
+    "Pinyin": "ānpái",
+    "EN": "arrange",
+    "BN": "সাজানো / ব্যবস্থা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "安装",
+    "Pinyin": "ānzhuāng",
+    "EN": "install",
+    "BN": "স্থাপন করা / ইনস্টল করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "按",
+    "Pinyin": "àn",
+    "EN": "press; push; check; restrain",
+    "BN": "চাপ দেওয়া; ধাক্কা দেওয়া; পরীক্ষা করা; নিয়ন্ত্রণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "把（介）",
+    "Pinyin": "bǎ",
+    "EN": "(measure word)",
+    "BN": "পরিমাপবাচক শব্দ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "按照",
+    "Pinyin": "ànzhào",
+    "EN": "according to",
+    "BN": "অনুযায়ী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "把（量）",
+    "Pinyin": "bǎ",
+    "EN": "(measure word)",
+    "BN": "পরিমাপবাচক শব্দ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "把握",
+    "Pinyin": "bǎwò",
+    "EN": "grasp",
+    "BN": "আঁকড়ে ধরা / বুঝতে পারা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "白（副）",
+    "Pinyin": "bái",
+    "EN": "without results; in vain; waste efforts",
+    "BN": "কোনো ফল ছাড়াই; বৃথা; পরিশ্রম নষ্ট করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "白菜",
+    "Pinyin": "bái cài",
+    "EN": "Chinese cabbage",
+    "BN": "চীনা বাঁধাকপি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "班级",
+    "Pinyin": "bān jí",
+    "EN": "class",
+    "BN": "শ্রেণি / ক্লাস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "搬",
+    "Pinyin": "bān",
+    "EN": "turn; move",
+    "BN": "ঘোরা; সরানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "搬家",
+    "Pinyin": "bānjiā",
+    "EN": "move; move house",
+    "BN": "সরানো; বাসা বদলানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "板",
+    "Pinyin": "bǎn",
+    "EN": "board; plank; shutter",
+    "BN": "বোর্ড; তক্তা; শাটার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "办理",
+    "Pinyin": "bànlǐ",
+    "EN": "handle",
+    "BN": "হাতল / সামলানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "保",
+    "Pinyin": "bǎo",
+    "EN": "defend; protect; keep",
+    "BN": "রক্ষা করা; নিরাপদ রাখা; ধরে রাখা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "保安",
+    "Pinyin": "bǎo ān",
+    "EN": "security guard; public security",
+    "BN": "নিরাপত্তারক্ষী; জননিরাপত্তা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "保持",
+    "Pinyin": "bǎochí",
+    "EN": "keep",
+    "BN": "রাখা / ধরে রাখা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "保存",
+    "Pinyin": "bǎocún",
+    "EN": "Preservation",
+    "BN": "সংরক্ষণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "保护",
+    "Pinyin": "bǎohù",
+    "EN": "protect",
+    "BN": "রক্ষা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "保留",
+    "Pinyin": "bǎoliú",
+    "EN": "Retain",
+    "BN": "ধরে রাখা / সংরক্ষণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "保险",
+    "Pinyin": "bǎoxiǎn",
+    "EN": "Insurance",
+    "BN": "বীমা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "保证",
+    "Pinyin": "bǎozhèng",
+    "EN": "ensure",
+    "BN": "নিশ্চিত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "报（名）",
+    "Pinyin": "bào",
+    "EN": "newspaper; periodical",
+    "BN": "সংবাদপত্র; সাময়িকী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "报到",
+    "Pinyin": "bàodào",
+    "EN": "register,check in",
+    "BN": "নিবন্ধন করা; চেক-ইন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "报道",
+    "Pinyin": "bàodào",
+    "EN": "report",
+    "BN": "প্রতিবেদন / রিপোর্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "报告",
+    "Pinyin": "bàogào",
+    "EN": "Presentation",
+    "BN": "উপস্থাপনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "背",
+    "Pinyin": "bèi",
+    "EN": "Back",
+    "BN": "পেছন / ফিরে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "北部",
+    "Pinyin": "běi bù",
+    "EN": "north",
+    "BN": "উত্তর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "背（名）",
+    "Pinyin": "bèi",
+    "EN": "back of the body",
+    "BN": "শরীরের পেছনের অংশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "背后",
+    "Pinyin": "bèihòu",
+    "EN": "behind; at the back; in the rear",
+    "BN": "পেছনে; পিছনে; পেছনের দিকে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "被",
+    "Pinyin": "bèi",
+    "EN": "cover",
+    "BN": "ঢাকনা / ঢেকে দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "被子",
+    "Pinyin": "bèizi",
+    "EN": "quilt",
+    "BN": "লেপ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "本来",
+    "Pinyin": "běnlái",
+    "EN": "originally",
+    "BN": "মূলত / প্রথমে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "本领",
+    "Pinyin": "běnlǐng",
+    "EN": "ability",
+    "BN": "সক্ষমতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "本事",
+    "Pinyin": "běnshi",
+    "EN": "Skill",
+    "BN": "দক্ষতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "比较",
+    "Pinyin": "bǐjiào",
+    "EN": "compare",
+    "BN": "তুলনা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "比赛",
+    "Pinyin": "bǐsài",
+    "EN": "Match",
+    "BN": "মিল / ম্যাচ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "比例",
+    "Pinyin": "bǐlì",
+    "EN": "Proportion",
+    "BN": "অনুপাত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "必然",
+    "Pinyin": "bìrán",
+    "EN": "Inevitable",
+    "BN": "অনিবার্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "必要",
+    "Pinyin": "bìyào",
+    "EN": "necessary",
+    "BN": "প্রয়োজনীয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "变化",
+    "Pinyin": "biànhuà",
+    "EN": "change",
+    "BN": "পরিবর্তন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "变为",
+    "Pinyin": "biànwéi",
+    "EN": "become; turn into",
+    "BN": "হয়ে যাওয়া; রূপান্তরিত হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "标题",
+    "Pinyin": "biāotí",
+    "EN": "title; heading",
+    "BN": "শিরোনাম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "标准",
+    "Pinyin": "biāozhǔn",
+    "EN": "standard",
+    "BN": "মানদণ্ড / মান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "表达",
+    "Pinyin": "biǎodá",
+    "EN": "Expression",
+    "BN": "অভিব্যক্তি / প্রকাশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "表格",
+    "Pinyin": "biǎogé",
+    "EN": "form",
+    "BN": "গঠন / রূপ / ফর্ম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "表面",
+    "Pinyin": "biǎomiàn",
+    "EN": "surface",
+    "BN": "পৃষ্ঠ / উপরের অংশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "表明",
+    "Pinyin": "biǎomíng",
+    "EN": "Indicate",
+    "BN": "নির্দেশ করা / বোঝানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "表现",
+    "Pinyin": "biǎoxiàn",
+    "EN": "performance",
+    "BN": "কর্মদক্ষতা / পারফরম্যান্স"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "表演",
+    "Pinyin": "biǎoyǎn",
+    "EN": "perform",
+    "BN": "সম্পাদন করা / পরিবেশন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "并（副、连）",
+    "Pinyin": "bìng",
+    "EN": "and; also; equally; simultaneously; side by",
+    "BN": "এবং; এছাড়াও; সমানভাবে; একইসঙ্গে; পাশে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "并且",
+    "Pinyin": "bìngqiě",
+    "EN": "also",
+    "BN": "এছাড়াও / আরও"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "播出",
+    "Pinyin": "bō chū",
+    "EN": "broadcast; on the air",
+    "BN": "সম্প্রচার করা; সম্প্রচারে থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "播放",
+    "Pinyin": "bōfàng",
+    "EN": "play",
+    "BN": "খেলা / বাজানো / অভিনয় করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "不必",
+    "Pinyin": "bú bì",
+    "EN": "need not; not have to",
+    "BN": "দরকার নেই / করতে হবে না"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "不断",
+    "Pinyin": "búduàn",
+    "EN": "Constantly",
+    "BN": "সবসময় / ক্রমাগত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "不论",
+    "Pinyin": "búlùn",
+    "EN": "whether; no matter; whether … or",
+    "BN": "কিনা; যাই হোক; …হোক বা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "补",
+    "Pinyin": "bǔ",
+    "EN": "repair; mend; patch; supply",
+    "BN": "মেরামত করা; ঠিক করা; জোড়া লাগানো; সরবরাহ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "补充",
+    "Pinyin": "bǔchōng",
+    "EN": "supplement",
+    "BN": "পরিপূরক / যোগ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "不安",
+    "Pinyin": "bù’ān",
+    "EN": "Uneasy",
+    "BN": "অস্বস্তিতে / উদ্বিগ্ন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "不得不",
+    "Pinyin": "bùdébù",
+    "EN": "Cannot but",
+    "BN": "না করে পারা যায় না"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "不光",
+    "Pinyin": "bù guāng",
+    "EN": "not only",
+    "BN": "শুধু নয় / কেবল নয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "不仅",
+    "Pinyin": "bùjǐn",
+    "EN": "not only",
+    "BN": "শুধু নয় / কেবল নয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "布",
+    "Pinyin": "bù",
+    "EN": "cloth",
+    "BN": "কাপড়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "步",
+    "Pinyin": "bù",
+    "EN": "step; stage; walk; foot",
+    "BN": "ধাপ; পর্যায়; হাঁটা; পা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "部",
+    "Pinyin": "bù",
+    "EN": "unit; ministry; department; part",
+    "BN": "ইউনিট; মন্ত্রণালয়; বিভাগ; অংশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "部门",
+    "Pinyin": "bùmén",
+    "EN": "department",
+    "BN": "বিভাগ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "部长",
+    "Pinyin": "bùzhǎng",
+    "EN": "minister; head of a department",
+    "BN": "মন্ত্রী; বিভাগের প্রধান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "才能",
+    "Pinyin": "cái néng",
+    "EN": "talent; ability; gift",
+    "BN": "প্রতিভা; সক্ষমতা; উপহার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "采取",
+    "Pinyin": "cǎiqǔ",
+    "EN": "take, adpopt",
+    "BN": "নেওয়া; গ্রহণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "采用",
+    "Pinyin": "cǎiyòng",
+    "EN": "put to use; adopt; use; employ",
+    "BN": "কাজে লাগানো; গ্রহণ করা; ব্যবহার করা; নিয়োগ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "彩色",
+    "Pinyin": "cǎisè",
+    "EN": "multicolour; colour",
+    "BN": "বহুরঙা; রং"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "曾经",
+    "Pinyin": "céngjīng",
+    "EN": "once",
+    "BN": "একবার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "产生",
+    "Pinyin": "chǎnshēng",
+    "EN": "produce",
+    "BN": "উৎপাদন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "长城",
+    "Pinyin": "Chángchéng",
+    "EN": "The Great Wall",
+    "BN": "চীনের মহাপ্রাচীর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "长处",
+    "Pinyin": "chángchù",
+    "EN": "strength; forte; strong point",
+    "BN": "শক্তি; বিশেষ দক্ষতা; শক্তিশালী দিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "长期",
+    "Pinyin": "chángqī",
+    "EN": "long-term",
+    "BN": "দীর্ঘমেয়াদি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "厂",
+    "Pinyin": "chǎng",
+    "EN": "factory; mill; plant; works",
+    "BN": "কারখানা; মিল; শিল্পকারখানা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "场合",
+    "Pinyin": "chǎnghé",
+    "EN": "occasion",
+    "BN": "উপলক্ষ / সময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "场所",
+    "Pinyin": "chǎngsuǒ",
+    "EN": "place",
+    "BN": "জায়গা / স্থান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "超级",
+    "Pinyin": "chāojí",
+    "EN": "super",
+    "BN": "দারুণ / চমৎকার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "朝",
+    "Pinyin": "cháo",
+    "EN": "towards",
+    "BN": "দিকে / অভিমুখে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "吵",
+    "Pinyin": "chǎo",
+    "EN": "Noisy",
+    "BN": "কোলাহলপূর্ণ / শব্দময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "吵架",
+    "Pinyin": "chǎojià",
+    "EN": "quarrel",
+    "BN": "ঝগড়া করা / ঝগড়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "衬衫",
+    "Pinyin": "chènshān",
+    "EN": "shirt",
+    "BN": "শার্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "衬衣",
+    "Pinyin": "chèn yī",
+    "EN": "shirt",
+    "BN": "শার্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "称为",
+    "Pinyin": "chēngwéi",
+    "EN": "call; be called; be known as",
+    "BN": "ডাকা; নামে পরিচিত হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "成功",
+    "Pinyin": "chénggōng",
+    "EN": "Success",
+    "BN": "সাফল্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "成果",
+    "Pinyin": "chéngguǒ",
+    "EN": "Achievements",
+    "BN": "অর্জনসমূহ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "成就",
+    "Pinyin": "chéngjiù",
+    "EN": "achievement",
+    "BN": "অর্জন / সাফল্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "成立",
+    "Pinyin": "chénglì",
+    "EN": "establish",
+    "BN": "প্রতিষ্ঠা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "成熟",
+    "Pinyin": "chéngshú",
+    "EN": "mature",
+    "BN": "পরিণত / পরিপক্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "成员",
+    "Pinyin": "chéngyuán",
+    "EN": "member",
+    "BN": "সদস্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "成长",
+    "Pinyin": "chéngzhǎng",
+    "EN": "Grow up",
+    "BN": "বড় হয়ে ওঠা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "城",
+    "Pinyin": "chéng",
+    "EN": "city; town",
+    "BN": "শহর / নগর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "城市",
+    "Pinyin": "chéngshì",
+    "EN": "City",
+    "BN": "শহর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "程度",
+    "Pinyin": "chéngdù",
+    "EN": "degree",
+    "BN": "ডিগ্রি / মাত্রা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "持续",
+    "Pinyin": "chíxù",
+    "EN": "Continued",
+    "BN": "অব্যাহত / চলমান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "充满",
+    "Pinyin": "chōngmǎn",
+    "EN": "full of",
+    "BN": "পূর্ণ / ভরা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "重",
+    "Pinyin": "zhòng",
+    "EN": "heavy",
+    "BN": "ভারী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "初",
+    "Pinyin": "chū",
+    "EN": "beginning; start",
+    "BN": "শুরু / সূচনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "初（初一）",
+    "Pinyin": "chū （chū yī）",
+    "EN": "prefix",
+    "BN": "উপসর্গ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "初步",
+    "Pinyin": "chūbù",
+    "EN": "preliminary",
+    "BN": "প্রাথমিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "初级",
+    "Pinyin": "chūjí",
+    "EN": "primary",
+    "BN": "প্রাথমিক / প্রধান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "初中",
+    "Pinyin": "chūzhōng",
+    "EN": "junior high school",
+    "BN": "নিম্ন মাধ্যমিক বিদ্যালয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "除了",
+    "Pinyin": "chúle",
+    "EN": "except",
+    "BN": "ছাড়া / বাদে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "处理",
+    "Pinyin": "chǔlǐ",
+    "EN": "Handle",
+    "BN": "সামলানো / পরিচালনা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "传",
+    "Pinyin": "chuán",
+    "EN": "pass; pass on; hand down",
+    "BN": "পাস করা; হস্তান্তর করা; প্রজন্মের পর প্রজন্ম দিয়ে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "传播",
+    "Pinyin": "chuánbō",
+    "EN": "spread",
+    "BN": "ছড়িয়ে দেওয়া / ছড়িয়ে পড়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "传来",
+    "Pinyin": "chuánlái",
+    "EN": "came; come through",
+    "BN": "এসেছিল; পার হয়ে আসা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "传说",
+    "Pinyin": "chuánshuō",
+    "EN": "Legend",
+    "BN": "কিংবদন্তি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "创新",
+    "Pinyin": "chuàngxīn",
+    "EN": "innovate",
+    "BN": "নতুনত্ব আনা / উদ্ভাবন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "创业",
+    "Pinyin": "chuàngyè",
+    "EN": "carve out",
+    "BN": "তৈরি করে নেওয়া / খোদাই করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "创造",
+    "Pinyin": "chuàngzào",
+    "EN": "create",
+    "BN": "সৃষ্টি করা / তৈরি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "创作",
+    "Pinyin": "chuàngzuò",
+    "EN": "A literary creation",
+    "BN": "সাহিত্যকর্ম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "从来",
+    "Pinyin": "cónglái",
+    "EN": "Always",
+    "BN": "সবসময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "从前",
+    "Pinyin": "cóngqián",
+    "EN": "before",
+    "BN": "আগে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "从事",
+    "Pinyin": "cóngshì",
+    "EN": "Be engaged in",
+    "BN": "কোনো কাজে নিয়োজিত থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "村",
+    "Pinyin": "cūn",
+    "EN": "village; hamlet",
+    "BN": "গ্রাম / পল্লি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "存",
+    "Pinyin": "cún",
+    "EN": "Deposit",
+    "BN": "জমা করা / আমানত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "存在",
+    "Pinyin": "cúnzài",
+    "EN": "existence",
+    "BN": "অস্তিত্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "错误",
+    "Pinyin": "cuòwù",
+    "EN": "error",
+    "BN": "ভুল / ত্রুটি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "达到",
+    "Pinyin": "dádào",
+    "EN": "Achieve",
+    "BN": "অর্জন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "打破",
+    "Pinyin": "dǎpò",
+    "EN": "break; smash",
+    "BN": "ভাঙা / চূর্ণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "打听",
+    "Pinyin": "dǎting",
+    "EN": "Inquire",
+    "BN": "জিজ্ঞাসা করা / খোঁজ নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "大概",
+    "Pinyin": "dàgài",
+    "EN": "Probably",
+    "BN": "সম্ভবত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "大使馆",
+    "Pinyin": "dàshǐguǎn",
+    "EN": "Embassy",
+    "BN": "দূতাবাস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "大约",
+    "Pinyin": "dàyuē",
+    "EN": "about",
+    "BN": "সম্পর্কে / প্রায়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "大夫",
+    "Pinyin": "dàifu",
+    "EN": "Doctor",
+    "BN": "ডাক্তার / চিকিৎসক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "代",
+    "Pinyin": "dài",
+    "EN": "substitute; replace",
+    "BN": "বিকল্প হিসেবে ব্যবহার করা; প্রতিস্থাপন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "代表",
+    "Pinyin": "dàibiǎo",
+    "EN": "representative",
+    "BN": "প্রতিনিধি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "代表团",
+    "Pinyin": "dài biǎo tuán",
+    "EN": "delegation; mission; deputation",
+    "BN": "প্রতিনিধি দল; মিশন; প্রতিনিধিদল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "带动带领",
+    "Pinyin": "dài dòng dàilǐng",
+    "EN": "drive; spur lead",
+    "BN": "চালিত করা; উৎসাহিত করা; নেতৃত্ব দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "单元",
+    "Pinyin": "dānyuán",
+    "EN": "unit",
+    "BN": "ইউনিট / একক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "当初",
+    "Pinyin": "dāngchū",
+    "EN": "Original",
+    "BN": "আসল / মূল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "当地",
+    "Pinyin": "dāngdì",
+    "EN": "Local",
+    "BN": "স্থানীয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "当然",
+    "Pinyin": "dāngrán",
+    "EN": "Of course",
+    "BN": "অবশ্যই"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "当中",
+    "Pinyin": "dāngzhōng",
+    "EN": "among; in the middle",
+    "BN": "মধ্যে / মাঝখানে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "刀",
+    "Pinyin": "dāo",
+    "EN": "knife",
+    "BN": "ছুরি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "导演",
+    "Pinyin": "dǎoyǎn",
+    "EN": "director",
+    "BN": "পরিচালক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "到达",
+    "Pinyin": "dàodá",
+    "EN": "Arrive",
+    "BN": "পৌঁছানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "到底",
+    "Pinyin": "dàodǐ",
+    "EN": "To the end",
+    "BN": "শেষ পর্যন্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "得分",
+    "Pinyin": "défēn",
+    "EN": "score",
+    "BN": "স্কোর / নম্বর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "等待",
+    "Pinyin": "děngdài",
+    "EN": "wait for",
+    "BN": "অপেক্ষা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "底下",
+    "Pinyin": "dǐxià",
+    "EN": "under; below; beneath",
+    "BN": "নিচে / তলায়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "地区",
+    "Pinyin": "dìqū",
+    "EN": "region",
+    "BN": "অঞ্চল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "电视剧",
+    "Pinyin": "diàn shì jù",
+    "EN": "TV series; television drama",
+    "BN": "টিভি সিরিজ; টেলিভিশন নাটক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "电视台",
+    "Pinyin": "diàn shìtái",
+    "EN": "TV station",
+    "BN": "টিভি স্টেশন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "电台",
+    "Pinyin": "diàntái",
+    "EN": "radio station",
+    "BN": "রেডিও স্টেশন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "电子邮件",
+    "Pinyin": "diànzǐyóujiàn",
+    "EN": "E-mail",
+    "BN": "ই-মেইল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "调",
+    "Pinyin": "diào",
+    "EN": "transfer; shift; move",
+    "BN": "স্থানান্তর করা; সরানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "调查",
+    "Pinyin": "diàochá",
+    "EN": "investigation",
+    "BN": "তদন্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "订",
+    "Pinyin": "dìng",
+    "EN": "conclude; draw up",
+    "BN": "উপসংহারে পৌঁছানো; তৈরি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "定期",
+    "Pinyin": "dìngqī",
+    "EN": "regular",
+    "BN": "নিয়মিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "东部",
+    "Pinyin": "dōng bù",
+    "EN": "east",
+    "BN": "পূর্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "动力",
+    "Pinyin": "dònglì",
+    "EN": "power, motivation",
+    "BN": "শক্তি; প্রেরণা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "动人",
+    "Pinyin": "dòng rén",
+    "EN": "moving; touching",
+    "BN": "আবেগপ্রবণ / হৃদয়স্পর্শী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "读者",
+    "Pinyin": "dúzhě",
+    "EN": "reader",
+    "BN": "পাঠক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "短处",
+    "Pinyin": "duǎnchù",
+    "EN": "shortcoming; demerit",
+    "BN": "দুর্বলতা; ত্রুটি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "短裤",
+    "Pinyin": "duǎn kù",
+    "EN": "shorts",
+    "BN": "হাফপ্যান্ট / শর্টস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "短期",
+    "Pinyin": "duǎnqī",
+    "EN": "short term",
+    "BN": "স্বল্পমেয়াদি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "断",
+    "Pinyin": "duàn",
+    "EN": "break",
+    "BN": "ভাঙা / বিরতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "队员",
+    "Pinyin": "duìyuán",
+    "EN": "team member",
+    "BN": "দলের সদস্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "对待",
+    "Pinyin": "duìdài",
+    "EN": "treat",
+    "BN": "চিকিৎসা করা; আচরণ করা; আপ্যায়ন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "对方",
+    "Pinyin": "duìfāng",
+    "EN": "Other party",
+    "BN": "অপর পক্ষ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "对手",
+    "Pinyin": "duìshǒu",
+    "EN": "Opponent",
+    "BN": "প্রতিপক্ষ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "对象",
+    "Pinyin": "duìxiàng",
+    "EN": "object",
+    "BN": "বস্তু / লক্ষ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "顿",
+    "Pinyin": "dùn",
+    "EN": "Meal",
+    "BN": "খাবার / আহার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发表",
+    "Pinyin": "fābiǎo",
+    "EN": "Publish",
+    "BN": "প্রকাশ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发出",
+    "Pinyin": "fāchū",
+    "EN": "issue; send out; give off; emit",
+    "BN": "প্রকাশ করা; পাঠানো; নির্গত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发达",
+    "Pinyin": "fādá",
+    "EN": "developed",
+    "BN": "উন্নত / বিকশিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发动",
+    "Pinyin": "fādòng",
+    "EN": "Launch",
+    "BN": "চালু করা / উদ্বোধন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发明",
+    "Pinyin": "fāmíng",
+    "EN": "Invention",
+    "BN": "আবিষ্কার / উদ্ভাবন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发生",
+    "Pinyin": "fāshēng",
+    "EN": "Happen",
+    "BN": "ঘটা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发送",
+    "Pinyin": "fāsòng",
+    "EN": "send; transmit; dispatch",
+    "BN": "পাঠানো; প্রেরণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发言",
+    "Pinyin": "fāyán",
+    "EN": "speak",
+    "BN": "কথা বলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "发展",
+    "Pinyin": "fāzhǎn",
+    "EN": "Development",
+    "BN": "উন্নয়ন / বিকাশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "反对",
+    "Pinyin": "fǎnduì",
+    "EN": "Opposition",
+    "BN": "বিরোধিতা / প্রতিপক্ষ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "反复",
+    "Pinyin": "fǎnfù",
+    "EN": "Repeatedly",
+    "BN": "বারবার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "反应",
+    "Pinyin": "fǎnyìng",
+    "EN": "reaction",
+    "BN": "প্রতিক্রিয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "反正",
+    "Pinyin": "fǎnzhèng",
+    "EN": "anyway",
+    "BN": "যাই হোক / যেভাবেই হোক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "范围",
+    "Pinyin": "fànwéi",
+    "EN": "Range",
+    "BN": "পরিসর / সীমা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "方式",
+    "Pinyin": "fāngshì",
+    "EN": "mode",
+    "BN": "পদ্ধতি / ধরন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "防",
+    "Pinyin": "fáng",
+    "EN": "guard against; defend",
+    "BN": "সতর্ক থাকা; প্রতিরোধ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "防止",
+    "Pinyin": "fángzhǐ",
+    "EN": "Prevent",
+    "BN": "প্রতিরোধ করা / ঠেকানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "房东",
+    "Pinyin": "fángdōng",
+    "EN": "landlord",
+    "BN": "বাড়িওয়ালা / মালিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "房屋",
+    "Pinyin": "fáng wū",
+    "EN": "houses; buildings; tenement",
+    "BN": "বাড়িঘর; ভবন; আবাসিক ভবন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "房租",
+    "Pinyin": "fáng zū",
+    "EN": "rent",
+    "BN": "ভাড়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "访问",
+    "Pinyin": "fǎngwèn",
+    "EN": "Visit",
+    "BN": "পরিদর্শন করা / দেখা করতে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "放到",
+    "Pinyin": "fàng dào",
+    "EN": "put to; put into",
+    "BN": "ব্যবহার করা; মধ্যে রাখা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "飞行",
+    "Pinyin": "fēixíng",
+    "EN": "flight; flying",
+    "BN": "ফ্লাইট; উড়ান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "费",
+    "Pinyin": "fèi",
+    "EN": "fee; cost",
+    "BN": "ফি; খরচ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "费用",
+    "Pinyin": "fèi yòng",
+    "EN": "cost; expenses; outlay",
+    "BN": "ব্যয়; খরচ; ব্যয়িত অর্থ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "分别",
+    "Pinyin": "fēnbié",
+    "EN": "part",
+    "BN": "অংশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "分配",
+    "Pinyin": "fēnpèi",
+    "EN": "distribution",
+    "BN": "বণ্টন / বিতরণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "分组",
+    "Pinyin": "fēnzǔ",
+    "EN": "grouping",
+    "BN": "দলবদ্ধকরণ / গোষ্ঠীবদ্ধ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "丰富",
+    "Pinyin": "fēngfù",
+    "EN": "rich",
+    "BN": "ধনী / সমৃদ্ধ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "风险",
+    "Pinyin": "fēngxiǎn",
+    "EN": "risk",
+    "BN": "ঝুঁকি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "否定",
+    "Pinyin": "fǒudìng",
+    "EN": "negative",
+    "BN": "নেতিবাচক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "否认",
+    "Pinyin": "fǒurèn",
+    "EN": "deny",
+    "BN": "অস্বীকার করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "服装",
+    "Pinyin": "fúzhuāng",
+    "EN": "costume; dress",
+    "BN": "পোশাক / সাজসজ্জার পোশাক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "福",
+    "Pinyin": "fú",
+    "EN": "blessing; good fortune",
+    "BN": "আশীর্বাদ; সৌভাগ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "父母",
+    "Pinyin": "fùmǔ",
+    "EN": "father and mother; parents",
+    "BN": "বাবা-মা / মা-বাবা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "父亲",
+    "Pinyin": "fùqīn",
+    "EN": "father",
+    "BN": "বাবা / পিতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "付",
+    "Pinyin": "fù",
+    "EN": "pay; commit; hand over",
+    "BN": "পরিশোধ করা; অর্পণ করা; হস্তান্তর করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "负责",
+    "Pinyin": "fùzé",
+    "EN": "Be responsible for",
+    "BN": "দায়িত্ব নেওয়া / দায়ী থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "复印",
+    "Pinyin": "fùyìn",
+    "EN": "To copy",
+    "BN": "নকল করা / কপি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "复杂",
+    "Pinyin": "fùzá",
+    "EN": "complex",
+    "BN": "জটিল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "富",
+    "Pinyin": "fù",
+    "EN": "rich",
+    "BN": "সমৃদ্ধ / ধনী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "改进",
+    "Pinyin": "gǎijìn",
+    "EN": "Improvement",
+    "BN": "উন্নতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "改造",
+    "Pinyin": "gǎi zào",
+    "EN": "transform; reform",
+    "BN": "রূপান্তর করা; সংস্কার করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "概念",
+    "Pinyin": "gàiniàn",
+    "EN": "concept",
+    "BN": "ধারণা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "赶",
+    "Pinyin": "gǎn",
+    "EN": "catch up with",
+    "BN": "সমান তালে পৌঁছানো / ধরে ফেলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "赶到",
+    "Pinyin": "gǎn dào",
+    "EN": "arrived; get to",
+    "BN": "পৌঁছেছে; পৌঁছানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "赶紧",
+    "Pinyin": "gǎnjǐn",
+    "EN": "Quickly",
+    "BN": "দ্রুত / তাড়াতাড়ি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "赶快",
+    "Pinyin": "gǎnkuài",
+    "EN": "Come on",
+    "BN": "চল / এগিয়ে চলো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "敢",
+    "Pinyin": "gǎn",
+    "EN": "dare",
+    "BN": "সাহস করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "感冒",
+    "Pinyin": "gǎnmào",
+    "EN": "Cold",
+    "BN": "ঠান্ডা / ঠান্ডা লাগা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "感情",
+    "Pinyin": "gǎnqíng",
+    "EN": "feeling",
+    "BN": "অনুভূতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "感受",
+    "Pinyin": "gǎnshòu",
+    "EN": "feel",
+    "BN": "অনুভব করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "干吗",
+    "Pinyin": "gànmá",
+    "EN": "Why",
+    "BN": "কেন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "高速",
+    "Pinyin": "gāo sù",
+    "EN": "high speed",
+    "BN": "উচ্চ গতি / দ্রুতগতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "高速公路",
+    "Pinyin": "gāosùgōnglù",
+    "EN": "Expressway",
+    "BN": "এক্সপ্রেসওয়ে / দ্রুতগতির সড়ক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "告别",
+    "Pinyin": "gàobié",
+    "EN": "farewell",
+    "BN": "বিদায়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "歌迷",
+    "Pinyin": "gē mí",
+    "EN": "fan",
+    "BN": "ভক্ত / ফ্যান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "歌声",
+    "Pinyin": "gē shēng",
+    "EN": "singing",
+    "BN": "গান গাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "歌手",
+    "Pinyin": "gē shǒu",
+    "EN": "singer; vocalist",
+    "BN": "গায়ক / কণ্ঠশিল্পী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "个人",
+    "Pinyin": "gèrén",
+    "EN": "personal",
+    "BN": "ব্যক্তিগত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "个性",
+    "Pinyin": "gèxìng",
+    "EN": "personality",
+    "BN": "ব্যক্তিত্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "各",
+    "Pinyin": "gè",
+    "EN": "various",
+    "BN": "বিভিন্ন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "各地",
+    "Pinyin": "gèdì",
+    "EN": "various regions; everywhere",
+    "BN": "বিভিন্ন অঞ্চল; সর্বত্র"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "各位",
+    "Pinyin": "gèwèi",
+    "EN": "everybody",
+    "BN": "সবাই / প্রত্যেকে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "各种",
+    "Pinyin": "gèzhǒng",
+    "EN": "all kinds; various; every kind",
+    "BN": "সব ধরনের / বিভিন্ন ধরনের"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "各自",
+    "Pinyin": "gèzì",
+    "EN": "Each",
+    "BN": "প্রত্যেক / প্রতিটি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "根本",
+    "Pinyin": "gēnběn",
+    "EN": "at all",
+    "BN": "আদৌ / একেবারেই"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "更加",
+    "Pinyin": "gèngjiā",
+    "EN": "more; even more",
+    "BN": "আরও / আরও বেশি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "工厂",
+    "Pinyin": "gōngchǎng",
+    "EN": "factory",
+    "BN": "কারখানা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "工程师",
+    "Pinyin": "gōngchéngshī",
+    "EN": "Engineer",
+    "BN": "প্রকৌশলী / ইঞ্জিনিয়ার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "工夫",
+    "Pinyin": "gōngfu",
+    "EN": "time",
+    "BN": "সময় / বার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "工具",
+    "Pinyin": "gōngjù",
+    "EN": "tool",
+    "BN": "সরঞ্জাম / হাতিয়ার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "工业",
+    "Pinyin": "gōngyè",
+    "EN": "Industry",
+    "BN": "শিল্প"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "工资",
+    "Pinyin": "gōngzī",
+    "EN": "wages",
+    "BN": "মজুরি / বেতন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "公布",
+    "Pinyin": "gōngbù",
+    "EN": "Publish",
+    "BN": "প্রকাশ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "公共",
+    "Pinyin": "gōng gòng",
+    "EN": "public; common; community",
+    "BN": "জনসাধারণের; সাধারণ; সম্প্রদায়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "公开",
+    "Pinyin": "gōngkāi",
+    "EN": "open",
+    "BN": "খোলা / উন্মুক্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "公民",
+    "Pinyin": "gōngmín",
+    "EN": "citizen",
+    "BN": "নাগরিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "公务员",
+    "Pinyin": "gōng wùyuán",
+    "EN": "civil servant; public functionary",
+    "BN": "সরকারি কর্মকর্তা / সরকারি কর্মচারী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "功夫",
+    "Pinyin": "gōngfu",
+    "EN": "Kungfu",
+    "BN": "কুংফু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "功课",
+    "Pinyin": "gōng kè",
+    "EN": "homework; schoolwork",
+    "BN": "বাড়ির কাজ / পড়াশোনার কাজ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "功能",
+    "Pinyin": "gōngnéng",
+    "EN": "function",
+    "BN": "কাজ / কার্যকারিতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "共同",
+    "Pinyin": "gòngtóng",
+    "EN": "common",
+    "BN": "সাধারণ / প্রচলিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "共有",
+    "Pinyin": "gòngyǒu",
+    "EN": "have altogether; share",
+    "BN": "মোট থাকা; ভাগ করে নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "姑娘",
+    "Pinyin": "gūniang",
+    "EN": "girl",
+    "BN": "মেয়ে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "古",
+    "Pinyin": "gǔ",
+    "EN": "ancient; old",
+    "BN": "প্রাচীন; পুরোনো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "古代",
+    "Pinyin": "gǔdài",
+    "EN": "Ancient",
+    "BN": "প্রাচীন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "故乡",
+    "Pinyin": "gùxiāng",
+    "EN": "Hometown",
+    "BN": "নিজ শহর / জন্মস্থান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "挂",
+    "Pinyin": "guà",
+    "EN": "hang",
+    "BN": "ঝোলানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "关系",
+    "Pinyin": "guānxì",
+    "EN": "relationship",
+    "BN": "সম্পর্ক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "关注",
+    "Pinyin": "guān zhù",
+    "EN": "attention; pay close attention to",
+    "BN": "মনোযোগ; গভীর মনোযোগ দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "观察",
+    "Pinyin": "guānchá",
+    "EN": "observation",
+    "BN": "পর্যবেক্ষণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "观看",
+    "Pinyin": "guānkàn",
+    "EN": "watch; view",
+    "BN": "দেখা / পর্যবেক্ষণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "观念",
+    "Pinyin": "guānniàn",
+    "EN": "concept",
+    "BN": "ধারণা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "观众",
+    "Pinyin": "guānzhòng",
+    "EN": "Audience",
+    "BN": "দর্শক / শ্রোতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "管",
+    "Pinyin": "guǎn",
+    "EN": "control; be in charge of",
+    "BN": "নিয়ন্ত্রণ করা; দায়িত্বে থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "管理",
+    "Pinyin": "guǎnlǐ",
+    "EN": "Administration",
+    "BN": "প্রশাসন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "光",
+    "Pinyin": "guāng",
+    "EN": "light",
+    "BN": "হালকা / আলো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "光明",
+    "Pinyin": "guāngmíng",
+    "EN": "light",
+    "BN": "আলো / হালকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "广播",
+    "Pinyin": "guǎngbō",
+    "EN": "Radio broadcast",
+    "BN": "রেডিও সম্প্রচার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "广大",
+    "Pinyin": "guǎngdà",
+    "EN": "Vast",
+    "BN": "বিশাল / বিস্তৃত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "规定",
+    "Pinyin": "guīdìng",
+    "EN": "Regulations",
+    "BN": "বিধিমালা / নিয়মকানুন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "规范",
+    "Pinyin": "guīfàn",
+    "EN": "criterion; rule",
+    "BN": "মানদণ্ড; নিয়ম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "国内",
+    "Pinyin": "guó nèi",
+    "EN": "domestic; internal",
+    "BN": "দেশীয়; অভ্যন্তরীণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "国庆",
+    "Pinyin": "guó qìng",
+    "EN": "National Day",
+    "BN": "জাতীয় দিবস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "果然",
+    "Pinyin": "guǒrán",
+    "EN": "Sure enough",
+    "BN": "সত্যিই / ঠিকই"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "果汁",
+    "Pinyin": "guǒzhī",
+    "EN": "fruit juice",
+    "BN": "ফলের জুস / ফলের রস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "过程",
+    "Pinyin": "guòchéng",
+    "EN": "process",
+    "BN": "প্রক্রিয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "过去（名）",
+    "Pinyin": "guòqù",
+    "EN": "past; old; foretime",
+    "BN": "অতীত; পুরোনো; আগেকার সময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "哈哈",
+    "Pinyin": "hāhā",
+    "EN": "ha-ha",
+    "BN": "হা হা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "海关",
+    "Pinyin": "hǎiguān",
+    "EN": "Customs",
+    "BN": "রীতিনীতি / কাস্টমস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "害怕",
+    "Pinyin": "hàipà",
+    "EN": "Fear",
+    "BN": "ভয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "行",
+    "Pinyin": "xíng",
+    "EN": "That’s ok",
+    "BN": "ঠিক আছে / সমস্যা নেই"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "好好",
+    "Pinyin": "hǎohǎo",
+    "EN": "really good, really nice",
+    "BN": "সত্যিই ভালো / খুব সুন্দর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "好奇",
+    "Pinyin": "hàoqí",
+    "EN": "Be curious",
+    "BN": "কৌতূহলী হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "合",
+    "Pinyin": "hé",
+    "EN": "close; shut; be equal to; add up to; join",
+    "BN": "বন্ধ করা; সমান হওয়া; যোগফল হওয়া; যোগ দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "合法",
+    "Pinyin": "héfǎ",
+    "EN": "legitimate",
+    "BN": "বৈধ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "合格",
+    "Pinyin": "hégé",
+    "EN": "qualified",
+    "BN": "যোগ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "合理",
+    "Pinyin": "hélǐ",
+    "EN": "reasonable",
+    "BN": "যুক্তিসঙ্গত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "合作",
+    "Pinyin": "hézuò",
+    "EN": "cooperation",
+    "BN": "সহযোগিতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "和平",
+    "Pinyin": "hépíng",
+    "EN": "peace",
+    "BN": "শান্তি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "红茶",
+    "Pinyin": "hóngchá",
+    "EN": "black tea",
+    "BN": "কালো চা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "红酒",
+    "Pinyin": "hóngjiǔ",
+    "EN": "red wine",
+    "BN": "লাল ওয়াইন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "后果",
+    "Pinyin": "hòuguǒ",
+    "EN": "Consequence",
+    "BN": "পরিণতি / ফলাফল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "后面",
+    "Pinyin": "hòumiàn",
+    "EN": "behind",
+    "BN": "পেছনে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "后年",
+    "Pinyin": "hòu nián",
+    "EN": "the year after next",
+    "BN": "আগামী বছরের পরের বছর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "互联网",
+    "Pinyin": "hùliánwǎng",
+    "EN": "Internet",
+    "BN": "ইন্টারনেট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "互相",
+    "Pinyin": "hùxiāng",
+    "EN": "each other",
+    "BN": "একে অপর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "划船",
+    "Pinyin": "huáchuán",
+    "EN": "row; paddle a boat; go boating",
+    "BN": "বৈঠা চালানো; নৌকা চালানো; নৌকায় ভ্রমণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "华人",
+    "Pinyin": "huárén",
+    "EN": "Chinese; ethnic Chinese",
+    "BN": "চীনা; জাতিগত চীনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "化（现代化）",
+    "Pinyin": "huà（xiàn dàihuà）",
+    "EN": "suffix (modernize; modernization)",
+    "BN": "প্রত্যয় (আধুনিকীকরণ)"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "话剧",
+    "Pinyin": "huà jù",
+    "EN": "drama",
+    "BN": "নাটক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "话题",
+    "Pinyin": "huàtí",
+    "EN": "Topic of conversation",
+    "BN": "আলোচনার বিষয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "欢乐",
+    "Pinyin": "huānlè",
+    "EN": "Happy",
+    "BN": "খুশি / আনন্দিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "环",
+    "Pinyin": "huán",
+    "EN": "ring; loop; link; annulus",
+    "BN": "রিং; বৃত্তাকার অংশ; সংযোগ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "环保",
+    "Pinyin": "huán bǎo",
+    "EN": "environmental protection",
+    "BN": "পরিবেশ সুরক্ষা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "环境",
+    "Pinyin": "huánjìng",
+    "EN": "Environment",
+    "BN": "পরিবেশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "会议",
+    "Pinyin": "huìyì",
+    "EN": "Meeting",
+    "BN": "সভা / মিটিং"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "会员",
+    "Pinyin": "huìyuán",
+    "EN": "membership",
+    "BN": "সদস্যপদ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "活",
+    "Pinyin": "huó",
+    "EN": "live; save; work; living; alive",
+    "BN": "বাস করা; বাঁচানো; কাজ করা; জীবিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "火（名）",
+    "Pinyin": "huǒ",
+    "EN": "fire; anger; temper",
+    "BN": "আগুন; রাগ; মেজাজ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "机器",
+    "Pinyin": "jīqì",
+    "EN": "machine",
+    "BN": "মেশিন / যন্ত্র"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "积极",
+    "Pinyin": "jījí",
+    "EN": "positive",
+    "BN": "ইতিবাচক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "基本",
+    "Pinyin": "jīběn",
+    "EN": "basic",
+    "BN": "মৌলিক / প্রাথমিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "基本上",
+    "Pinyin": "jī běnshàng",
+    "EN": "basically",
+    "BN": "মূলত / সাধারণভাবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "基础",
+    "Pinyin": "jīchǔ",
+    "EN": "Basics",
+    "BN": "মৌলিক বিষয়সমূহ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "及时",
+    "Pinyin": "jíshí",
+    "EN": "timely",
+    "BN": "সময়মতো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "…极了",
+    "Pinyin": "… jíle",
+    "EN": "extremely; exceedingly",
+    "BN": "অত্যন্ত / খুব বেশি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "集体",
+    "Pinyin": "jítǐ",
+    "EN": "collective",
+    "BN": "সম্মিলিত / সমষ্টিগত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "集中",
+    "Pinyin": "jízhōng",
+    "EN": "focus",
+    "BN": "মনোযোগ / কেন্দ্রবিন্দু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "计算",
+    "Pinyin": "jìsuàn",
+    "EN": "Calculation",
+    "BN": "হিসাব / গণনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "记录",
+    "Pinyin": "jìlù",
+    "EN": "Record",
+    "BN": "রেকর্ড / নথিভুক্ত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "记者",
+    "Pinyin": "jìzhě",
+    "EN": "Reporter",
+    "BN": "প্রতিবেদক / সাংবাদিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "纪录",
+    "Pinyin": "jìlù",
+    "EN": "Record",
+    "BN": "রেকর্ড / নথি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "纪念",
+    "Pinyin": "jìniàn",
+    "EN": "Anniversary",
+    "BN": "বার্ষিকী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "技术",
+    "Pinyin": "jìshù",
+    "EN": "technology",
+    "BN": "প্রযুক্তি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "继续",
+    "Pinyin": "jìxù",
+    "EN": "Continue",
+    "BN": "চালিয়ে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "加工",
+    "Pinyin": "jiāgōng",
+    "EN": "machining",
+    "BN": "যন্ত্রে প্রক্রিয়াজাতকরণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "加快",
+    "Pinyin": "jiā kuài",
+    "EN": "speed up; accelerate",
+    "BN": "গতি বাড়ানো / দ্রুত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "加强",
+    "Pinyin": "jiāqiáng",
+    "EN": "strengthen; reinforce",
+    "BN": "শক্তিশালী করা / জোরদার করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "家具",
+    "Pinyin": "jiājù",
+    "EN": "furniture",
+    "BN": "আসবাবপত্র"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "家属",
+    "Pinyin": "jiāshǔ",
+    "EN": "family members",
+    "BN": "পরিবারের সদস্যরা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "家乡",
+    "Pinyin": "jiāxiāng",
+    "EN": "Hometown",
+    "BN": "নিজ শহর / জন্মস্থান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "价格",
+    "Pinyin": "jiàgé",
+    "EN": "Price",
+    "BN": "দাম / মূল্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "价钱",
+    "Pinyin": "jiàqián",
+    "EN": "price",
+    "BN": "দাম / মূল্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "价值",
+    "Pinyin": "jiàzhí",
+    "EN": "value",
+    "BN": "মূল্য / মূল্যমান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "架",
+    "Pinyin": "jià",
+    "EN": "frame; rack; shelf; stand",
+    "BN": "ফ্রেম; র‍্যাক; তাক; স্ট্যান্ড"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "坚持",
+    "Pinyin": "jiānchí",
+    "EN": "Insist",
+    "BN": "জোর দেওয়া / অনড় থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "坚决",
+    "Pinyin": "jiānjué",
+    "EN": "firm",
+    "BN": "দৃঢ়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "坚强",
+    "Pinyin": "jiānqiáng",
+    "EN": "Firm",
+    "BN": "প্রতিষ্ঠান / দৃঢ়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "简单",
+    "Pinyin": "jiǎndān",
+    "EN": "simple",
+    "BN": "সহজ / সরল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "简直",
+    "Pinyin": "jiǎnzhí",
+    "EN": "simply",
+    "BN": "সহজভাবে / শুধু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "建",
+    "Pinyin": "jiàn",
+    "EN": "build; construct; erect; establish; set up;",
+    "BN": "তৈরি করা; নির্মাণ করা; প্রতিষ্ঠা করা; স্থাপন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "建成",
+    "Pinyin": "jiàn chéng",
+    "EN": "built up",
+    "BN": "গড়ে তোলা / নির্মিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "建立",
+    "Pinyin": "jiànlì",
+    "EN": "establish",
+    "BN": "প্রতিষ্ঠা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "建设",
+    "Pinyin": "jiànshè",
+    "EN": "build",
+    "BN": "নির্মাণ করা / তৈরি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "建议",
+    "Pinyin": "jiànyì",
+    "EN": "proposal",
+    "BN": "প্রস্তাব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "将近",
+    "Pinyin": "jiāngjìn",
+    "EN": "nearly",
+    "BN": "প্রায়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "将来",
+    "Pinyin": "jiānglái",
+    "EN": "future",
+    "BN": "ভবিষ্যৎ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "交费",
+    "Pinyin": "jiāo fèi",
+    "EN": "pay",
+    "BN": "পরিশোধ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "交警",
+    "Pinyin": "jiāo jǐng",
+    "EN": "traffic police",
+    "BN": "ট্রাফিক পুলিশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "交流",
+    "Pinyin": "jiāoliú",
+    "EN": "Communication",
+    "BN": "যোগাযোগ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "交往",
+    "Pinyin": "jiāowǎng",
+    "EN": "affiliate with",
+    "BN": "যুক্ত হওয়া / সহযোগী হিসেবে যুক্ত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "交易",
+    "Pinyin": "jiāoyì",
+    "EN": "transaction",
+    "BN": "লেনদেন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "叫（介）",
+    "Pinyin": "jiào",
+    "EN": "(preposition)",
+    "BN": "অব্যয় / পূর্বসর্গ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "较",
+    "Pinyin": "jiào",
+    "EN": "compare; comparatively; relatively;",
+    "BN": "তুলনা করা; তুলনামূলকভাবে; আপেক্ষিকভাবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "教材",
+    "Pinyin": "jiàocái",
+    "EN": "Teaching materia",
+    "BN": "শিক্ষাসামগ্রী / পাঠ্য উপকরণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "教练",
+    "Pinyin": "jiàoliàn",
+    "EN": "coach",
+    "BN": "প্রশিক্ষক / প্রশিক্ষণ দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "结实",
+    "Pinyin": "jiēshi",
+    "EN": "strong",
+    "BN": "শক্তিশালী / সবল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "接待",
+    "Pinyin": "jiēdài",
+    "EN": "Reception",
+    "BN": "অভ্যর্থনা / রিসেপশন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "接近",
+    "Pinyin": "jiējìn",
+    "EN": "near",
+    "BN": "কাছে / নিকটে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "结合",
+    "Pinyin": "jiéhé",
+    "EN": "Combination",
+    "BN": "সংমিশ্রণ / সমন্বয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "结婚",
+    "Pinyin": "jiéhūn",
+    "EN": "marry",
+    "BN": "বিয়ে করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "结束",
+    "Pinyin": "jiéshù",
+    "EN": "End",
+    "BN": "শেষ / শেষ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "解决",
+    "Pinyin": "jiějué",
+    "EN": "Solve",
+    "BN": "সমাধান করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "解开",
+    "Pinyin": "jiěkāi",
+    "EN": "undo; untie; unfasten",
+    "BN": "খুলে দেওয়া; বাঁধন খোলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "金",
+    "Pinyin": "jīn",
+    "EN": "gold",
+    "BN": "সোনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "金牌",
+    "Pinyin": "jīn pái",
+    "EN": "gold medal",
+    "BN": "স্বর্ণপদক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "仅",
+    "Pinyin": "jǐn",
+    "EN": "only; merely; barely",
+    "BN": "শুধু; মাত্র; কোনোমতে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "仅仅",
+    "Pinyin": "jǐnjǐn",
+    "EN": "only; merely; barely",
+    "BN": "শুধু; মাত্র; কোনোমতে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "尽量",
+    "Pinyin": "jǐnliàng",
+    "EN": "as far as possible",
+    "BN": "যতটা সম্ভব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "紧",
+    "Pinyin": "jǐn",
+    "EN": "tight; close; urgent; strict",
+    "BN": "আঁটসাঁট; ঘনিষ্ঠ; জরুরি; কঠোর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "紧急",
+    "Pinyin": "jǐnjí",
+    "EN": "urgent",
+    "BN": "জরুরি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "紧张",
+    "Pinyin": "jǐnzhāng",
+    "EN": "Nervous",
+    "BN": "নার্ভাস / উদ্বিগ্ন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "进步",
+    "Pinyin": "jìnbù",
+    "EN": "progress",
+    "BN": "অগ্রগতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "进一步",
+    "Pinyin": "jìn yí bù",
+    "EN": "go a step further; further",
+    "BN": "আরও এক ধাপ এগোনো; আরও"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "进展",
+    "Pinyin": "jìnzhǎn",
+    "EN": "evolve; get along",
+    "BN": "বিকশিত হওয়া; মিলেমিশে চলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "近期",
+    "Pinyin": "jìnqī",
+    "EN": "recent",
+    "BN": "সাম্প্রতিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "京剧",
+    "Pinyin": "jīngjù",
+    "EN": "Beijing opera",
+    "BN": "বেইজিং অপেরা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "经济",
+    "Pinyin": "jīngjì",
+    "EN": "Economics",
+    "BN": "অর্থনীতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "经历",
+    "Pinyin": "jīnglì",
+    "EN": "experience",
+    "BN": "অভিজ্ঞতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "经验",
+    "Pinyin": "jīngyàn",
+    "EN": "experience",
+    "BN": "অভিজ্ঞতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "经营",
+    "Pinyin": "jīngyíng",
+    "EN": "Management",
+    "BN": "ব্যবস্থাপনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "精彩",
+    "Pinyin": "jīngcǎi",
+    "EN": "Marvellous",
+    "BN": "চমৎকার / অসাধারণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "精神",
+    "Pinyin": "jīngshén",
+    "EN": "spirit, mind",
+    "BN": "মন / মানসিকতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "精神",
+    "Pinyin": "jīngshen",
+    "EN": "lively, vigour",
+    "BN": "প্রাণবন্ত; উদ্যম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "景色",
+    "Pinyin": "jǐngsè",
+    "EN": "scenery",
+    "BN": "প্রাকৃতিক দৃশ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "警察",
+    "Pinyin": "jǐngchá",
+    "EN": "Police",
+    "BN": "পুলিশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "静",
+    "Pinyin": "jìng",
+    "EN": "silent; quiet; calm",
+    "BN": "নীরব; শান্ত; স্থির"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "久",
+    "Pinyin": "jiǔ",
+    "EN": "long",
+    "BN": "দীর্ঘ / লম্বা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "旧",
+    "Pinyin": "jiù",
+    "EN": "used",
+    "BN": "ব্যবহৃত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "救",
+    "Pinyin": "jiù",
+    "EN": "save",
+    "BN": "বাঁচানো / সংরক্ষণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "就是",
+    "Pinyin": "jiù shì",
+    "EN": "precisely; exactly; just like",
+    "BN": "ঠিকভাবে; সঠিকভাবে; ঠিক যেমন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "就业",
+    "Pinyin": "jiùyè",
+    "EN": "take up an occupation",
+    "BN": "পেশা গ্রহণ করা / কাজে যোগ দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "举办",
+    "Pinyin": "jǔbàn",
+    "EN": "hold",
+    "BN": "ধরা / রাখা / আয়োজন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "具体",
+    "Pinyin": "jùtǐ",
+    "EN": "specific",
+    "BN": "নির্দিষ্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "具有",
+    "Pinyin": "jùyǒu",
+    "EN": "possess; have",
+    "BN": "অধিকার করা; থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "剧场",
+    "Pinyin": "jùchǎng",
+    "EN": "theater",
+    "BN": "থিয়েটার / প্রেক্ষাগৃহ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "据说",
+    "Pinyin": "jùshuō",
+    "EN": "allegedly",
+    "BN": "কথিতভাবে / অভিযোগ অনুযায়ী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "决定",
+    "Pinyin": "juédìng",
+    "EN": "Decision",
+    "BN": "সিদ্ধান্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "决",
+    "Pinyin": "juésài",
+    "EN": "Finals",
+    "BN": "ফাইনাল / চূড়ান্ত পরীক্ষা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "决心",
+    "Pinyin": "juéxīn",
+    "EN": "Determination",
+    "BN": "দৃঢ়সংকল্প / সংকল্প"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "绝对",
+    "Pinyin": "juéduì",
+    "EN": "Absolutely",
+    "BN": "অবশ্যই / সম্পূর্ণভাবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "咖啡",
+    "Pinyin": "kāfēi",
+    "EN": "Coffee",
+    "BN": "কফি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "开发",
+    "Pinyin": "kāifā",
+    "EN": "Development",
+    "BN": "উন্নয়ন / বিকাশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "开放",
+    "Pinyin": "kāifàng",
+    "EN": "To open up",
+    "BN": "খুলে দেওয়া / উন্মুক্ত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "开始",
+    "Pinyin": "kāishǐ",
+    "EN": "start",
+    "BN": "শুরু করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "开业",
+    "Pinyin": "kāi yè",
+    "EN": "start business",
+    "BN": "ব্যবসা শুরু করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "开展",
+    "Pinyin": "kāizhǎn",
+    "EN": "Develop",
+    "BN": "উন্নত করা / বিকাশ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "看起来",
+    "Pinyin": "kànqǐ lái",
+    "EN": "look like",
+    "BN": "দেখতে হওয়া / দেখতে লাগা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "看上去",
+    "Pinyin": "kànshàngqù",
+    "EN": "seem",
+    "BN": "মনে হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "考验",
+    "Pinyin": "kǎoyàn",
+    "EN": "test",
+    "BN": "পরীক্ষা করা / পরীক্ষা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "科技",
+    "Pinyin": "kē jì",
+    "EN": "science and technology",
+    "BN": "বিজ্ঞান ও প্রযুক্তি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "可靠",
+    "Pinyin": "kěkào",
+    "EN": "reliable",
+    "BN": "নির্ভরযোগ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "可乐",
+    "Pinyin": "kělè",
+    "EN": "coke; cola",
+    "BN": "কোক / কোলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "克服",
+    "Pinyin": "kèfú",
+    "EN": "Overcome",
+    "BN": "কাটিয়ে ওঠা / পরাজিত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "客观",
+    "Pinyin": "kèguān",
+    "EN": "objective",
+    "BN": "উদ্দেশ্য / লক্ষ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "课程",
+    "Pinyin": "kèchéng",
+    "EN": "curriculum",
+    "BN": "পাঠ্যক্রম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "空",
+    "Pinyin": "kōng",
+    "EN": "empty",
+    "BN": "খালি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "空调",
+    "Pinyin": "kōngtiáo",
+    "EN": "Air conditioner",
+    "BN": "এয়ার কন্ডিশনার / এসি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "恐怕",
+    "Pinyin": "kǒngpà",
+    "EN": "I’m afraid",
+    "BN": "আমার ভয় হচ্ছে / মনে হয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "空儿",
+    "Pinyin": "kòngr",
+    "EN": "free time",
+    "BN": "অবসর সময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "裤子",
+    "Pinyin": "kùzi",
+    "EN": "trousers",
+    "BN": "প্যান্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "快速",
+    "Pinyin": "kuài sù",
+    "EN": "fast; high-speed",
+    "BN": "দ্রুত / উচ্চগতির"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "困",
+    "Pinyin": "kùn",
+    "EN": "sleepy",
+    "BN": "ঘুমঘুম / ঘুম পাচ্ছে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "困难",
+    "Pinyin": "kùnnán",
+    "EN": "difficulty",
+    "BN": "অসুবিধা / সমস্যা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "浪费",
+    "Pinyin": "làngfèi",
+    "EN": "Waste",
+    "BN": "অপচয় / নষ্ট করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "老百姓",
+    "Pinyin": "lǎobǎixìng",
+    "EN": "Ordinary people",
+    "BN": "সাধারণ মানুষ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "老板",
+    "Pinyin": "lǎobǎn",
+    "EN": "Boss",
+    "BN": "বস / মালিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "老太太",
+    "Pinyin": "lǎo tài tai",
+    "EN": "old lady",
+    "BN": "বৃদ্ধ মহিলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "老头儿",
+    "Pinyin": "lǎotóur",
+    "EN": "old man",
+    "BN": "বৃদ্ধ পুরুষ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "乐",
+    "Pinyin": "lè",
+    "EN": "happy; laugh; cheerful",
+    "BN": "খুশি; হাসা; প্রফুল্ল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "乐观",
+    "Pinyin": "lèguān",
+    "EN": "optimistic",
+    "BN": "আশাবাদী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "类",
+    "Pinyin": "lèi",
+    "EN": "class; category; kind; type",
+    "BN": "শ্রেণি; বিভাগ; ধরন; প্রকার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "类似",
+    "Pinyin": "lèisì",
+    "EN": "Similar",
+    "BN": "একই রকম / অনুরূপ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "离婚",
+    "Pinyin": "líhūn",
+    "EN": "divorce",
+    "BN": "বিবাহবিচ্ছেদ / তালাক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "里面",
+    "Pinyin": "lǐmiàn",
+    "EN": "inside; interior",
+    "BN": "ভেতরে; অভ্যন্তর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "理发",
+    "Pinyin": "lǐfà",
+    "EN": "Haircut",
+    "BN": "চুল কাটা / চুলের কাট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "理解",
+    "Pinyin": "lǐjiě",
+    "EN": "Understand",
+    "BN": "বোঝা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "理论",
+    "Pinyin": "lǐlùn",
+    "EN": "theory",
+    "BN": "তত্ত্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "理由",
+    "Pinyin": "lǐyóu",
+    "EN": "Reason",
+    "BN": "কারণ / যুক্তি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "力",
+    "Pinyin": "lì",
+    "EN": "power; force",
+    "BN": "শক্তি / বল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "力量",
+    "Pinyin": "lìliàng",
+    "EN": "Power",
+    "BN": "ক্ষমতা / শক্তি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "立刻",
+    "Pinyin": "lìkè",
+    "EN": "immediately",
+    "BN": "সঙ্গে সঙ্গে / তৎক্ষণাৎ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "利用",
+    "Pinyin": "lìyòng",
+    "EN": "utilize",
+    "BN": "কাজে লাগানো / ব্যবহার করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "连",
+    "Pinyin": "lián",
+    "EN": "even",
+    "BN": "এমনকি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "连忙",
+    "Pinyin": "liánmáng",
+    "EN": "Hurriedly",
+    "BN": "তাড়াহুড়ো করে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "连续",
+    "Pinyin": "liánxù",
+    "EN": "serial",
+    "BN": "ধারাবাহিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "连续剧",
+    "Pinyin": "lián xù jù",
+    "EN": "series; soap opera",
+    "BN": "সিরিজ; ধারাবাহিক নাটক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "联合",
+    "Pinyin": "liánhé",
+    "EN": "union",
+    "BN": "ইউনিয়ন / সংঘ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "联合国",
+    "Pinyin": "liánhéguó",
+    "EN": "United Nations",
+    "BN": "জাতিসংঘ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "联系",
+    "Pinyin": "liánxì",
+    "EN": "contact",
+    "BN": "যোগাযোগ করা / যোগাযোগ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "凉水",
+    "Pinyin": "liángshuǐ",
+    "EN": "cold water; unboiled water",
+    "BN": "ঠান্ডা পানি; না-ফোটানো পানি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "了",
+    "Pinyin": "le",
+    "EN": "past tense marker",
+    "BN": "অতীত কাল নির্দেশক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "领",
+    "Pinyin": "lǐng",
+    "EN": "lead; receive; get; understand",
+    "BN": "নেতৃত্ব দেওয়া; গ্রহণ করা; পাওয়া; বোঝা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "领导",
+    "Pinyin": "lǐngdǎo",
+    "EN": "Leader",
+    "BN": "নেতা / নেতৃত্বদানকারী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "领先",
+    "Pinyin": "lǐngxiān",
+    "EN": "keep ahead",
+    "BN": "এগিয়ে থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "另外",
+    "Pinyin": "lìngwài",
+    "EN": "in addition",
+    "BN": "এছাড়াও / অতিরিক্তভাবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "另一方面",
+    "Pinyin": "lìng yì fāng miàn",
+    "EN": "on the other hand",
+    "BN": "অন্যদিকে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "留学",
+    "Pinyin": "liúxué",
+    "EN": "Overseas Study",
+    "BN": "বিদেশে পড়াশোনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "龙",
+    "Pinyin": "lóng",
+    "EN": "dragon",
+    "BN": "ড্রাগন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "录",
+    "Pinyin": "lù",
+    "EN": "record; write down; copy",
+    "BN": "রেকর্ড করা; লিখে রাখা; কপি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "录音",
+    "Pinyin": "lùyīn",
+    "EN": "Sound recording",
+    "BN": "শব্দ রেকর্ডিং"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "路线",
+    "Pinyin": "lù xiàn",
+    "EN": "path; route; way; line",
+    "BN": "পথ; রুট; রাস্তা; লাইন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "旅馆",
+    "Pinyin": "lǚ guǎn",
+    "EN": "hotel",
+    "BN": "হোটেল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "旅行社",
+    "Pinyin": "lǚxíngshè",
+    "EN": "travel agency",
+    "BN": "ট্রাভেল এজেন্সি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "绿茶",
+    "Pinyin": "lǜchá",
+    "EN": "green tea",
+    "BN": "গ্রিন টি / সবুজ চা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "乱",
+    "Pinyin": "luàn",
+    "EN": "chaos",
+    "BN": "বিশৃঙ্খলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "落后",
+    "Pinyin": "luòhòu",
+    "EN": "backward",
+    "BN": "পেছনের দিকে / পশ্চাৎমুখী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "麻烦",
+    "Pinyin": "máfan",
+    "EN": "trouble",
+    "BN": "সমস্যা / ঝামেলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "马",
+    "Pinyin": "mǎ",
+    "EN": "Horse",
+    "BN": "ঘোড়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "满足",
+    "Pinyin": "mǎnzú",
+    "EN": "satisfy",
+    "BN": "সন্তুষ্ট করা / চাহিদা পূরণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "慢慢",
+    "Pinyin": "màn màn",
+    "EN": "slowly",
+    "BN": "ধীরে ধীরে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "毛（名）",
+    "Pinyin": "máo",
+    "EN": "a fractional unit of money in China; hair; fur",
+    "BN": "চীনের মুদ্রার ভগ্নাংশ; চুল; পশম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "毛病",
+    "Pinyin": "máobìng",
+    "EN": "Trouble",
+    "BN": "ঝামেলা / সমস্যা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "没用",
+    "Pinyin": "méiyòng",
+    "EN": "useless",
+    "BN": "অকেজো / কোনো কাজে আসে না"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "媒体",
+    "Pinyin": "méitǐ",
+    "EN": "media",
+    "BN": "গণমাধ্যম / মিডিয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "每",
+    "Pinyin": "měi",
+    "EN": "each",
+    "BN": "প্রত্যেক / প্রতিটি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "美",
+    "Pinyin": "měi",
+    "EN": "beautiful; pretty",
+    "BN": "সুন্দর / দেখতে সুন্দর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "美好",
+    "Pinyin": "měihǎo",
+    "EN": "fine; happy; glorious",
+    "BN": "ভালো; খুশি; গৌরবময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "美丽",
+    "Pinyin": "měilì",
+    "EN": "beautiful",
+    "BN": "সুন্দর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "美食",
+    "Pinyin": "měishí",
+    "EN": "delicious food ; gourmet",
+    "BN": "সুস্বাদু খাবার; উন্নতমানের খাবার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "美术",
+    "Pinyin": "měishù",
+    "EN": "Fine Arts",
+    "BN": "চারুকলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "美元",
+    "Pinyin": "měi yuán",
+    "EN": "U.S. dollar",
+    "BN": "মার্কিন ডলার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "迷",
+    "Pinyin": "mí",
+    "EN": "fan; confused; be crazy about",
+    "BN": "ভক্ত; বিভ্রান্ত; কোনো কিছুর প্রতি ভীষণ আকৃষ্ট হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "米（名）",
+    "Pinyin": "mǐ",
+    "EN": "meter; rice",
+    "BN": "মিটার; চাল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "面对",
+    "Pinyin": "miànduì",
+    "EN": "Face",
+    "BN": "মুখ / চেহারা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "面积",
+    "Pinyin": "miànjī",
+    "EN": "The measure of area",
+    "BN": "ক্ষেত্রফলের একক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "民间",
+    "Pinyin": "mínjiān",
+    "EN": "nongovernmental",
+    "BN": "বেসরকারি / সরকারি নয় এমন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "民族",
+    "Pinyin": "mínzú",
+    "EN": "Nation",
+    "BN": "জাতি / দেশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "明确",
+    "Pinyin": "míngquè",
+    "EN": "To make clear",
+    "BN": "পরিষ্কার করা / স্পষ্ট করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "明显",
+    "Pinyin": "míngxiǎn",
+    "EN": "obvious",
+    "BN": "স্পষ্ট / পরিষ্কার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "命运",
+    "Pinyin": "mìngyùn",
+    "EN": "fate",
+    "BN": "ভাগ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "某",
+    "Pinyin": "mǒu",
+    "EN": "some",
+    "BN": "কিছু / কয়েকটি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "母亲",
+    "Pinyin": "mǔqīn",
+    "EN": "mother",
+    "BN": "মা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "木头",
+    "Pinyin": "mùtou",
+    "EN": "wood",
+    "BN": "কাঠ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "目标",
+    "Pinyin": "mùbiāo",
+    "EN": "target",
+    "BN": "লক্ষ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "目前",
+    "Pinyin": "mùqián",
+    "EN": "at present",
+    "BN": "বর্তমানে / এই মুহূর্তে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "奶茶",
+    "Pinyin": "nǎi chá",
+    "EN": "milk tea",
+    "BN": "দুধ চা / মিল্ক টি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "男子",
+    "Pinyin": "nánzǐ",
+    "EN": "man; male",
+    "BN": "পুরুষ / পুরুষজাতীয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "南部",
+    "Pinyin": "nánbù",
+    "EN": "south",
+    "BN": "দক্ষিণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "难道",
+    "Pinyin": "nándào",
+    "EN": "could it be said that …",
+    "BN": "বলা যায় কি যে…"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "难度",
+    "Pinyin": "nándù",
+    "EN": "difficulty",
+    "BN": "অসুবিধা / সমস্যা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "内",
+    "Pinyin": "nèi",
+    "EN": "within",
+    "BN": "মধ্যে / ভেতরে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "内容",
+    "Pinyin": "nèiróng",
+    "EN": "content",
+    "BN": "বিষয়বস্তু / সন্তুষ্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "内心",
+    "Pinyin": "nèi xīn",
+    "EN": "heart; inner centre",
+    "BN": "হৃদয়; অভ্যন্তরীণ কেন্দ্র"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "能不能",
+    "Pinyin": "néng bù néng",
+    "EN": "can or not",
+    "BN": "পারা বা না পারা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "能力",
+    "Pinyin": "nénglì",
+    "EN": "ability",
+    "BN": "সক্ষমতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "年初",
+    "Pinyin": "nián chū",
+    "EN": "beginning of the year",
+    "BN": "বছরের শুরু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "年代",
+    "Pinyin": "niándài",
+    "EN": "years",
+    "BN": "বছরগুলো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "年底",
+    "Pinyin": "niándǐ",
+    "EN": "end of the year",
+    "BN": "বছরের শেষ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "年纪",
+    "Pinyin": "niánjì",
+    "EN": "Age",
+    "BN": "বয়স"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "念",
+    "Pinyin": "niàn",
+    "EN": "Read",
+    "BN": "পড়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "牛（名）",
+    "Pinyin": "niú",
+    "EN": "cattle; ox; cow",
+    "BN": "গবাদিপশু; ষাঁড়; গরু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "农村",
+    "Pinyin": "nóngcūn",
+    "EN": "countryside",
+    "BN": "গ্রামাঞ্চল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "农民",
+    "Pinyin": "nóngmín",
+    "EN": "farmer",
+    "BN": "কৃষক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "农业",
+    "Pinyin": "nóngyè",
+    "EN": "Agriculture",
+    "BN": "কৃষি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "女子",
+    "Pinyin": "nǚzǐ",
+    "EN": "woman; female",
+    "BN": "নারী / মহিলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "暖和",
+    "Pinyin": "nuǎnhuo",
+    "EN": "warm",
+    "BN": "উষ্ণ / গরম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "怕（副）",
+    "Pinyin": "pà",
+    "EN": "perhaps; afraid",
+    "BN": "হয়তো; ভয় পাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "拍",
+    "Pinyin": "pāi",
+    "EN": "beat",
+    "BN": "মারা / পরাজিত করা / স্পন্দিত হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "排（动）",
+    "Pinyin": "pái",
+    "EN": "arrange; put in order; exclude; rehearse",
+    "BN": "সাজানো; গোছানো; বাদ দেওয়া; মহড়া দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "排名",
+    "Pinyin": "páimíng",
+    "EN": "rank",
+    "BN": "পদমর্যাদা / স্থান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "牌子",
+    "Pinyin": "páizi",
+    "EN": "brand; trademark; plate; sign",
+    "BN": "ব্র্যান্ড; ট্রেডমার্ক; প্লেট; চিহ্ন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "派",
+    "Pinyin": "pài",
+    "EN": "send",
+    "BN": "পাঠানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "判断",
+    "Pinyin": "pànduàn",
+    "EN": "judge",
+    "BN": "বিচার করা / বিচারক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "胖",
+    "Pinyin": "pàng",
+    "EN": "fat",
+    "BN": "মোটা / চর্বি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "跑步",
+    "Pinyin": "pǎobù",
+    "EN": "Run",
+    "BN": "দৌড়ানো / চালানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "配",
+    "Pinyin": "pèi",
+    "EN": "match; mix; join; fit",
+    "BN": "মেলানো; মেশানো; যোগ করা; মানানসই হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "配合",
+    "Pinyin": "pèihé",
+    "EN": "Coordination",
+    "BN": "সমন্বয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "批评",
+    "Pinyin": "pīpíng",
+    "EN": "criticism",
+    "BN": "সমালোচনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "批准",
+    "Pinyin": "pīzhǔn",
+    "EN": "Approval",
+    "BN": "অনুমোদন / সম্মতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "皮",
+    "Pinyin": "pí",
+    "EN": "skin; leather; fur; cover; sheet",
+    "BN": "চামড়া; লেদার; পশম; আবরণ; শিট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "皮包",
+    "Pinyin": "pí bāo",
+    "EN": "purse; briefcase; portfolio",
+    "BN": "পার্স; ব্রিফকেস; পোর্টফোলিও"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "啤酒",
+    "Pinyin": "píjiǔ",
+    "EN": "Beer",
+    "BN": "বিয়ার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "票价",
+    "Pinyin": "piàojià",
+    "EN": "ticket price; fare",
+    "BN": "টিকিটের দাম / ভাড়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "评价",
+    "Pinyin": "píngjià",
+    "EN": "evaluation",
+    "BN": "মূল্যায়ন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "苹果",
+    "Pinyin": "píngguǒ",
+    "EN": "Apple",
+    "BN": "আপেল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "破",
+    "Pinyin": "pò",
+    "EN": "broken",
+    "BN": "ভাঙা / নষ্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "破坏",
+    "Pinyin": "pòhuài",
+    "EN": "Destruction",
+    "BN": "ধ্বংস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "普遍",
+    "Pinyin": "pǔbiàn",
+    "EN": "universal",
+    "BN": "সর্বজনীন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "普及",
+    "Pinyin": "pǔjí",
+    "EN": "Universal",
+    "BN": "সার্বজনীন / সর্বজনীন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "期",
+    "Pinyin": "qī",
+    "EN": "period; time; term; expect",
+    "BN": "সময়কাল; সময়; মেয়াদ; আশা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "齐",
+    "Pinyin": "qí",
+    "EN": "together; uniform; neat; be level with",
+    "BN": "একসঙ্গে; একই রকম; পরিপাটি; সমান হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "其次",
+    "Pinyin": "qícì",
+    "EN": "Secondly",
+    "BN": "দ্বিতীয়ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "其实",
+    "Pinyin": "qíshí",
+    "EN": "actually",
+    "BN": "আসলে / প্রকৃতপক্ষে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "奇怪",
+    "Pinyin": "qíguài",
+    "EN": "strange",
+    "BN": "অদ্ভুত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "气候",
+    "Pinyin": "qìhòu",
+    "EN": "climate",
+    "BN": "জলবায়ু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "千万",
+    "Pinyin": "qiānwàn",
+    "EN": "Must",
+    "BN": "অবশ্যই / করতেই হবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "前后",
+    "Pinyin": "qián hòu",
+    "EN": "front and back; from start to finish; around",
+    "BN": "সামনে ও পেছনে; শুরু থেকে শেষ পর্যন্ত; চারপাশে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "前进",
+    "Pinyin": "qián jìn",
+    "EN": "advance; go forward; march",
+    "BN": "অগ্রসর হওয়া; সামনে এগোনো; মার্চ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "前面",
+    "Pinyin": "qiánmiàn",
+    "EN": "Front",
+    "BN": "সামনে / সম্মুখভাগ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "前往",
+    "Pinyin": "qián wǎng",
+    "EN": "go to; leave for; proceed",
+    "BN": "যাওয়া; রওনা হওয়া; এগিয়ে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "强",
+    "Pinyin": "qiáng",
+    "EN": "strong; powerful; better",
+    "BN": "শক্তিশালী; ক্ষমতাবান; আরও ভালো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "强大",
+    "Pinyin": "qiángdà",
+    "EN": "powerful; formidable; strong",
+    "BN": "শক্তিশালী; প্রবল; সবল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "强调",
+    "Pinyin": "qiángdiào",
+    "EN": "Emphasize",
+    "BN": "জোর দেওয়া / গুরুত্ব দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "强烈",
+    "Pinyin": "qiángliè",
+    "EN": "strong",
+    "BN": "শক্তিশালী / সবল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "桥",
+    "Pinyin": "qiáo",
+    "EN": "Bridge",
+    "BN": "সেতু / ব্রিজ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "巧",
+    "Pinyin": "qiǎo",
+    "EN": "opportunely; skilful; deceitful",
+    "BN": "সুযোগমতো; দক্ষভাবে; প্রতারণাপূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "亲",
+    "Pinyin": "qīn",
+    "EN": "dear; close; intimate; relative",
+    "BN": "প্রিয়; ঘনিষ্ঠ; আপন; আত্মীয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "亲切",
+    "Pinyin": "qīnqiè",
+    "EN": "kind",
+    "BN": "দয়ালু / ধরন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "亲人",
+    "Pinyin": "qīnrén",
+    "EN": "relative",
+    "BN": "আত্মীয় / আপেক্ষিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "亲自",
+    "Pinyin": "qīnzì",
+    "EN": "personally",
+    "BN": "ব্যক্তিগতভাবে / নিজে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "情感",
+    "Pinyin": "qíng gǎn",
+    "EN": "feeling; emotion",
+    "BN": "অনুভূতি / আবেগ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "情况",
+    "Pinyin": "qíngkuàng",
+    "EN": "Situation",
+    "BN": "পরিস্থিতি / অবস্থা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "请教",
+    "Pinyin": "qǐngjiào",
+    "EN": "Consult",
+    "BN": "পরামর্শ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "庆祝",
+    "Pinyin": "qìngzhù",
+    "EN": "Celebrate",
+    "BN": "উদযাপন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "球迷",
+    "Pinyin": "qiúmí",
+    "EN": "fans (ball game)",
+    "BN": "খেলার সমর্থক / ভক্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "区",
+    "Pinyin": "qū",
+    "EN": "area; district; region",
+    "BN": "এলাকা; জেলা; অঞ্চল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "区别",
+    "Pinyin": "qūbié",
+    "EN": "Difference",
+    "BN": "পার্থক্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "取消",
+    "Pinyin": "qǔxiāo",
+    "EN": "cancel",
+    "BN": "বাতিল করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "去世",
+    "Pinyin": "qùshì",
+    "EN": "Death",
+    "BN": "মৃত্যু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "全场",
+    "Pinyin": "quánchǎng",
+    "EN": "the whole audience",
+    "BN": "পুরো দর্শক / পুরো শ্রোতৃমণ্ডলী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "全面",
+    "Pinyin": "quánmiàn",
+    "EN": "comprehensive",
+    "BN": "সামগ্রিক / ব্যাপক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "全球",
+    "Pinyin": "quán qiú",
+    "EN": "global; the whole world",
+    "BN": "বৈশ্বিক; সারা বিশ্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "缺",
+    "Pinyin": "quē",
+    "EN": "be short of; lack",
+    "BN": "কম থাকা; অভাব থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "缺点",
+    "Pinyin": "quēdiǎn",
+    "EN": "shortcoming",
+    "BN": "দুর্বলতা / ত্রুটি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "缺少",
+    "Pinyin": "quēshǎo",
+    "EN": "Lack",
+    "BN": "অভাব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "确保",
+    "Pinyin": "quèbǎo",
+    "EN": "ensure",
+    "BN": "নিশ্চিত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "确定",
+    "Pinyin": "quèdìng",
+    "EN": "Determine",
+    "BN": "নির্ধারণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "确实",
+    "Pinyin": "quèshí",
+    "EN": "Exactly",
+    "BN": "ঠিক / সঠিকভাবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "裙子",
+    "Pinyin": "qúnzi",
+    "EN": "skirt",
+    "BN": "স্কার্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "群",
+    "Pinyin": "qún",
+    "EN": "group",
+    "BN": "দল / গোষ্ঠী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "热爱",
+    "Pinyin": "rè’ài",
+    "EN": "Ardently love",
+    "BN": "গভীরভাবে ভালোবাসা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "热烈",
+    "Pinyin": "rèliè",
+    "EN": "warm",
+    "BN": "উষ্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "人才",
+    "Pinyin": "réncái",
+    "EN": "talented person",
+    "BN": "প্রতিভাবান ব্যক্তি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "人工",
+    "Pinyin": "réngōng",
+    "EN": "artificial",
+    "BN": "কৃত্রিম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "人类",
+    "Pinyin": "rénlèi",
+    "EN": "Human beings",
+    "BN": "মানুষ / মানবজাতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "人民",
+    "Pinyin": "rén mín",
+    "EN": "people",
+    "BN": "মানুষ / লোকজন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "人民币",
+    "Pinyin": "rénmínbì",
+    "EN": "RMB",
+    "BN": "চীনা ইউয়ান / রেনমিনবি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "人群",
+    "Pinyin": "rén qún",
+    "EN": "crowd; throng",
+    "BN": "ভিড় / জনসমাগম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "人生",
+    "Pinyin": "rénshēng",
+    "EN": "Life",
+    "BN": "জীবন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "人员",
+    "Pinyin": "rényuán",
+    "EN": "personnel",
+    "BN": "কর্মী / জনবল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "认出",
+    "Pinyin": "rèn chū",
+    "EN": "recognize; identify; make out",
+    "BN": "চিনতে পারা; শনাক্ত করা; বুঝতে পারা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "认得",
+    "Pinyin": "rèndé",
+    "EN": "know; recognize",
+    "BN": "জানা; চেনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "认可",
+    "Pinyin": "rènkě",
+    "EN": "certificate; ratify",
+    "BN": "সনদ; অনুমোদন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "任（动）",
+    "Pinyin": "rèn",
+    "EN": "appoint; assign",
+    "BN": "নিয়োগ করা; দায়িত্ব দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "任（连）",
+    "Pinyin": "rèn",
+    "EN": "no matter (how, what, etc.)",
+    "BN": "যেভাবেই হোক; যাই হোক না কেন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "任何",
+    "Pinyin": "rènhé",
+    "EN": "whatever, any",
+    "BN": "যেকোনো / যা-ই হোক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "任务",
+    "Pinyin": "rènwu",
+    "EN": "task",
+    "BN": "কাজ / দায়িত্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "仍",
+    "Pinyin": "réng",
+    "EN": "still; remain; yet",
+    "BN": "এখনও; থাকা; তবুও"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "仍然",
+    "Pinyin": "réngrán",
+    "EN": "still",
+    "BN": "এখনও / তবুও"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "日常",
+    "Pinyin": "rìcháng",
+    "EN": "daily",
+    "BN": "দৈনিক / প্রতিদিন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "容易",
+    "Pinyin": "róngyì",
+    "EN": "easily",
+    "BN": "সহজেই"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "如何",
+    "Pinyin": "rúhé",
+    "EN": "How",
+    "BN": "কীভাবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "散步",
+    "Pinyin": "sànbù",
+    "EN": "Take a walk",
+    "BN": "হাঁটতে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "沙发",
+    "Pinyin": "shāfā",
+    "EN": "Sofa",
+    "BN": "সোফা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "沙子",
+    "Pinyin": "shāzi",
+    "EN": "sand; grit",
+    "BN": "বালি; কণা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "伤",
+    "Pinyin": "shāng",
+    "EN": "hurt; be harmful; be distressed; get sick of",
+    "BN": "আঘাত করা; ক্ষতি করা; কষ্ট পাওয়া; বিরক্ত হয়ে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "伤心",
+    "Pinyin": "shāngxīn",
+    "EN": "Sad",
+    "BN": "দুঃখিত / মন খারাপ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "商品",
+    "Pinyin": "shāngpǐn",
+    "EN": "commodity",
+    "BN": "পণ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "商业",
+    "Pinyin": "shāngyè",
+    "EN": "business",
+    "BN": "ব্যবসা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "上来",
+    "Pinyin": "shànglái",
+    "EN": "come up",
+    "BN": "উঠে আসা / সামনে আসা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "上面",
+    "Pinyin": "shàngmiàn",
+    "EN": "above; on top of",
+    "BN": "উপরে / ওপরের দিকে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "上去",
+    "Pinyin": "shàngqù",
+    "EN": "go up",
+    "BN": "ওপরে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "上升",
+    "Pinyin": "shàngshēng",
+    "EN": "rise; go up",
+    "BN": "ওঠা / বৃদ্ধি পাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "上衣",
+    "Pinyin": "shàngyī",
+    "EN": "upper outer garment; jacket; coat",
+    "BN": "বাইরের উপরের পোশাক; জ্যাকেট; কোট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "设备",
+    "Pinyin": "shèbèi",
+    "EN": "equipment",
+    "BN": "সরঞ্জাম / যন্ত্রপাতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "设计",
+    "Pinyin": "shèjì",
+    "EN": "Design",
+    "BN": "নকশা / নকশা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "设立",
+    "Pinyin": "shèlì",
+    "EN": "Establish",
+    "BN": "প্রতিষ্ঠা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "社会",
+    "Pinyin": "shèhuì",
+    "EN": "Socioty",
+    "BN": "সমাজ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "身份证",
+    "Pinyin": "shēn fèn zhèng",
+    "EN": "ID card",
+    "BN": "পরিচয়পত্র / আইডি কার্ড"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "深",
+    "Pinyin": "shēn",
+    "EN": "deep",
+    "BN": "গভীর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "深刻",
+    "Pinyin": "shēnkè",
+    "EN": "profound",
+    "BN": "গভীর / তাৎপর্যপূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "深入",
+    "Pinyin": "shēn rù",
+    "EN": "go deep into; thorough",
+    "BN": "গভীরে যাওয়া; বিস্তারিত / পুঙ্খানুপুঙ্খ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "升",
+    "Pinyin": "shēng",
+    "EN": "rise",
+    "BN": "ওঠা / বৃদ্ধি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "生（形）",
+    "Pinyin": "shēng",
+    "EN": "unripe; green; living; raw; unfamiliar",
+    "BN": "কাঁচা; সবুজ; জীবিত; অপরিণত; অপরিচিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "生产",
+    "Pinyin": "shēngchǎn",
+    "EN": "production",
+    "BN": "উৎপাদন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "生存",
+    "Pinyin": "shēngcún",
+    "EN": "Existence",
+    "BN": "অস্তিত্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "生动",
+    "Pinyin": "shēngdòng",
+    "EN": "vivid",
+    "BN": "প্রাণবন্ত / জীবন্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "生命",
+    "Pinyin": "shēngmìng",
+    "EN": "life",
+    "BN": "জীবন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "生意",
+    "Pinyin": "shēngyi",
+    "EN": "business",
+    "BN": "ব্যবসা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "生长",
+    "Pinyin": "shēngzhǎng",
+    "EN": "grow",
+    "BN": "বেড়ে ওঠা / বৃদ্ধি পাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "声明",
+    "Pinyin": "shēngmíng",
+    "EN": "statement",
+    "BN": "বক্তব্য / বিবৃতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "胜",
+    "Pinyin": "shèng",
+    "EN": "win; defeat; beat; can bear; be superior",
+    "BN": "জেতা; পরাজিত করা; হারানো; সহ্য করতে পারা; শ্রেষ্ঠ হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "胜利",
+    "Pinyin": "shènglì",
+    "EN": "victory",
+    "BN": "বিজয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "失去",
+    "Pinyin": "shīqù",
+    "EN": "Lose",
+    "BN": "হারানো / হেরে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "石头",
+    "Pinyin": "shítou",
+    "EN": "stone",
+    "BN": "পাথর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "石油",
+    "Pinyin": "shíyóu",
+    "EN": "petroleum",
+    "BN": "পেট্রোলিয়াম / খনিজ তেল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "时",
+    "Pinyin": "shí",
+    "EN": "time; times; hour; season; tense",
+    "BN": "সময়; বার; ঘণ্টা; ঋতু; কাল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "时代",
+    "Pinyin": "shídài",
+    "EN": "times",
+    "BN": "বার / গুণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "时刻",
+    "Pinyin": "shíkè",
+    "EN": "time",
+    "BN": "সময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "实际上",
+    "Pinyin": "shí jìshàng",
+    "EN": "actually",
+    "BN": "আসলে / প্রকৃতপক্ষে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "实力",
+    "Pinyin": "shílì",
+    "EN": "Strength",
+    "BN": "শক্তি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "实行",
+    "Pinyin": "shíxíng",
+    "EN": "Implement",
+    "BN": "বাস্তবায়ন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "实验",
+    "Pinyin": "shíyàn",
+    "EN": "Experiment",
+    "BN": "পরীক্ষা / পরীক্ষামূলক কাজ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "实验室",
+    "Pinyin": "shí yàn shì",
+    "EN": "laboratory",
+    "BN": "গবেষণাগার / ল্যাবরেটরি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "食品",
+    "Pinyin": "shípǐn",
+    "EN": "food; foodstuff",
+    "BN": "খাবার / খাদ্যদ্রব্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "使",
+    "Pinyin": "shǐ",
+    "EN": "make",
+    "BN": "তৈরি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "始终",
+    "Pinyin": "shǐzhōng",
+    "EN": "Throughout",
+    "BN": "সর্বত্র / পুরো সময়জুড়ে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "世纪",
+    "Pinyin": "shìjì",
+    "EN": "century",
+    "BN": "শতাব্দী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "世界",
+    "Pinyin": "shìjiè",
+    "EN": "world",
+    "BN": "বিশ্ব / পৃথিবী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "世界杯",
+    "Pinyin": "shì jiè bēi",
+    "EN": "World Cup",
+    "BN": "বিশ্বকাপ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "市场",
+    "Pinyin": "shìchǎng",
+    "EN": "market",
+    "BN": "বাজার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "事故",
+    "Pinyin": "shìgù",
+    "EN": "Accident",
+    "BN": "দুর্ঘটনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "事件",
+    "Pinyin": "shìjiàn",
+    "EN": "Event",
+    "BN": "ঘটনা / অনুষ্ঠান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "事实",
+    "Pinyin": "shìshí",
+    "EN": "Fact",
+    "BN": "সত্য / তথ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "事实上",
+    "Pinyin": "shì shíshàng",
+    "EN": "in fact; actually",
+    "BN": "আসলে; প্রকৃতপক্ষে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "事业",
+    "Pinyin": "shìyè",
+    "EN": "career",
+    "BN": "পেশা / কর্মজীবন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "试题",
+    "Pinyin": "shì tí",
+    "EN": "test questions",
+    "BN": "পরীক্ষার প্রশ্ন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "试验",
+    "Pinyin": "shìyàn",
+    "EN": "test",
+    "BN": "পরীক্ষা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "适合",
+    "Pinyin": "shìhé",
+    "EN": "Fit",
+    "BN": "মানানসই / উপযুক্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "适应",
+    "Pinyin": "shìyìng",
+    "EN": "Adapt",
+    "BN": "মানিয়ে নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "适用",
+    "Pinyin": "shì yòng",
+    "EN": "be applicable; be suitable",
+    "BN": "প্রযোজ্য হওয়া; উপযুক্ত হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "室",
+    "Pinyin": "shì",
+    "EN": "room",
+    "BN": "ঘর / কক্ষ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "收费",
+    "Pinyin": "shōu fèi",
+    "EN": "collect fees; charge",
+    "BN": "ফি আদায় করা; টাকা নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "收看",
+    "Pinyin": "shōukàn",
+    "EN": "watch",
+    "BN": "দেখা / ঘড়ি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "收听",
+    "Pinyin": "shōu tīng",
+    "EN": "listen to; listen in",
+    "BN": "শোনা; আড়ি পেতে শোনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "收音机",
+    "Pinyin": "shōuyīnjī",
+    "EN": "radio",
+    "BN": "রেডিও"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "手续",
+    "Pinyin": "shǒuxù",
+    "EN": "procedures",
+    "BN": "পদ্ধতি / কার্যপ্রণালি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "手指",
+    "Pinyin": "shǒuzhǐ",
+    "EN": "finger",
+    "BN": "আঙুল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "首都",
+    "Pinyin": "shǒudū",
+    "EN": "capital",
+    "BN": "রাজধানী / মূলধন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "首先",
+    "Pinyin": "shǒuxiān",
+    "EN": "First",
+    "BN": "প্রথম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "受",
+    "Pinyin": "shòu",
+    "EN": "be subjecte; suffer; receive; accept; stand",
+    "BN": "ভোগ করা; সহ্য করা; গ্রহণ করা; মেনে নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "受伤",
+    "Pinyin": "shòushāng",
+    "EN": "Injured",
+    "BN": "আহত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "书架",
+    "Pinyin": "shūjià",
+    "EN": "bookshelf",
+    "BN": "বইয়ের তাক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "输",
+    "Pinyin": "shū",
+    "EN": "lose",
+    "BN": "হারানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "输入",
+    "Pinyin": "shūrù",
+    "EN": "import; input",
+    "BN": "আমদানি; ইনপুট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "熟人",
+    "Pinyin": "shúrén",
+    "EN": "acquaintance",
+    "BN": "পরিচিত ব্যক্তি / পরিচয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "属",
+    "Pinyin": "shǔ",
+    "EN": "be born in the year of",
+    "BN": "…সালে জন্মগ্রহণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "属于",
+    "Pinyin": "shǔyú",
+    "EN": "belong to",
+    "BN": "অন্তর্ভুক্ত হওয়া / কারও অধীনে থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "束",
+    "Pinyin": "shù",
+    "EN": "beam",
+    "BN": "বিম / আলোকরশ্মি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "数量",
+    "Pinyin": "shùliàng",
+    "EN": "quantity",
+    "BN": "পরিমাণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "双",
+    "Pinyin": "shuāng",
+    "EN": "double",
+    "BN": "দ্বিগুণ / দ্বিগুণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "双方",
+    "Pinyin": "shuāngfāng",
+    "EN": "both sides",
+    "BN": "উভয় পক্ষ / দুই পাশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "思想",
+    "Pinyin": "sīxiǎng",
+    "EN": "thought",
+    "BN": "চিন্তা / ভাবনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "死",
+    "Pinyin": "sǐ",
+    "EN": "die",
+    "BN": "মারা যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "速度",
+    "Pinyin": "sùdù",
+    "EN": "speed",
+    "BN": "গতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "随",
+    "Pinyin": "suí",
+    "EN": "follow; comply with; adapt",
+    "BN": "অনুসরণ করা; মেনে চলা; মানিয়ে নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "所（名、量）",
+    "Pinyin": "suǒ",
+    "EN": "place; office; spot",
+    "BN": "জায়গা; অফিস; স্থান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "所长",
+    "Pinyin": "suǒzhǎng",
+    "EN": "superintendent",
+    "BN": "তত্ত্বাবধায়ক / পরিদর্শক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "台",
+    "Pinyin": "tái",
+    "EN": "platform",
+    "BN": "প্ল্যাটফর্ম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "谈",
+    "Pinyin": "tán",
+    "EN": "talk",
+    "BN": "কথা বলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "谈话",
+    "Pinyin": "tán huà",
+    "EN": "conversation; talk; chat",
+    "BN": "কথোপকথন; কথা; আড্ডা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "谈判",
+    "Pinyin": "tánpàn",
+    "EN": "negotiation",
+    "BN": "আলোচনা / দরকষাকষি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "汤",
+    "Pinyin": "tāng",
+    "EN": "soup",
+    "BN": "স্যুপ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "糖",
+    "Pinyin": "táng",
+    "EN": "sugar",
+    "BN": "চিনি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "特色",
+    "Pinyin": "tèsè",
+    "EN": "characteristic",
+    "BN": "বৈশিষ্ট্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "提前",
+    "Pinyin": "tíqián",
+    "EN": "Advance",
+    "BN": "অগ্রসর হওয়া / অগ্রিম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "提问",
+    "Pinyin": "tíwèn",
+    "EN": "Put questions to",
+    "BN": "প্রশ্ন করা / জিজ্ঞাসা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "题目",
+    "Pinyin": "tímù",
+    "EN": "subject",
+    "BN": "বিষয় / বিষয়বস্তু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "体会",
+    "Pinyin": "tǐhuì",
+    "EN": "Experience",
+    "BN": "অভিজ্ঞতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "体现",
+    "Pinyin": "tǐxiàn",
+    "EN": "Reflect",
+    "BN": "প্রতিফলিত করা / চিন্তা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "体验",
+    "Pinyin": "tǐyàn",
+    "EN": "experience; taste",
+    "BN": "অভিজ্ঞতা; স্বাদ নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "天空",
+    "Pinyin": "tiānkōng",
+    "EN": "sky",
+    "BN": "আকাশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "甜",
+    "Pinyin": "tián",
+    "EN": "sweet",
+    "BN": "মিষ্টি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "调",
+    "Pinyin": "tiáo",
+    "EN": "suit well; mix; adjust",
+    "BN": "ভালোভাবে মানানো; মেশানো; সমন্বয় করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "调整",
+    "Pinyin": "tiáozhěng",
+    "EN": "adjustment",
+    "BN": "সমন্বয় / পরিবর্তন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "跳",
+    "Pinyin": "tiào",
+    "EN": "jump; leap; skip; bounce",
+    "BN": "লাফ দেওয়া; ঝাঁপ দেওয়া; লাফিয়ে যাওয়া; লাফিয়ে ওঠা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "跳高",
+    "Pinyin": "tiào gāo",
+    "EN": "high jump",
+    "BN": "উচ্চলম্ফ / হাই জাম্প"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "跳舞",
+    "Pinyin": "tiàowǔ",
+    "EN": "dance",
+    "BN": "নাচ / নাচা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "跳远",
+    "Pinyin": "tiào yuǎn",
+    "EN": "long jump; broad jump",
+    "BN": "দীর্ঘলম্ফ / লং জাম্প"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "铁",
+    "Pinyin": "tiě",
+    "EN": "iron",
+    "BN": "লোহা / ইস্ত্রি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "铁路",
+    "Pinyin": "tiě lù",
+    "EN": "railway; railroad",
+    "BN": "রেলপথ / রেলওয়ে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "听力",
+    "Pinyin": "tīng lì",
+    "EN": "hearing; aural comprehension",
+    "BN": "শ্রবণ / শোনার মাধ্যমে বোঝা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "听众",
+    "Pinyin": "tīng zhòng",
+    "EN": "audience; listeners",
+    "BN": "শ্রোতা / দর্শক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "停止",
+    "Pinyin": "tíng zhǐ",
+    "EN": "stop; cease; suspend; call off; halt",
+    "BN": "থামানো; বন্ধ করা; স্থগিত করা; বাতিল করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "通常",
+    "Pinyin": "tōngcháng",
+    "EN": "usually",
+    "BN": "সাধারণত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "通信",
+    "Pinyin": "tōngxìn",
+    "EN": "communicate; correspond",
+    "BN": "যোগাযোগ করা; চিঠিপত্র/বার্তার মাধ্যমে যোগাযোগ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "同意",
+    "Pinyin": "tóngyì",
+    "EN": "Agree",
+    "BN": "একমত হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "痛（形）",
+    "Pinyin": "tòng",
+    "EN": "sore; painful; sad",
+    "BN": "ব্যথাযুক্ত; কষ্টদায়ক; দুঃখিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "痛苦",
+    "Pinyin": "tòngkǔ",
+    "EN": "Pain",
+    "BN": "ব্যথা / যন্ত্রণা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "头（形）",
+    "Pinyin": "tóu",
+    "EN": "lead; head",
+    "BN": "নেতৃত্ব দেওয়া; প্রধান হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "头脑",
+    "Pinyin": "tóunǎo",
+    "EN": "mind; brain",
+    "BN": "মন; মস্তিষ্ক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "突出",
+    "Pinyin": "tūchū",
+    "EN": "prominent",
+    "BN": "বিশিষ্ট / গুরুত্বপূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "突然",
+    "Pinyin": "tūrán",
+    "EN": "suddenly",
+    "BN": "হঠাৎ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "图",
+    "Pinyin": "tú",
+    "EN": "picture; chart; drawing",
+    "BN": "ছবি; চার্ট; অঙ্কন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "图画",
+    "Pinyin": "tú huà",
+    "EN": "drawing; picture; painting",
+    "BN": "আঁকা ছবি; ছবি; চিত্রকর্ম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "土（名）",
+    "Pinyin": "tǔ",
+    "EN": "soil; earth; land; ground",
+    "BN": "মাটি; পৃথিবী; জমি; ভূমি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "团",
+    "Pinyin": "tuán",
+    "EN": "group",
+    "BN": "দল / গোষ্ঠী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "团结",
+    "Pinyin": "tuánjié",
+    "EN": "Unite",
+    "BN": "ঐক্যবদ্ধ করা / একত্রিত করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "团体",
+    "Pinyin": "tuántǐ",
+    "EN": "group",
+    "BN": "দল / গোষ্ঠী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "推动",
+    "Pinyin": "tuī dòng",
+    "EN": "promote; push forward;",
+    "BN": "উন্নীত করা; এগিয়ে নেওয়া; গতি বাড়াতে সাহায্য করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "推广",
+    "Pinyin": "tuīguǎng",
+    "EN": "Extension",
+    "BN": "সম্প্রসারণ / বর্ধিত অংশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "推进",
+    "Pinyin": "tuī jìn",
+    "EN": "advance; carry forward; push on; give impetus to",
+    "BN": "এগিয়ে নেওয়া; চালিয়ে যাওয়া; সামনে ঠেলে নেওয়া; গতি দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "推开",
+    "Pinyin": "tuī kāi",
+    "EN": "push away",
+    "BN": "দূরে ঠেলে দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "退",
+    "Pinyin": "tuì",
+    "EN": "retreat",
+    "BN": "পিছু হটা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "退出",
+    "Pinyin": "tuì chū",
+    "EN": "drop out; quit; withdraw",
+    "BN": "পড়াশোনা/কাজ ছেড়ে দেওয়া; ত্যাগ করা; প্রত্যাহার করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "退休",
+    "Pinyin": "tuìxiū",
+    "EN": "retire",
+    "BN": "অবসর নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "外交",
+    "Pinyin": "wàijiāo",
+    "EN": "diplomacy",
+    "BN": "কূটনীতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "外面",
+    "Pinyin": "wài miàn",
+    "EN": "outside; outdoors; outward appearance",
+    "BN": "বাইরে; খোলা জায়গায়; বাহ্যিক চেহারা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "外文",
+    "Pinyin": "wài wén",
+    "EN": "foreign language",
+    "BN": "বিদেশি ভাষা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "完美",
+    "Pinyin": "wánměi",
+    "EN": "perfect",
+    "BN": "নিখুঁত / সম্পূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "完善",
+    "Pinyin": "wánshàn",
+    "EN": "perfect, consummate",
+    "BN": "একেবারে নিখুঁত / পরিপূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "完整",
+    "Pinyin": "wánzhěng",
+    "EN": "complete",
+    "BN": "সম্পূর্ণ / শেষ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "玩具",
+    "Pinyin": "wánjù",
+    "EN": "Toys",
+    "BN": "খেলনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "往往",
+    "Pinyin": "wǎngwǎng",
+    "EN": "Often",
+    "BN": "প্রায়ই"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "危害",
+    "Pinyin": "wēihài",
+    "EN": "Harm",
+    "BN": "ক্ষতি / ক্ষতি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "危险",
+    "Pinyin": "wēixiǎn",
+    "EN": "danger",
+    "BN": "বিপদ / ঝুঁকি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "为（动）",
+    "Pinyin": "wéi",
+    "EN": "act as; become; be; mean",
+    "BN": "হিসেবে কাজ করা; হয়ে ওঠা; হওয়া; অর্থ বোঝানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "为（介）",
+    "Pinyin": "wèi",
+    "EN": "(preposition)",
+    "BN": "অব্যয় / পূর্বসর্গ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "围",
+    "Pinyin": "wéi",
+    "EN": "enclose; surround; circle",
+    "BN": "ঘিরে রাখা; চারপাশে থাকা; বৃত্তাকারে ঘেরা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "伟大",
+    "Pinyin": "wěidà",
+    "EN": "great",
+    "BN": "মহান / দারুণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "卫生",
+    "Pinyin": "wèi shēng",
+    "EN": "hygiene; health; sanitation",
+    "BN": "স্বাস্থ্যবিধি; স্বাস্থ্য; পরিচ্ছন্নতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "卫生间",
+    "Pinyin": "wèishēngjiān",
+    "EN": "toilet",
+    "BN": "টয়লেট / শৌচাগার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "为了",
+    "Pinyin": "wèile",
+    "EN": "in order to",
+    "BN": "করার জন্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "温暖",
+    "Pinyin": "wēnnuǎn",
+    "EN": "warm",
+    "BN": "উষ্ণ / গরম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "文化",
+    "Pinyin": "wénhuà",
+    "EN": "Culture",
+    "BN": "সংস্কৃতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "文件",
+    "Pinyin": "wénjiàn",
+    "EN": "file",
+    "BN": "ফাইল / নথি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "文明",
+    "Pinyin": "wénmíng",
+    "EN": "civilization",
+    "BN": "সভ্যতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "文学",
+    "Pinyin": "wénxué",
+    "EN": "literature",
+    "BN": "সাহিত্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "文章",
+    "Pinyin": "wénzhāng",
+    "EN": "Article",
+    "BN": "নিবন্ধ / প্রবন্ধ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "文字",
+    "Pinyin": "wénzì",
+    "EN": "writing, character",
+    "BN": "লেখা; অক্ষর / বর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "握手",
+    "Pinyin": "wòshǒu",
+    "EN": "Handshake",
+    "BN": "করমর্দন / হাত মেলানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "屋子",
+    "Pinyin": "wūzi",
+    "EN": "House",
+    "BN": "বাড়ি / ঘর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "武器",
+    "Pinyin": "wǔqì",
+    "EN": "arms",
+    "BN": "বাহু / অস্ত্র"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "武术",
+    "Pinyin": "wǔshù",
+    "EN": "A martial art",
+    "BN": "একটি মার্শাল আর্ট / যুদ্ধকলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "舞台",
+    "Pinyin": "wǔtái",
+    "EN": "stage; arena",
+    "BN": "মঞ্চ; ক্ষেত্র / অঙ্গন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "西部",
+    "Pinyin": "xī bù",
+    "EN": "west",
+    "BN": "পশ্চিম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "希望",
+    "Pinyin": "xīwàng",
+    "EN": "hope",
+    "BN": "আশা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "系",
+    "Pinyin": "xì",
+    "EN": "department",
+    "BN": "বিভাগ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "下来",
+    "Pinyin": "xià lái",
+    "EN": "come down; get down",
+    "BN": "নিচে নামা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "下面",
+    "Pinyin": "xià miàn",
+    "EN": "below; under; next",
+    "BN": "নিচে; তলায়; পরের / পাশে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "下去",
+    "Pinyin": "xià qù",
+    "EN": "go down; descend; go on; continue",
+    "BN": "নিচে যাওয়া; নামা; চালিয়ে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "先进",
+    "Pinyin": "xiānjìn",
+    "EN": "advanced",
+    "BN": "উন্নত / অগ্রসর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "显得",
+    "Pinyin": "xiǎnde",
+    "EN": "Appear",
+    "BN": "উপস্থিত হওয়া / দেখা দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "显然",
+    "Pinyin": "xiǎnrán",
+    "EN": "Obviously",
+    "BN": "স্পষ্টতই / পরিষ্কারভাবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "显示",
+    "Pinyin": "xiǎnshì",
+    "EN": "display",
+    "BN": "প্রদর্শন করা / প্রদর্শনী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "现场",
+    "Pinyin": "xiànchǎng",
+    "EN": "scene",
+    "BN": "দৃশ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "现代",
+    "Pinyin": "xiàndài",
+    "EN": "modern",
+    "BN": "আধুনিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "现金",
+    "Pinyin": "xiànjīn",
+    "EN": "cash",
+    "BN": "নগদ টাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "现实",
+    "Pinyin": "xiànshí",
+    "EN": "reality",
+    "BN": "বাস্তবতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "现象",
+    "Pinyin": "xiànxiàng",
+    "EN": "phenomenon",
+    "BN": "ঘটনা / প্রপঞ্চ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "线",
+    "Pinyin": "xiàn",
+    "EN": "thread; string; wire",
+    "BN": "সুতা; দড়ি; তার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "相比",
+    "Pinyin": "xiāngbǐ",
+    "EN": "compare; compare to",
+    "BN": "তুলনা করা; সঙ্গে তুলনা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "相当",
+    "Pinyin": "xiāngdāng",
+    "EN": "Quite",
+    "BN": "বেশ / যথেষ্ট"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "相关",
+    "Pinyin": "xiāngguān",
+    "EN": "correlate",
+    "BN": "সম্পর্কযুক্ত করা / সম্পর্ক থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "相互",
+    "Pinyin": "xiānghù",
+    "EN": "mutual; reciprocal; each-other",
+    "BN": "পারস্পরিক; একে অপরের"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "相似",
+    "Pinyin": "xiāngsì",
+    "EN": "Be similar",
+    "BN": "একই রকম হওয়া / মিল থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "香",
+    "Pinyin": "xiāng",
+    "EN": "fragrant",
+    "BN": "সুগন্ধযুক্ত / সুগন্ধি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "香蕉",
+    "Pinyin": "xiāngjiāo",
+    "EN": "Banana",
+    "BN": "কলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "消费",
+    "Pinyin": "xiāofèi",
+    "EN": "consumption",
+    "BN": "ব্যবহার / ভোগ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "消失",
+    "Pinyin": "xiāoshī",
+    "EN": "disappear",
+    "BN": "অদৃশ্য হয়ে যাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "消息",
+    "Pinyin": "xiāoxi",
+    "EN": "message",
+    "BN": "বার্তা / মেসেজ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "效果",
+    "Pinyin": "xiàoguǒ",
+    "EN": "Effect",
+    "BN": "প্রভাব / ফলাফল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "写作",
+    "Pinyin": "xiězuò",
+    "EN": "writing",
+    "BN": "লেখা / লিখন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "血",
+    "Pinyin": "xuè",
+    "EN": "blood",
+    "BN": "রক্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "心",
+    "Pinyin": "xīn",
+    "EN": "heart; feeling; centre; core",
+    "BN": "হৃদয়; অনুভূতি; কেন্দ্র; মূল অংশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "信（动）",
+    "Pinyin": "xìn",
+    "EN": "believe; trust",
+    "BN": "বিশ্বাস করা / আস্থা রাখা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "信封",
+    "Pinyin": "xìnfēng",
+    "EN": "envelope",
+    "BN": "খাম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "信任",
+    "Pinyin": "xìnrèn",
+    "EN": "trust",
+    "BN": "বিশ্বাস / আস্থা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "行李",
+    "Pinyin": "xínglǐ",
+    "EN": "luggage; baggage",
+    "BN": "লাগেজ / মালপত্র"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "形成",
+    "Pinyin": "xíngchéng",
+    "EN": "formation",
+    "BN": "গঠন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "形式",
+    "Pinyin": "xíngshì",
+    "EN": "form",
+    "BN": "রূপ / গঠন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "形象",
+    "Pinyin": "xíngxiàng",
+    "EN": "image",
+    "BN": "ছবি / প্রতিচ্ছবি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "形状",
+    "Pinyin": "xíngzhuàng",
+    "EN": "shape",
+    "BN": "আকৃতি / আকার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "幸福",
+    "Pinyin": "xìngfú",
+    "EN": "happiness",
+    "BN": "সুখ / আনন্দ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "幸运",
+    "Pinyin": "xìngyùn",
+    "EN": "Lucky",
+    "BN": "ভাগ্যবান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "性（积极性）",
+    "Pinyin": "xìng （jī jí xìng）",
+    "EN": "as a suffix (positivity)",
+    "BN": "প্রত্যয় হিসেবে (ইতিবাচকতা)"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "性别",
+    "Pinyin": "xìngbié",
+    "EN": "Gender",
+    "BN": "লিঙ্গ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "性格",
+    "Pinyin": "xìnggé",
+    "EN": "character",
+    "BN": "চরিত্র / অক্ষর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "修",
+    "Pinyin": "xiū",
+    "EN": "repair; build",
+    "BN": "মেরামত করা; নির্মাণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "修改",
+    "Pinyin": "xiūgǎi",
+    "EN": "modify",
+    "BN": "পরিবর্তন করা / সংশোধন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "需求",
+    "Pinyin": "xūqiú",
+    "EN": "demand",
+    "BN": "চাহিদা / দাবি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "需要",
+    "Pinyin": "xūyào",
+    "EN": "Need",
+    "BN": "প্রয়োজন / প্রয়োজন হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "宣布",
+    "Pinyin": "xuānbù",
+    "EN": "Announce",
+    "BN": "ঘোষণা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "宣传",
+    "Pinyin": "xuānchuán",
+    "EN": "Propaganda",
+    "BN": "প্রচারণা / প্রচার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "选手",
+    "Pinyin": "xuǎnshǒu",
+    "EN": "Player",
+    "BN": "খেলোয়াড় / প্লেয়ার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "学费",
+    "Pinyin": "xué fèi",
+    "EN": "tuition fee; tuition; school fee",
+    "BN": "টিউশন ফি / পড়াশোনার ফি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "训练",
+    "Pinyin": "xùnliàn",
+    "EN": "train",
+    "BN": "ট্রেন / প্রশিক্ষণ দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "压",
+    "Pinyin": "yā",
+    "EN": "press; push; keep under control;",
+    "BN": "চাপ দেওয়া; ঠেলে দেওয়া; নিয়ন্ত্রণে রাখা; চাপ প্রয়োগ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "压力",
+    "Pinyin": "yālì",
+    "EN": "pressure",
+    "BN": "চাপ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "烟",
+    "Pinyin": "yān",
+    "EN": "smoke; tobacco;",
+    "BN": "ধোঁয়া; তামাক; ধোঁয়ায় বিরক্ত হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "眼前",
+    "Pinyin": "yǎn qián",
+    "EN": "now; at the moment;",
+    "BN": "এখন; এই মুহূর্তে; চোখের সামনে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "演",
+    "Pinyin": "yǎn",
+    "EN": "play; act; perform",
+    "BN": "খেলা; অভিনয় করা; পরিবেশন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "演唱",
+    "Pinyin": "yǎn chàng",
+    "EN": "sing",
+    "BN": "গান গাওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "演唱会",
+    "Pinyin": "yǎn chànghuì",
+    "EN": "concert",
+    "BN": "কনসার্ট / সঙ্গীতানুষ্ঠান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "演出",
+    "Pinyin": "yǎnchū",
+    "EN": "show",
+    "BN": "দেখানো / অনুষ্ঠান"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "演员",
+    "Pinyin": "yǎnyuán",
+    "EN": "performer, actor",
+    "BN": "অভিনয়শিল্পী / অভিনেতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "羊",
+    "Pinyin": "yáng",
+    "EN": "sheep",
+    "BN": "ভেড়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "阳光",
+    "Pinyin": "yángguāng",
+    "EN": "Sunshine",
+    "BN": "রোদ / সূর্যের আলো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "要是",
+    "Pinyin": "yàoshi",
+    "EN": "If",
+    "BN": "যদি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "衣架",
+    "Pinyin": "yī jià",
+    "EN": "hanger; clothes stand; clothes tree",
+    "BN": "হ্যাঙ্গার; কাপড় রাখার স্ট্যান্ড"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "一切",
+    "Pinyin": "yíqiè",
+    "EN": "everything",
+    "BN": "সবকিছু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "已",
+    "Pinyin": "yǐ",
+    "EN": "already; afterwards",
+    "BN": "ইতিমধ্যে; পরে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "以来",
+    "Pinyin": "yǐlái",
+    "EN": "Since",
+    "BN": "যেহেতু / থেকে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "一方面",
+    "Pinyin": "yì fāng miàn",
+    "EN": "on the one hand",
+    "BN": "একদিকে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "艺术",
+    "Pinyin": "yìshù",
+    "EN": "Art",
+    "BN": "শিল্প / কলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "意外",
+    "Pinyin": "yìwài",
+    "EN": "Accident",
+    "BN": "দুর্ঘটনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "意义",
+    "Pinyin": "yìyì",
+    "EN": "Significance",
+    "BN": "গুরুত্ব / তাৎপর্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "因此",
+    "Pinyin": "yīncǐ",
+    "EN": "therefore",
+    "BN": "তাই / সুতরাং"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "银",
+    "Pinyin": "yín",
+    "EN": "silver",
+    "BN": "রূপা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "银牌",
+    "Pinyin": "yín pái",
+    "EN": "silver medal",
+    "BN": "রৌপ্যপদক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "印象",
+    "Pinyin": "yìnxiàng",
+    "EN": "impression",
+    "BN": "ধারণা / ছাপ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "应当",
+    "Pinyin": "yīngdāng",
+    "EN": "should; ought to",
+    "BN": "উচিত / করা উচিত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "迎接",
+    "Pinyin": "yíngjiē",
+    "EN": "meet, pick, welcome",
+    "BN": "দেখা করা; নিতে যাওয়া; স্বাগত জানানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "营养",
+    "Pinyin": "yíngyǎng",
+    "EN": "Nutrition",
+    "BN": "পুষ্টি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "赢",
+    "Pinyin": "yíng",
+    "EN": "win",
+    "BN": "জেতা / বিজয়ী হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "影视",
+    "Pinyin": "yǐng shì",
+    "EN": "film and television",
+    "BN": "চলচ্চিত্র ও টেলিভিশন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "应用",
+    "Pinyin": "yìngyòng",
+    "EN": "application",
+    "BN": "আবেদন / অ্যাপ্লিকেশন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "优点",
+    "Pinyin": "yōudiǎn",
+    "EN": "Advantage",
+    "BN": "সুবিধা / সুবিধাজনক দিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "优势",
+    "Pinyin": "yōushì",
+    "EN": "advantage",
+    "BN": "সুবিধা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "由",
+    "Pinyin": "yóu",
+    "EN": "from",
+    "BN": "থেকে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "由于",
+    "Pinyin": "yóuyú",
+    "EN": "Because",
+    "BN": "কারণ / যেহেতু"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "邮件",
+    "Pinyin": "yóu jiàn",
+    "EN": "mail; post; postal matter",
+    "BN": "ডাক; পোস্ট; ডাকযোগে পাঠানো জিনিস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "邮票",
+    "Pinyin": "yóu piào",
+    "EN": "postage stamp; stamp",
+    "BN": "ডাকটিকিট; স্ট্যাম্প"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "邮箱",
+    "Pinyin": "yóu xiāng",
+    "EN": "postbox; mailbox",
+    "BN": "ডাকবাক্স / মেইলবক্স"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "游",
+    "Pinyin": "yóu",
+    "EN": "swim; wander; travel; tour",
+    "BN": "সাঁতার কাটা; ঘোরাঘুরি করা; ভ্রমণ করা; ট্যুর করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "游戏",
+    "Pinyin": "yóuxì",
+    "EN": "Game",
+    "BN": "খেলা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "游泳",
+    "Pinyin": "yóuyǒng",
+    "EN": "Swimming",
+    "BN": "সাঁতার"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "有的是",
+    "Pinyin": "yǒudeshì",
+    "EN": "have plenty of; there’s no lack of",
+    "BN": "প্রচুর থাকা; কোনো অভাব না থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "有利",
+    "Pinyin": "yǒulì",
+    "EN": "favourable; beneficial",
+    "BN": "অনুকূল; উপকারী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "有效",
+    "Pinyin": "yǒuxiào",
+    "EN": "effective; valid",
+    "BN": "কার্যকর; বৈধ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "预报",
+    "Pinyin": "yùbào",
+    "EN": "prediction",
+    "BN": "পূর্বাভাস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "预防",
+    "Pinyin": "yùfáng",
+    "EN": "Prevention",
+    "BN": "প্রতিরোধ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "预计",
+    "Pinyin": "yù jì",
+    "EN": "expected; estimate",
+    "BN": "প্রত্যাশিত; অনুমান করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "预习",
+    "Pinyin": "yùxí",
+    "EN": "Preview",
+    "BN": "আগাম দেখা / প্রাকদর্শন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "员（服务员）",
+    "Pinyin": "yuán（fúwùyuán）",
+    "EN": "(waiter; waitress; server)",
+    "BN": "ওয়েটার, পরিবেশনকারী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "员工",
+    "Pinyin": "yuángōng",
+    "EN": "employee",
+    "BN": "কর্মচারী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "愿望",
+    "Pinyin": "yuànwàng",
+    "EN": "desire",
+    "BN": "ইচ্ছা / আকাঙ্ক্ষা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "约",
+    "Pinyin": "yuē",
+    "EN": "appointment; agreement",
+    "BN": "সাক্ষাতের সময়; চুক্তি / সমঝোতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "乐队",
+    "Pinyin": "yuèduì",
+    "EN": "orchestra; band",
+    "BN": "অর্কেস্ট্রা; ব্যান্ড"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "运输",
+    "Pinyin": "yùnshū",
+    "EN": "transport",
+    "BN": "পরিবহন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "杂志",
+    "Pinyin": "zázhì",
+    "EN": "Magazine",
+    "BN": "ম্যাগাজিন / সাময়িকী"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "已",
+    "Pinyin": "zǎo yǐ",
+    "EN": "long ago; for a long time",
+    "BN": "অনেক আগে; দীর্ঘ সময় ধরে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "造",
+    "Pinyin": "zào",
+    "EN": "make; build; create; produce",
+    "BN": "তৈরি করা; নির্মাণ করা; সৃষ্টি করা; উৎপাদন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "造成",
+    "Pinyin": "zàochéng",
+    "EN": "cause",
+    "BN": "কারণ / ঘটানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "责任",
+    "Pinyin": "zérèn",
+    "EN": "responsibility",
+    "BN": "দায়িত্ব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "增加",
+    "Pinyin": "zēngjiā",
+    "EN": "increase",
+    "BN": "বৃদ্ধি / বাড়ানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "增长",
+    "Pinyin": "zēngzhǎng",
+    "EN": "increase; grow",
+    "BN": "বৃদ্ধি পাওয়া; বেড়ে ওঠা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "展开",
+    "Pinyin": "zhǎnkāi",
+    "EN": "Open",
+    "BN": "খোলা / উন্মুক্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "张",
+    "Pinyin": "zhāng",
+    "EN": "Zhang",
+    "BN": "ঝাং (চীনা নাম)"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "照",
+    "Pinyin": "zhào",
+    "EN": "reflect",
+    "BN": "প্রতিফলিত করা / প্রতিফলিত হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "者（志愿者）",
+    "Pinyin": "zhě （zhì yuàn zhě）",
+    "EN": "suffix (volunteer)",
+    "BN": "প্রত্যয় (স্বেচ্ছাসেবক)"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "真实",
+    "Pinyin": "zhēnshí",
+    "EN": "real",
+    "BN": "আসল / বাস্তব"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "争",
+    "Pinyin": "zhēng",
+    "EN": "contend; dispute",
+    "BN": "বিরোধ করা; বিতর্ক করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "争取",
+    "Pinyin": "zhēngqǔ",
+    "EN": "strive for",
+    "BN": "অর্জনের জন্য চেষ্টা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "整",
+    "Pinyin": "zhěng",
+    "EN": "whole; all; entire; complete",
+    "BN": "পুরো; সব; সম্পূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "整个",
+    "Pinyin": "zhěnggè",
+    "EN": "Whole",
+    "BN": "পুরো / সম্পূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "整理",
+    "Pinyin": "zhěnglǐ",
+    "EN": "Arrangement",
+    "BN": "ব্যবস্থা / আয়োজন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "整齐",
+    "Pinyin": "zhěngqí",
+    "EN": "neat",
+    "BN": "পরিপাটি / গোছানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "整体",
+    "Pinyin": "zhěngtǐ",
+    "EN": "Whole",
+    "BN": "পুরো / সম্পূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "整天",
+    "Pinyin": "zhěng tiān",
+    "EN": "all day long",
+    "BN": "সারাদিন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "整整",
+    "Pinyin": "zhěng zhěng",
+    "EN": "whole; full",
+    "BN": "পুরো; পূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "正（形）",
+    "Pinyin": "zhèng",
+    "EN": "straight; upright",
+    "BN": "সোজা / খাড়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "正式",
+    "Pinyin": "zhèngshì",
+    "EN": "formal",
+    "BN": "আনুষ্ঠানিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "证",
+    "Pinyin": "zhèng",
+    "EN": "certificate; proof",
+    "BN": "সনদ; প্রমাণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "证件",
+    "Pinyin": "zhèngjiàn",
+    "EN": "Certificates",
+    "BN": "সনদপত্রসমূহ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "证据",
+    "Pinyin": "zhèngjù",
+    "EN": "evidence",
+    "BN": "প্রমাণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "证明",
+    "Pinyin": "zhèngmíng",
+    "EN": "Prove",
+    "BN": "প্রমাণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "支（量）",
+    "Pinyin": "zhī",
+    "EN": "(measure word)",
+    "BN": "পরিমাপবাচক শব্দ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "支持",
+    "Pinyin": "zhīchí",
+    "EN": "Support",
+    "BN": "সমর্থন / সহায়তা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "支付",
+    "Pinyin": "zhī fù",
+    "EN": "pay money; defray",
+    "BN": "টাকা পরিশোধ করা; খরচ বহন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "只",
+    "Pinyin": "zhī",
+    "EN": "single; lonely",
+    "BN": "একা; নিঃসঙ্গ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "直",
+    "Pinyin": "zhí",
+    "EN": "straight",
+    "BN": "সোজা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "直播",
+    "Pinyin": "zhíbō",
+    "EN": "on live",
+    "BN": "সরাসরি সম্প্রচারে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "直到",
+    "Pinyin": "zhí dào",
+    "EN": "until",
+    "BN": "পর্যন্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "值",
+    "Pinyin": "zhí",
+    "EN": "value; be worth",
+    "BN": "মূল্য;"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "值得",
+    "Pinyin": "zhíde",
+    "EN": "Worth",
+    "BN": "মূল্যবান হওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "职工",
+    "Pinyin": "zhí gōng",
+    "EN": "staff; worker",
+    "BN": "মূল্য / যোগ্য"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "职业",
+    "Pinyin": "zhíyè",
+    "EN": "Occupation",
+    "BN": "কর্মী / স্টাফ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "只好",
+    "Pinyin": "zhǐhǎo",
+    "EN": "have to",
+    "BN": "পেশা / কাজ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "只是",
+    "Pinyin": "zhǐshì",
+    "EN": "merely; only; just",
+    "BN": "করতে হবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "只有",
+    "Pinyin": "zhǐyǒu",
+    "EN": "only",
+    "BN": "শুধু; মাত্র; কেবল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "指",
+    "Pinyin": "zhǐ",
+    "EN": "finger",
+    "BN": "শুধু / মাত্র"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "指出",
+    "Pinyin": "zhǐ chū",
+    "EN": "point out; indicate",
+    "BN": "আঙুল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "指导",
+    "Pinyin": "zhǐdǎo",
+    "EN": "guidance",
+    "BN": "নির্দেশ করা / দেখিয়ে দেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "至今",
+    "Pinyin": "zhìjīn",
+    "EN": "so far",
+    "BN": "নির্দেশনা / দিকনির্দেশনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "至少",
+    "Pinyin": "zhìshǎo",
+    "EN": "at least",
+    "BN": "এখন পর্যন্ত/অন্তত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "志愿",
+    "Pinyin": "zhì yuàn",
+    "EN": "volunteer; aspiration; wish",
+    "BN": "স্বেচ্ছাসেবক; আকাঙ্ক্ষা; ইচ্ছা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "志愿者",
+    "Pinyin": "zhìyuànzhě",
+    "EN": "Volunteer",
+    "BN": "স্বেচ্ছাসেবক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "制定",
+    "Pinyin": "zhìdìng",
+    "EN": "Formulate",
+    "BN": "প্রণয়ন করা / তৈরি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "制度",
+    "Pinyin": "zhìdù",
+    "EN": "system",
+    "BN": "ব্যবস্থা / সিস্টেম"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "制造",
+    "Pinyin": "zhìzào",
+    "EN": "Manufacture",
+    "BN": "উৎপাদন করা / তৈরি করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "制作",
+    "Pinyin": "zhìzuò",
+    "EN": "Make",
+    "BN": "তৈরি করা / বানানো"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "中部",
+    "Pinyin": "zhōngbù",
+    "EN": "central section; middle part",
+    "BN": "কেন্দ্রীয় অংশ / মাঝের অংশ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "中华民族",
+    "Pinyin": "zhōnghuámín zú",
+    "EN": "Chinese nation",
+    "BN": "চীনা জাতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "终于",
+    "Pinyin": "zhōngyú",
+    "EN": "finally",
+    "BN": "অবশেষে / শেষ পর্যন্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "钟",
+    "Pinyin": "zhōng",
+    "EN": "bell; clock; call bell; time",
+    "BN": "ঘণ্টা; ঘড়ি; কলিং বেল; সময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "种",
+    "Pinyin": "zhǒng",
+    "EN": "species",
+    "BN": "প্রজাতি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "种子",
+    "Pinyin": "zhǒngzi",
+    "EN": "seed",
+    "BN": "বীজ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "重大",
+    "Pinyin": "zhòngdà",
+    "EN": "significant",
+    "BN": "গুরুত্বপূর্ণ / তাৎপর্যপূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "周围",
+    "Pinyin": "zhōuwéi",
+    "EN": "around",
+    "BN": "চারপাশে / প্রায়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "猪",
+    "Pinyin": "zhū",
+    "EN": "pig",
+    "BN": "শূকর"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "主持",
+    "Pinyin": "zhǔchí",
+    "EN": "Host",
+    "BN": "আয়োজক / উপস্থাপক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "主动",
+    "Pinyin": "zhǔdòng",
+    "EN": "active",
+    "BN": "সক্রিয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "主任",
+    "Pinyin": "zhǔrèn",
+    "EN": "Headmaster",
+    "BN": "প্রধান শিক্ষক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "主意",
+    "Pinyin": "zhǔyi",
+    "EN": "idea",
+    "BN": "ধারণা / ভাবনা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "主张",
+    "Pinyin": "zhǔzhāng",
+    "EN": "opinion",
+    "BN": "মতামত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "注意",
+    "Pinyin": "zhùyì",
+    "EN": "Be careful",
+    "BN": "সাবধান হওয়া / সতর্ক থাকা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "祝",
+    "Pinyin": "zhù",
+    "EN": "express good wishes; wish",
+    "BN": "শুভকামনা জানানো; কামনা করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "抓",
+    "Pinyin": "zhuā",
+    "EN": "grab",
+    "BN": "আঁকড়ে ধরা / ধরে নেওয়া"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "抓住",
+    "Pinyin": "zhuā zhù",
+    "EN": "catch; catch hold of; grip; capture",
+    "BN": "ধরা; আঁকড়ে ধরা; শক্ত করে ধরা; আটক করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "专家",
+    "Pinyin": "zhuānjiā",
+    "EN": "expert",
+    "BN": "বিশেষজ্ঞ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "专门",
+    "Pinyin": "zhuānmén",
+    "EN": "specialized",
+    "BN": "বিশেষায়িত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "专题",
+    "Pinyin": "zhuāntí",
+    "EN": "special collection",
+    "BN": "বিশেষ সংগ্রহ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "专业",
+    "Pinyin": "zhuānyè",
+    "EN": "major",
+    "BN": "প্রধান / গুরুত্বপূর্ণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "转",
+    "Pinyin": "zhuàn",
+    "EN": "turn",
+    "BN": "ঘোরা / মোড়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "转变",
+    "Pinyin": "zhuǎnbiàn",
+    "EN": "change",
+    "BN": "পরিবর্তন করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "状况",
+    "Pinyin": "zhuàngkuàng",
+    "EN": "status",
+    "BN": "অবস্থা / স্ট্যাটাস"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "状态",
+    "Pinyin": "zhuàngtài",
+    "EN": "state",
+    "BN": "অবস্থা / রাষ্ট্র"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "追",
+    "Pinyin": "zhuī",
+    "EN": "run after",
+    "BN": "পেছনে দৌড়ানো / অনুসরণ করা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "准",
+    "Pinyin": "zhǔn",
+    "EN": "follow; permit; allow; standard",
+    "BN": "অনুসরণ করা; অনুমতি দেওয়া; অনুমোদন করা; মানদণ্ড"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "资格",
+    "Pinyin": "zīgé",
+    "EN": "Qualifications",
+    "BN": "যোগ্যতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "资金",
+    "Pinyin": "zījīn",
+    "EN": "capital",
+    "BN": "রাজধানী / মূলধন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "子女",
+    "Pinyin": "zǐnǚ",
+    "EN": "child; sons and daughters",
+    "BN": "শিশু; ছেলে-মেয়ে / সন্তানসন্ততি"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "自从",
+    "Pinyin": "zìcóng",
+    "EN": "Since",
+    "BN": "যেহেতু / থেকে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "自动",
+    "Pinyin": "zìdòng",
+    "EN": "automatic",
+    "BN": "স্বয়ংক্রিয়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "自觉",
+    "Pinyin": "zìjué",
+    "EN": "Conscious",
+    "BN": "সচেতন"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "自然",
+    "Pinyin": "zìrán",
+    "EN": "natural",
+    "BN": "প্রাকৃতিক / স্বাভাবিক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "自身",
+    "Pinyin": "zì shēn",
+    "EN": "oneself; self",
+    "BN": "নিজে / নিজের"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "自主",
+    "Pinyin": "zìzhǔ",
+    "EN": "Autonomy",
+    "BN": "স্বায়ত্তশাসন / স্বাধীনভাবে পরিচালনার ক্ষমতা"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "总",
+    "Pinyin": "zǒng",
+    "EN": "always; consistently",
+    "BN": "সবসময়; ধারাবাহিকভাবে"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "总结",
+    "Pinyin": "zǒngjié",
+    "EN": "summary",
+    "BN": "সারসংক্ষেপ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "总是",
+    "Pinyin": "zǒngshì",
+    "EN": "always",
+    "BN": "সবসময়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "足够",
+    "Pinyin": "zú gòu",
+    "EN": "enough; ample; sufficient",
+    "BN": "যথেষ্ট / পর্যাপ্ত"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "足球",
+    "Pinyin": "zú qiú",
+    "EN": "soccer; football",
+    "BN": "ফুটবল"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "组合",
+    "Pinyin": "zǔhé",
+    "EN": "combination",
+    "BN": "সমন্বয় / সংমিশ্রণ"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "左右",
+    "Pinyin": "zuǒyòu",
+    "EN": "About",
+    "BN": "সম্পর্কে / প্রায়"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "作品",
+    "Pinyin": "zuòpǐn",
+    "EN": "works",
+    "BN": "কাজ করে / রচনাসমূহ/"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "作者",
+    "Pinyin": "zuòzhě",
+    "EN": "author",
+    "BN": "লেখক"
+  },
+  {
+    "hsk_level": 3,
+    "Chinese": "做客",
+    "Pinyin": "zuò kè",
+    "EN": "be a guest",
+    "BN": "অতিথি হওয়া / অতিথি হিসেবে থাকা"
+  }
+]
