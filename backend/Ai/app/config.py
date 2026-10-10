@@ -15,7 +15,7 @@ class Settings(BaseSettings):
         "http://127.0.0.1:11434"
     )
 
-    ollama_model: str = "qwen2.5:3b"
+    ollama_model: str = "qwen2.5vl:3b"
 
     django_url: str = (
         "http://127.0.0.1:8000"

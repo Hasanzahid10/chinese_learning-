@@ -6,7 +6,6 @@ from .config import settings
 
 
 def stream_chat(messages):
-
     response = requests.post(
         f"{settings.ollama_url}/api/chat",
         json={
