@@ -1,5 +1,7 @@
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from rest_framework import serializers
+
+User = get_user_model()
 
 
 class SignUpSerializer(serializers.ModelSerializer):
@@ -42,3 +44,43 @@ class SignUpSerializer(serializers.ModelSerializer):
         )
 
         return user
+
+
+class StudentProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        from .models import StudentProfile
+        model = StudentProfile
+        fields = [
+            "display_name",
+            "phone",
+            "bio",
+            "native_language",
+            "current_hsk_level",
+            "target_hsk_level",
+            "current_streak",
+            "longest_streak",
+            "last_study_date",
+            "daily_goal_words",
+            "total_xp",
+            "is_pinyin_enabled",
+            "is_traditional_chinese",
+            "is_reminder_active",
+            "reminder_time",
+            "audio_speed",
+            "is_two_factor_enabled",
+            "created_at",
+            "updated_at",
+        ]
+        read_only_fields = [
+            "current_streak",
+            "longest_streak",
+            "last_study_date",
+            "total_xp",
+            "created_at",
+            "updated_at",
+        ]
+
+
+class ChangePasswordSerializer(serializers.Serializer):
+    old_password = serializers.CharField(required=True)
+    new_password = serializers.CharField(required=True, min_length=8)

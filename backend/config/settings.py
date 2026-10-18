@@ -14,7 +14,8 @@ import environ
 from datetime import timedelta
 from pathlib import Path
 
-from django.conf.global_settings import AUTH_USER_MODEL
+AUTH_USER_MODEL = 'authentication.User'
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 #BASE_DIR = Path(__file__).resolve().parent.parent
@@ -31,7 +32,8 @@ SECRET_KEY = 'django-insecure-fa=z1ds4u8gcbwu+g6symjs0%#6t%brbv#z6=y^$b4@$7=rz_a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Application definition
@@ -89,16 +91,27 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME':env('DB_NAME'),
-        'USER':env('DB_USER'),
-        'PASSWORD':env('DB_PASSWORD'),
-        'HOST':env('DB_HOST',default="127.0.0.1"),
-        'PORT':env('DB_PORT',default="5432"),
+USE_SQLITE = env.bool('USE_SQLITE', default=False)
+
+if USE_SQLITE:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': env('DB_NAME'),
+            'USER': env('DB_USER'),
+            'PASSWORD': env('DB_PASSWORD'),
+            'HOST': env('DB_HOST', default="127.0.0.1"),
+            'PORT': env('DB_PORT', default="5432"),
+        }
+    }
+
 
 
 # Password validation

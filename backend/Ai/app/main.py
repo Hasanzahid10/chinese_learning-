@@ -130,7 +130,7 @@ def save_assistant_message(
 
 def verify_conversation_owner(
     conversation_id: int,
-    user_id: int,
+    user_id: str,
 ):
 
     print(
@@ -228,7 +228,7 @@ def chat_stream(
         credentials
     )
 
-    user_id = int(
+    user_id = str(
         payload["user_id"]
     )
 

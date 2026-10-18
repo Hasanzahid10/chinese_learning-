@@ -1,0 +1,429 @@
+{
+	"info": {
+		"_postman_id": "c1f2e3d4-5678-4901-abcd-1234567890ab",
+		"name": "Chinese Learning App API Collection",
+		"description": "Complete Postman collection for Chinese Bangla Dictionary & AI Learning App Backend (Django REST API & FastAPI Service).",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		},
+		{
+			"key": "aiUrl",
+			"value": "http://127.0.0.1:8001",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "internalKey",
+			"value": "ai-internal-secret-key",
+			"type": "string"
+		}
+	],
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Sign Up (Register)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"student1\",\n  \"email\": \"student1@example.com\",\n  \"password\": \"Password123!\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/signup/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "signup", ""]
+						}
+					}
+				},
+				{
+					"name": "Sign In (Obtain JWT)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();",
+									"if (jsonData.tokens && jsonData.tokens.access) {",
+									"    pm.collectionVariables.set('token', jsonData.tokens.access);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"student1\",\n  \"password\": \"Password123!\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/signin/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "auth", "signin", ""]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Dictionary & Study",
+			"item": [
+				{
+					"name": "Search Dictionary Words",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/dictionary/search/?q=hello&hsk=1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "dictionary", "search", ""],
+							"query": [
+								{
+									"key": "q",
+									"value": "hello",
+									"description": "Search string (Chinese, Pinyin, English, or Bangla)"
+								},
+								{
+									"key": "hsk",
+									"value": "1",
+									"description": "HSK level filter (1 to 6)"
+								}
+							]
+						}
+					}
+				},
+				{
+					"name": "Get Word Detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/dictionary/1/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "dictionary", "1", ""]
+						}
+					}
+				},
+				{
+					"name": "Get Next Study Flashcard",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/dictionary/study/?hsk=1",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "dictionary", "study", ""],
+							"query": [
+								{
+									"key": "hsk",
+									"value": "1"
+								}
+							]
+						}
+					}
+				},
+				{
+					"name": "Submit Study Answer",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"word_id\": 1,\n  \"correct\": true\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/dictionary/study/answer/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "dictionary", "study", "answer", ""]
+						}
+					}
+				},
+				{
+					"name": "Get Study Progress",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/dictionary/study/progress/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "dictionary", "study", "progress", ""]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Chatbot & Conversations",
+			"item": [
+				{
+					"name": "List Conversations",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/chatbot/conversations/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "chatbot", "conversations", ""]
+						}
+					}
+				},
+				{
+					"name": "Create Conversation",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"Practice Greetings\",\n  \"mode\": \"chinese\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/chatbot/conversations/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "chatbot", "conversations", ""]
+						}
+					}
+				},
+				{
+					"name": "Get Conversation Detail",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/chatbot/conversations/1/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "chatbot", "conversations", "1", ""]
+						}
+					}
+				},
+				{
+					"name": "Post User Chat Message",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"message\": \"Nǐ hǎo! Nǐ jiào shénme míngzi?\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/chatbot/conversations/1/messages/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "chatbot", "conversations", "1", "messages", ""]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "AI Microservice (FastAPI)",
+			"item": [
+				{
+					"name": "AI Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{aiUrl}}/health",
+							"host": ["{{aiUrl}}"],
+							"path": ["health"]
+						}
+					}
+				},
+				{
+					"name": "Stream AI Chat Response",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"conversation_id\": 1,\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"Hello, teach me basic Chinese greeting words.\"\n    }\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{aiUrl}}/api/ai/chat/stream",
+							"host": ["{{aiUrl}}"],
+							"path": ["api", "ai", "chat", "stream"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Internal Service Webhooks",
+			"item": [
+				{
+					"name": "Internal: Save Assistant Message",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Internal-Key",
+								"value": "{{internalKey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"conversation_id\": 1,\n  \"request_id\": \"123e4567-e89b-12d3-a456-426614174000\",\n  \"content\": \"Nǐ hǎo! I am your AI Chinese tutor.\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/chatbot/internal/assistant-message/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "chatbot", "internal", "assistant-message", ""]
+						}
+					}
+				},
+				{
+					"name": "Internal: Check Conversation Owner",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Internal-Key",
+								"value": "{{internalKey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"conversation_id\": 1,\n  \"user_id\": 1\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/chatbot/internal/conversation-owner/",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "chatbot", "internal", "conversation-owner", ""]
+						}
+					}
+				}
+			]
+		}
+	]
+}
