@@ -5,7 +5,7 @@ from datetime import date, timedelta
 from pathlib import Path
 from django.conf import settings
 from django.contrib.auth import get_user_model
-from django.db.models import Q
+from django.db.models import Q, Sum, Avg, Count
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
 
@@ -15,8 +15,19 @@ from rest_framework import status
 from rest_framework.permissions import AllowAny, IsAuthenticated
 
 from authentication.models import StudentProfile
-from .models import HSKWord, StudyProgress
+from .models import HSKWord, StudyProgress, UserAchievement, QuizRecord, UserNotification
 from .serializers import (DictionaryWordSerializer, StudyProgressSerializer)
+from .gamification_engine import (
+    get_user_rank_info,
+    calculate_hsk_unlocks,
+    check_and_award_achievements,
+    generate_daily_quiz,
+    evaluate_daily_quiz,
+)
+from .notification_engine import (
+    generate_smart_notifications,
+    send_admin_broadcast,
+)
 
 
 def update_student_streak(user):
@@ -101,12 +112,33 @@ def get_student_learning_summary(user):
     else:
         guidance_note = f"প্রতিদিন ১০টি শব্দ লক্ষ্য নিয়ে HSK {current_level} এগিয়ে চলছে।"
 
+    rank_info = get_user_rank_info(profile.total_xp)
+    hsk_unlocks = calculate_hsk_unlocks(user)
+
+    total_words_system = HSKWord.objects.count()
+    stage_1_learning = all_user_progress.filter(mastery_level=1).count()
+    stage_2_familiar = all_user_progress.filter(mastery_level=2).count()
+    stage_3_mastered = total_learned
+    stage_0_new = max(0, total_words_system - total_studied)
+
+    achievements_list = [
+        {
+            "key": ach.badge_key,
+            "title": ach.title,
+            "description": ach.description,
+            "icon": ach.icon,
+            "unlocked_at": ach.unlocked_at.strftime("%Y-%m-%d %H:%M"),
+        }
+        for ach in user.achievements.all()
+    ]
+
     return {
         "current_streak": profile.current_streak,
         "longest_streak": profile.longest_streak,
         "last_study_date": str(profile.last_study_date) if profile.last_study_date else None,
         "current_hsk_level": current_level,
         "target_hsk_level": profile.target_hsk_level,
+        "highest_hsk_level_unlocked": profile.highest_hsk_level_unlocked or 1,
         "hsk_progress_pct": hsk_progress_pct,
         "learned_count": total_learned,
         "study_count": total_studied,
@@ -121,7 +153,21 @@ def get_student_learning_summary(user):
         "guidance_note": guidance_note,
         "is_promotion_ready": is_promotion_ready,
         "daily_goal_words": profile.daily_goal_words,
+        # Gamification Core Metrics
         "total_xp": profile.total_xp,
+        "coins": profile.coins,
+        "rank": rank_info,
+        "hsk_learning_path": hsk_unlocks["levels"],
+        "mastery_counts": {
+            "new": stage_0_new,
+            "learning": stage_1_learning,
+            "familiar": stage_2_familiar,
+            "mastered": stage_3_mastered,
+        },
+        "achievements": {
+            "total_unlocked": len(achievements_list),
+            "badges": achievements_list,
+        },
         # Profile & Personal Details
         "display_name": profile.display_name or user.username,
         "phone": profile.phone,
@@ -218,120 +264,96 @@ class DictionaryDetailView(APIView):
 # Add study view card
 #================================
 class StudyCardView(APIView):
-    permission_classes = [IsAuthenticated]
+    permission_classes = [AllowAny]
+
+    def _get_target_user(self, request):
+        if request.user and request.user.is_authenticated:
+            return request.user
+        from django.contrib.auth import get_user_model
+        return get_user_model().objects.first()
+
     def get(self, request):
         hsk = request.GET.get("hsk")
+        limit = int(request.GET.get("limit", 15) or 15)
         now = timezone.now()
+        user = self._get_target_user(request)
 
         words = HSKWord.objects.all()
 
-        # Optional HSK filter
+        # Optional HSK filter (1 to 6)
         if hsk:
             try:
-                hsk = int(hsk)
+                hsk_num = int(hsk)
+                if hsk_num in range(1, 7):
+                    words = words.filter(hsk_level=hsk_num)
+            except (ValueError, TypeError):
+                pass
 
-                if hsk not in range(1, 7):
-                    return Response(
-                        {"error": "hsk must be between 1 and 6"},
-                        status=status.HTTP_400_BAD_REQUEST,
-                    )
+        # Exclude words already learned by THIS user
+        learned_ids = []
+        if user:
+            learned_ids = list(
+                StudyProgress.objects.filter(
+                    user=user, is_learned=True
+                ).values_list("word_id", flat=True)
+            )
+        available_words = words.exclude(id__in=learned_ids) if learned_ids else words
 
-                words = words.filter(hsk_level=hsk)
+        # 1. Priority: Words that are due for review for this user
+        due_words = []
+        if user:
+            due_ids = list(
+                StudyProgress.objects.filter(
+                    user=user,
+                    is_learned=False,
+                    next_review__lte=now,
+                ).values_list("word_id", flat=True)[:limit]
+            )
+            if due_ids:
+                due_words = list(available_words.filter(id__in=due_ids))
 
-            except ValueError:
-                return Response(
-                    {"error": "hsk must be a number from 1 to 6"},
-                    status=status.HTTP_400_BAD_REQUEST,
+        # 2. Priority: New words never studied
+        needed = limit - len(due_words)
+        new_words = []
+        if needed > 0:
+            if user:
+                studied_ids = list(
+                    StudyProgress.objects.filter(user=user).values_list("word_id", flat=True)
                 )
+                new_qs = available_words.exclude(id__in=studied_ids)
+            else:
+                new_qs = available_words
+            new_words = list(new_qs[:needed])
 
-        # ---------------------------------------------------------
-        # 1. EXCLUDE WORDS ALREADY LEARNED
-        # ---------------------------------------------------------
-        available_words = words.exclude(
-            study_progress__is_learned=True
-        )
+        # 3. Priority: Upcoming words waiting for review
+        selected_words = due_words + new_words
+        needed = limit - len(selected_words)
+        if needed > 0 and user:
+            upcoming_ids = list(
+                StudyProgress.objects.filter(
+                    user=user,
+                    is_learned=False,
+                    next_review__gt=now,
+                ).order_by("next_review").values_list("word_id", flat=True)[:needed]
+            )
+            if upcoming_ids:
+                upcoming_words = list(available_words.filter(id__in=upcoming_ids))
+                selected_words.extend(upcoming_words)
 
-        # ---------------------------------------------------------
-        # 2. FIND WORDS THAT ARE DUE FOR REVIEW
-        #
-        # next_review IS NULL = never studied
-        # next_review <= now = review is due
-        # ---------------------------------------------------------
-        due_words = available_words.filter(
-            Q(study_progress__next_review__isnull=True)
-            | Q(study_progress__next_review__lte=now)
-        ).distinct()
+        # Fallback if deck is empty
+        if not selected_words:
+            selected_words = list(words[:limit])
 
-        # ---------------------------------------------------------
-        # 3. PRIORITY:
-        #    First choose due words.
-        # ---------------------------------------------------------
-        due_count = due_words.count()
+        serializer = DictionaryWordSerializer(selected_words, many=True)
+        cards_data = serializer.data
 
-        if due_count > 0:
-            random_index = random.randint(0, due_count - 1)
-            word = due_words[random_index]
-
-            serializer = DictionaryWordSerializer(word)
-
-            return Response({
-                "card": serializer.data,
-                "show_answer": False,
-                "study_type": "due_review",
-            })
-
-        # ---------------------------------------------------------
-        # 4. NO DUE WORDS
-        #
-        # Look for completely new words that have no progress.
-        # ---------------------------------------------------------
-        new_words = available_words.filter(
-            study_progress__isnull=True
-        )
-
-        new_count = new_words.count()
-
-        if new_count > 0:
-            random_index = random.randint(0, new_count - 1)
-            word = new_words[random_index]
-
-            serializer = DictionaryWordSerializer(word)
-
-            return Response({
-                "card": serializer.data,
-                "show_answer": False,
-                "study_type": "new",
-            })
-
-        # ---------------------------------------------------------
-        # 5. EVERYTHING IS CURRENTLY WAITING FOR REVIEW
-        # ---------------------------------------------------------
-        upcoming_words = available_words.filter(
-            study_progress__next_review__gt=now
-        ).order_by(
-            "study_progress__next_review"
-        )
-
-        upcoming_word = upcoming_words.first()
-
-        if upcoming_word:
-            progress = upcoming_word.study_progress.first()
-
-            serializer = DictionaryWordSerializer(upcoming_word)
-
-            return Response({
-                "card": serializer.data,
-                "show_answer": False,
-                "study_type": "upcoming_review",
-                "next_review": progress.next_review,
-            })
-
-        # ---------------------------------------------------------
-        # 6. NOTHING LEFT TO STUDY
-        # ---------------------------------------------------------
         return Response({
-            "message": "Congratulations! You have learned all available words.",
-            "study_type": "completed",
+            "card": cards_data[0] if cards_data else None,
+            "cards": cards_data,
+            "results": cards_data,
+            "total_count": len(cards_data),
+            "due_count": len(due_words),
+            "study_type": "due_review" if due_words else "new",
         })
 
 #=================================
@@ -374,26 +396,40 @@ class StudyAnswerView(APIView):
         streak = update_student_streak(user)
         now = timezone.now()
 
+        profile, _ = StudentProfile.objects.get_or_create(user=user)
+        xp_earned = 0
+
         if correct:
             progress.correct_count += 1
+            xp_earned = 10
+            profile.total_xp += 10
 
             if progress.correct_count >= 5:
                 progress.is_learned = True
+                progress.mastery_level = 3
                 progress.next_review = now + timezone.timedelta(days=7)
-
+                # Bonus XP for mastering a word
+                profile.total_xp += 15
+                xp_earned += 15
             elif progress.correct_count >= 3:
+                progress.mastery_level = 2
                 progress.next_review = now + timezone.timedelta(days=3)
-
-            else:
+            elif progress.correct_count >= 1:
+                progress.mastery_level = 1
                 progress.next_review = now + timezone.timedelta(days=1)
 
         else:
             progress.wrong_count += 1
             progress.is_learned = False
+            progress.mastery_level = 1 if progress.mastery_level > 0 else 0
             progress.next_review = now + timezone.timedelta(minutes=10)
 
         progress.last_studied = now
         progress.save()
+        profile.save(update_fields=["total_xp"])
+
+        new_badges = check_and_award_achievements(user)
+        rank_info = get_user_rank_info(profile.total_xp)
 
         serializer = StudyProgressSerializer(progress)
 
@@ -402,6 +438,12 @@ class StudyAnswerView(APIView):
             "progress": serializer.data,
             "current_streak": streak,
             "is_learned": progress.is_learned,
+            "mastery_level": progress.mastery_level,
+            "xp_earned": xp_earned,
+            "total_xp": profile.total_xp,
+            "coins": profile.coins,
+            "rank": rank_info,
+            "new_badges_unlocked": new_badges,
         })
 
 
@@ -472,15 +514,54 @@ class UserLearningStatusView(APIView):
                 "daily_goal_words": 10,
             })
 
+        display_name = getattr(getattr(user, "studentprofile", None), "display_name", "") or user.first_name or user.username
         summary = get_student_learning_summary(user)
         return Response({
             "user": {
                 "id": str(user.id),
                 "username": user.username,
                 "email": user.email,
+                "display_name": display_name,
             },
             **summary,
         })
+
+
+class DailyQuizView(APIView):
+    """
+    Daily 5-minute quiz endpoint:
+    GET: returns dynamic 5-question quiz for requested HSK level.
+    POST: grades quiz submission, awards XP/Coins, updates word mastery & badges.
+    """
+    permission_classes = [AllowAny]
+
+    def get(self, request):
+        user = request.user if request.user and request.user.is_authenticated else None
+        if not user:
+            UserModel = get_user_model()
+            user = UserModel.objects.first()
+
+        try:
+            hsk_level = int(request.query_params.get("level", 1))
+        except (ValueError, TypeError):
+            hsk_level = 1
+
+        quiz_data = generate_daily_quiz(user, hsk_level=hsk_level, count=5)
+        return Response(quiz_data)
+
+    def post(self, request):
+        user = request.user if request.user and request.user.is_authenticated else None
+        if not user:
+            UserModel = get_user_model()
+            user = UserModel.objects.first()
+
+        hsk_level = int(request.data.get("hsk_level", 1))
+        answers = request.data.get("answers", [])
+        if not isinstance(answers, list):
+            return Response({"error": "answers must be a list"}, status=status.HTTP_400_BAD_REQUEST)
+
+        result = evaluate_daily_quiz(user, hsk_level=hsk_level, answers=answers)
+        return Response(result)
 
 
 # ============================================================
@@ -506,6 +587,32 @@ class AdminStatsView(APIView):
         total_study = StudyProgress.objects.count()
         learned_words = StudyProgress.objects.filter(is_learned=True).count()
 
+        # Gamification aggregate metrics
+        total_xp_awarded = StudentProfile.objects.aggregate(total=Sum('total_xp'))['total'] or 0
+        total_coins_awarded = StudentProfile.objects.aggregate(total=Sum('coins'))['total'] or 0
+        avg_streak = round(StudentProfile.objects.aggregate(avg=Avg('current_streak'))['avg'] or 0, 1)
+
+        # SRS Word Mastery Distribution
+        mastery_stats = {
+            "mastered": StudyProgress.objects.filter(mastery_level=3).count(),
+            "familiar": StudyProgress.objects.filter(mastery_level=2).count(),
+            "learning": StudyProgress.objects.filter(mastery_level=1).count(),
+            "new": StudyProgress.objects.filter(mastery_level=0).count(),
+        }
+
+        # HSK Learner Distribution (Highest unlocked HSK tier)
+        hsk_user_distribution = {}
+        for lvl in range(1, 7):
+            hsk_user_distribution[lvl] = StudentProfile.objects.filter(highest_hsk_level_unlocked=lvl).count()
+
+        # Most popular HSK level
+        most_popular_hsk = 1
+        if hsk_user_distribution:
+            most_popular_hsk = max(hsk_user_distribution.items(), key=lambda x: x[1])[0]
+
+        total_quizzes = QuizRecord.objects.count()
+        total_badges = UserAchievement.objects.count()
+
         return Response({
             "status": "healthy",
             "total_words": total_words,
@@ -516,6 +623,16 @@ class AdminStatsView(APIView):
             "total_messages": total_msgs,
             "total_study_records": total_study,
             "learned_words": learned_words,
+            "gamification": {
+                "total_xp_awarded": total_xp_awarded,
+                "total_coins_awarded": total_coins_awarded,
+                "average_streak": avg_streak,
+                "most_popular_hsk": most_popular_hsk,
+                "hsk_user_distribution": hsk_user_distribution,
+                "mastery_stats": mastery_stats,
+                "total_quizzes_taken": total_quizzes,
+                "total_badges_unlocked": total_badges,
+            },
             "system": {
                 "database": "SQLite (db.sqlite3)" if getattr(settings, 'USE_SQLITE', True) else "PostgreSQL",
                 "python": platform.python_version(),
@@ -610,8 +727,31 @@ class AdminImportHSKView(APIView):
 class AdminUserListView(APIView):
     permission_classes = [AllowAny]
 
-    def get(self, request):
+    def get(self, request, pk=None):
         UserModel = get_user_model()
+        target_id = pk or request.query_params.get("id")
+        if target_id:
+            u = get_object_or_404(UserModel, pk=target_id)
+            summary = get_student_learning_summary(u)
+            recent_quizzes = list(QuizRecord.objects.filter(user=u).order_by("-completed_at")[:10].values(
+                "id", "hsk_level", "score", "total_questions", "xp_earned", "coins_earned", "completed_at"
+            ))
+            recent_mastered = list(StudyProgress.objects.filter(user=u, mastery_level=3).select_related("word").order_by("-last_studied")[:15].values(
+                "word__chinese", "word__pinyin", "word__bangla", "word__english", "word__hsk_level", "correct_count", "last_studied"
+            ))
+            return Response({
+                "id": str(u.id),
+                "username": u.username,
+                "email": u.email,
+                "is_staff": u.is_staff,
+                "is_active": u.is_active,
+                "date_joined": u.date_joined.strftime("%Y-%m-%d %H:%M") if u.date_joined else "",
+                "last_login": u.last_login.strftime("%Y-%m-%d %H:%M") if u.last_login else "Never logged in",
+                "recent_quizzes": recent_quizzes,
+                "recent_mastered_words": recent_mastered,
+                **summary,
+            })
+
         users = UserModel.objects.all().order_by("-date_joined")[:100]
         data = []
         for u in users:
@@ -629,7 +769,7 @@ class AdminUserListView(APIView):
                 "is_staff": u.is_staff,
                 "is_active": u.is_active,
                 "date_joined": u.date_joined.strftime("%Y-%m-%d %H:%M") if u.date_joined else "",
-                "last_login": u.last_login.strftime("%Y-%m-%d %H:%M") if u.last_login else "কখনো লগইন করেনি",
+                "last_login": u.last_login.strftime("%Y-%m-%d %H:%M") if u.last_login else "Never logged in",
                 "ai_conversations_count": ai_count,
                 **summary,
             })
@@ -716,4 +856,163 @@ class AdminDataFilesView(APIView):
             "total_db_entries": total_db_entries,
             "files": files_info,
         })
+
+
+class UserNotificationListView(APIView):
+    permission_classes = [AllowAny]
+
+    def get(self, request):
+        user = request.user if request.user and request.user.is_authenticated else None
+        if not user:
+            UserModel = get_user_model()
+            user = UserModel.objects.first()
+
+        if not user:
+            return Response({"unread_count": 0, "total_count": 0, "notifications": []})
+
+        try:
+            generate_smart_notifications(user)
+        except Exception:
+            pass
+
+        notifications = UserNotification.objects.filter(user=user).order_by("-created_at")
+        unread_count = notifications.filter(is_read=False).count()
+
+        now = timezone.now()
+        data = []
+        for n in notifications[:60]:
+            diff = now - n.created_at
+            if diff.total_seconds() < 60:
+                time_ago = "Just now"
+            elif diff.total_seconds() < 3600:
+                mins = int(diff.total_seconds() // 60)
+                time_ago = f"{mins}m ago"
+            elif diff.total_seconds() < 86400:
+                hours = int(diff.total_seconds() // 3600)
+                time_ago = f"{hours}h ago"
+            else:
+                days = int(diff.total_seconds() // 86400)
+                time_ago = f"{days}d ago"
+
+            data.append({
+                "id": n.id,
+                "title": n.title,
+                "message": n.message,
+                "notification_type": n.notification_type,
+                "action_route": n.action_route,
+                "is_read": n.is_read,
+                "created_at": n.created_at.isoformat(),
+                "time_ago": time_ago,
+            })
+
+        return Response({
+            "unread_count": unread_count,
+            "total_count": notifications.count(),
+            "notifications": data,
+        })
+
+
+class NotificationMarkReadView(APIView):
+    permission_classes = [AllowAny]
+
+    def post(self, request, pk):
+        user = request.user if request.user and request.user.is_authenticated else None
+        if not user:
+            UserModel = get_user_model()
+            user = UserModel.objects.first()
+
+        notif = get_object_or_404(UserNotification, pk=pk, user=user)
+        notif.is_read = True
+        notif.save(update_fields=["is_read"])
+        return Response({
+            "success": True,
+            "id": notif.id,
+            "is_read": True,
+        })
+
+
+class NotificationMarkAllReadView(APIView):
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        user = request.user if request.user and request.user.is_authenticated else None
+        if not user:
+            UserModel = get_user_model()
+            user = UserModel.objects.first()
+
+        updated = UserNotification.objects.filter(user=user, is_read=False).update(is_read=True)
+        return Response({
+            "success": True,
+            "updated_count": updated,
+        })
+
+
+class NotificationClearAllView(APIView):
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        user = request.user if request.user and request.user.is_authenticated else None
+        if not user:
+            UserModel = get_user_model()
+            user = UserModel.objects.first()
+
+        deleted_count, _ = UserNotification.objects.filter(user=user).delete()
+        return Response({
+            "success": True,
+            "deleted_count": deleted_count,
+        })
+
+
+class AdminNotificationBroadcastView(APIView):
+    permission_classes = [AllowAny]
+
+    def get(self, request):
+        """Returns recent broadcast log for Admin console."""
+        recent = UserNotification.objects.order_by("-created_at")[:40]
+        logs = []
+        for n in recent:
+            logs.append({
+                "id": n.id,
+                "user_name": n.user.username if n.user else "Anonymous",
+                "user_email": n.user.email if n.user else "",
+                "title": n.title,
+                "message": n.message,
+                "notification_type": n.notification_type,
+                "is_read": n.is_read,
+                "created_at": n.created_at.strftime("%Y-%m-%d %H:%M"),
+            })
+        return Response({
+            "total_notifications_sent": UserNotification.objects.count(),
+            "unread_notifications": UserNotification.objects.filter(is_read=False).count(),
+            "recent_logs": logs,
+        })
+
+    def post(self, request):
+        """Admin dispatches broadcast or targeted push message."""
+        title = request.data.get("title", "").strip()
+        message = request.data.get("message", "").strip()
+        notification_type = request.data.get("notification_type", "admin_broadcast")
+        action_route = request.data.get("action_route", "/home")
+        target_user_id = request.data.get("target_user_id", None)
+
+        if not title or not message:
+            return Response(
+                {"error": "Both 'title' and 'message' are required fields."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        sent_count = send_admin_broadcast(
+            title=title,
+            message=message,
+            notification_type=notification_type,
+            action_route=action_route,
+            target_user_id=target_user_id,
+        )
+
+        return Response({
+            "success": True,
+            "message": f"Successfully delivered notification to {sent_count} learner(s).",
+            "sent_count": sent_count,
+        })
+
 

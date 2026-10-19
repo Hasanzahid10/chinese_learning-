@@ -25,18 +25,29 @@ class SignUpView(APIView):
         user = serializer.save()
 
         refresh = RefreshToken.for_user(user)
+        access_token_str = str(refresh.access_token)
+        refresh_token_str = str(refresh)
+
+        display_name = getattr(getattr(user, "studentprofile", None), "display_name", "") or user.first_name or user.username
 
         return Response(
             {
                 "message": "Account created successfully.",
+                "token": access_token_str,
+                "access": access_token_str,
+                "access_token": access_token_str,
+                "refresh": refresh_token_str,
+                "refresh_token": refresh_token_str,
+                "token_type": "Bearer",
                 "user": {
                     "id": str(user.id),
                     "username": user.username,
                     "email": user.email,
+                    "display_name": display_name,
                 },
                 "tokens": {
-                    "access": str(refresh.access_token),
-                    "refresh": str(refresh),
+                    "access": access_token_str,
+                    "refresh": refresh_token_str,
                 },
             },
             status=status.HTTP_201_CREATED,
@@ -81,18 +92,29 @@ class SignInView(APIView):
             )
 
         refresh = RefreshToken.for_user(user)
+        access_token_str = str(refresh.access_token)
+        refresh_token_str = str(refresh)
+
+        display_name = getattr(getattr(user, "studentprofile", None), "display_name", "") or user.first_name or user.username
 
         return Response(
             {
                 "message": "Signed in successfully.",
+                "token": access_token_str,
+                "access": access_token_str,
+                "access_token": access_token_str,
+                "refresh": refresh_token_str,
+                "refresh_token": refresh_token_str,
+                "token_type": "Bearer",
                 "user": {
                     "id": str(user.id),
                     "username": user.username,
                     "email": user.email,
+                    "display_name": display_name,
                 },
                 "tokens": {
-                    "access": str(refresh.access_token),
-                    "refresh": str(refresh),
+                    "access": access_token_str,
+                    "refresh": refresh_token_str,
                 },
             }
         )

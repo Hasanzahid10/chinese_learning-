@@ -33,6 +33,8 @@ class StudentProfile(models.Model):
     last_study_date = models.DateField(null=True, blank=True)
     daily_goal_words = models.PositiveSmallIntegerField(default=10)
     total_xp = models.PositiveIntegerField(default=0)
+    coins = models.PositiveIntegerField(default=0)
+    highest_hsk_level_unlocked = models.PositiveSmallIntegerField(default=1)
 
     # App Preferences (Synced from App)
     is_pinyin_enabled = models.BooleanField(default=True)

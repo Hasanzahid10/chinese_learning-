@@ -13,12 +13,22 @@ from .views import (
     AdminConversationListView,
     AdminDataFilesView,
     UserLearningStatusView,
+    DailyQuizView,
+    UserNotificationListView,
+    NotificationMarkReadView,
+    NotificationMarkAllReadView,
+    NotificationClearAllView,
+    AdminNotificationBroadcastView,
 )
 
 urlpatterns = [
     path("", DictionarySearchView.as_view(), name="dictionary"),
     path("search/", DictionarySearchView.as_view(), name="dictionary-search"),
     path("<int:pk>/", DictionaryDetailView.as_view(), name="dictionary-detail"),
+    
+    # Daily Quiz
+    path("quiz/daily/", DailyQuizView.as_view(), name="daily-quiz"),
+    path("quiz/submit/", DailyQuizView.as_view(), name="daily-quiz-submit"),
     
     # Word CRUD
     path("words/", AdminWordDetailView.as_view(), name="admin-word-create"),
@@ -56,4 +66,11 @@ urlpatterns = [
         UserLearningStatusView.as_view(),
         name="user-learning-status",
     ),
+
+    # User Notifications
+    path("notifications/", UserNotificationListView.as_view(), name="user-notifications"),
+    path("notifications/<int:pk>/read/", NotificationMarkReadView.as_view(), name="notification-mark-read"),
+    path("notifications/mark-all-read/", NotificationMarkAllReadView.as_view(), name="notification-mark-all-read"),
+    path("notifications/clear-all/", NotificationClearAllView.as_view(), name="notification-clear-all"),
+    path("admin/notifications/broadcast/", AdminNotificationBroadcastView.as_view(), name="admin-notifications-broadcast"),
 ]

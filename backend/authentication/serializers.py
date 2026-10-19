@@ -62,6 +62,8 @@ class StudentProfileSerializer(serializers.ModelSerializer):
             "last_study_date",
             "daily_goal_words",
             "total_xp",
+            "coins",
+            "highest_hsk_level_unlocked",
             "is_pinyin_enabled",
             "is_traditional_chinese",
             "is_reminder_active",
@@ -76,6 +78,8 @@ class StudentProfileSerializer(serializers.ModelSerializer):
             "longest_streak",
             "last_study_date",
             "total_xp",
+            "coins",
+            "highest_hsk_level_unlocked",
             "created_at",
             "updated_at",
         ]

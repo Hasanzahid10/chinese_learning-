@@ -4,12 +4,23 @@ from .views import (
     ConversationListCreateView,
     ConversationDetailView,
     ChatMessageView,
+    DirectChatView,
     InternalAssistantMessageView,
     ConversationOwnerView,
 )
 
 
 urlpatterns = [
+
+    # --------------------------------------------------------
+    # Direct AI Chat Endpoint
+    # --------------------------------------------------------
+
+    path(
+        "chat/",
+        DirectChatView.as_view(),
+        name="ai-direct-chat",
+    ),
 
     # --------------------------------------------------------
     # Conversations
