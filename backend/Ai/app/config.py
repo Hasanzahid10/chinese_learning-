@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     ollama_model: str = "qwen2.5:3b"
 
     django_url: str = (
-        "http://127.0.0.1:8000"
+        "https://api.hanban.site"
     )
 
     ai_internal_key: str

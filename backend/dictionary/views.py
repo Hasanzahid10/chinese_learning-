@@ -637,7 +637,7 @@ class AdminStatsView(APIView):
                 "database": "SQLite (db.sqlite3)" if getattr(settings, 'USE_SQLITE', True) else "PostgreSQL",
                 "python": platform.python_version(),
                 "os": platform.system(),
-                "api_host": "http://127.0.0.1:8000",
+                "api_host": request.build_absolute_uri('/')[:-1] if hasattr(request, 'build_absolute_uri') else "https://api.hanban.site",
                 "ai_service_url": getattr(settings, 'AI_SERVICE_URL', 'http://127.0.0.1:8001'),
             }
         })

@@ -35,6 +35,22 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://admin.hanban.site',
+    'https://api.hanban.site',
+    'https://hanban.site',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+
+CORS_ALLOWED_ORIGINS = [
+    'https://admin.hanban.site',
+    'https://hanban.site',
+    'https://api.hanban.site',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+
 
 # Application definition
 
