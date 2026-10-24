@@ -117,16 +117,23 @@ if USE_SQLITE:
         }
     }
 else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': env('DB_NAME'),
-            'USER': env('DB_USER'),
-            'PASSWORD': env('DB_PASSWORD'),
-            'HOST': env('DB_HOST', default="127.0.0.1"),
-            'PORT': env('DB_PORT', default="5432"),
+    # Supports DATABASE_URL or individual DB_* environment keys
+    if 'DATABASE_URL' in os.environ or 'DATABASE_URL' in env:
+        DATABASES = {
+            'default': env.db('DATABASE_URL')
         }
-    }
+    else:
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql',
+                'NAME': env('DB_NAME', default='chinese_learning_db'),
+                'USER': env('DB_USER', default='postgres'),
+                'PASSWORD': env('DB_PASSWORD', default='postgres'),
+                'HOST': env('DB_HOST', default='127.0.0.1'),
+                'PORT': env('DB_PORT', default='5432'),
+                'CONN_MAX_AGE': 600,
+            }
+        }
 
 
 
