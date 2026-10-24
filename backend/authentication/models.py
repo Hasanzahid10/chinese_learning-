@@ -56,5 +56,8 @@ class StudentProfile(models.Model):
 
 @receiver(post_save, sender=User)
 def create_student_profile(sender, instance, created, **kwargs):
+    if kwargs.get('raw', False):
+        return
     if created:
         StudentProfile.objects.get_or_create(user=instance)
+
