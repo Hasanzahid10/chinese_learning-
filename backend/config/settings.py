@@ -114,6 +114,8 @@ TEMPLATES = [
 # ============================================================
 
 USE_SQLITE = env.bool('USE_SQLITE', default=False)
+DB_ENGINE_TYPE = env('DB_ENGINE', default='').lower()
+DB_PORT = str(env('DB_PORT', default='3306'))
 
 if USE_SQLITE:
     DATABASES = {
@@ -122,24 +124,37 @@ if USE_SQLITE:
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
+elif 'DATABASE_URL' in os.environ or 'DATABASE_URL' in env:
+    DATABASES = {
+        'default': env.db('DATABASE_URL')
+    }
+elif DB_ENGINE_TYPE == 'postgresql' or DB_PORT == '5432':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': env('DB_NAME', default='hanbandb'),
+            'USER': env('DB_USER', default='hanbanuser'),
+            'PASSWORD': env('DB_PASSWORD', default=''),
+            'HOST': env('DB_HOST', default='127.0.0.1'),
+            'PORT': DB_PORT,
+            'CONN_MAX_AGE': 600,
+        }
+    }
 else:
-    # Supports DATABASE_URL or individual DB_* environment keys
-    if 'DATABASE_URL' in os.environ or 'DATABASE_URL' in env:
-        DATABASES = {
-            'default': env.db('DATABASE_URL')
+    # Default: MySQL / MariaDB (Port 3306)
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': env('DB_NAME', default='hanbandb'),
+            'USER': env('DB_USER', default='hanbanuser'),
+            'PASSWORD': env('DB_PASSWORD', default=''),
+            'HOST': env('DB_HOST', default='127.0.0.1'),
+            'PORT': DB_PORT,
+            'OPTIONS': {
+                'charset': 'utf8mb4',
+            },
         }
-    else:
-        DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.postgresql',
-                'NAME': env('DB_NAME', default='chinese_learning_db'),
-                'USER': env('DB_USER', default='postgres'),
-                'PASSWORD': env('DB_PASSWORD', default='postgres'),
-                'HOST': env('DB_HOST', default='127.0.0.1'),
-                'PORT': env('DB_PORT', default='5432'),
-                'CONN_MAX_AGE': 600,
-            }
-        }
+    }
 
 
 # ============================================================
