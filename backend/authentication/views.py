@@ -73,17 +73,38 @@ class SignInView(APIView):
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
+        username_clean = str(username).strip()
+        password_raw = str(password)
+        password_trimmed = password_raw.strip()
+
+        # 1. Direct authentication with cleaned username
         user = authenticate(
-            username=username,
-            password=password,
+            username=username_clean,
+            password=password_raw,
         )
 
-        if user is None and "@" in str(username):
+        # 2. Try with trimmed password if copy-paste included trailing whitespace
+        if user is None and password_raw != password_trimmed:
+            user = authenticate(
+                username=username_clean,
+                password=password_trimmed,
+            )
+
+        # 3. Case-insensitive email or username lookup
+        if user is None:
             from django.contrib.auth import get_user_model
             UserModel = get_user_model()
-            user_obj = UserModel.objects.filter(email__iexact=username).first()
+            user_obj = None
+
+            if "@" in username_clean:
+                user_obj = UserModel.objects.filter(email__iexact=username_clean).first()
+            if not user_obj:
+                user_obj = UserModel.objects.filter(username__iexact=username_clean).first()
+
             if user_obj:
-                user = authenticate(username=user_obj.username, password=password)
+                user = authenticate(username=user_obj.username, password=password_raw)
+                if user is None and password_raw != password_trimmed:
+                    user = authenticate(username=user_obj.username, password=password_trimmed)
 
         if user is None:
             return Response(

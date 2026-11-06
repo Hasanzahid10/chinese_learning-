@@ -12,6 +12,8 @@ Multi-provider LLM integration supporting:
 import os
 import json
 import re
+import time
+import threading
 import requests
 from typing import Dict, Any, List, Optional
 from dictionary.models import HSKWord
@@ -125,13 +127,20 @@ def _extract_vocabulary_from_text(chinese_text: str, limit: int = 4) -> List[Dic
     return extracted
 
 
+# Concurrency and Load Balancing State
+_dispatch_lock = threading.Lock()
+_request_counter = 0
+_gemini_cooldown_until = 0.0
+_groq_cooldown_until = 0.0
+
+
 def _call_groq(messages: List[Dict[str, str]], api_key: str) -> Optional[str]:
     """Queries Groq API with Qwen 27B or available models for rapid Chinese conversation."""
     models_to_try = [
         "qwen/qwen3.8-27b",
+        "llama-3.3-70b-versatile",
         "openai/gpt-oss-120b",
         "openai/gpt-oss-20b",
-        "llama-3.3-70b-versatile",
     ]
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
@@ -147,12 +156,16 @@ def _call_groq(messages: List[Dict[str, str]], api_key: str) -> Optional[str]:
                 "temperature": 0.7,
                 "max_tokens": 200,
             }
-            res = requests.post(url, headers=headers, json=payload, timeout=12)
+            res = requests.post(url, headers=headers, json=payload, timeout=9)
             if res.status_code == 200:
                 data = res.json()
                 content = data["choices"][0]["message"]["content"].strip()
                 if content:
                     return content
+            elif res.status_code in [429, 503]:
+                global _groq_cooldown_until
+                _groq_cooldown_until = time.time() + 45.0
+                print(f"[AI Engine] Groq model {model} busy/rate-limited ({res.status_code}), cooldown set.")
             else:
                 print(f"[AI Engine] Groq model {model} status {res.status_code}: {res.text[:120]}")
         except Exception as e:
@@ -161,31 +174,56 @@ def _call_groq(messages: List[Dict[str, str]], api_key: str) -> Optional[str]:
 
 
 def _call_gemini(messages: List[Dict[str, str]], api_key: str) -> Optional[str]:
-    """Queries Google Gemini API for conversational generation."""
-    try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
-        headers = {"Content-Type": "application/json"}
-        
-        # Convert messages to Gemini format
-        contents = []
-        for m in messages:
-            role = "user" if m["role"] in ["user", "system"] else "model"
+    """Queries Google Gemini API with automatic flash model fallbacks."""
+    models_to_try = [
+        "gemini-3.6-flash",
+        "gemini-3.8-flash",
+        "gemini-3.5-flash",
+        "gemini-flash-latest",
+        "gemini-3.1-flash-lite",
+    ]
+    headers = {"Content-Type": "application/json"}
+
+    # Separate system instruction if present, or format contents
+    system_text = ""
+    contents = []
+    for m in messages:
+        if m["role"] == "system":
+            system_text = m["content"]
+        else:
+            role = "user" if m["role"] == "user" else "model"
             contents.append({
                 "role": role,
                 "parts": [{"text": m["content"]}]
             })
-            
-        payload = {"contents": contents}
-        res = requests.post(url, headers=headers, json=payload, timeout=12)
-        if res.status_code == 200:
-            data = res.json()
-            candidates = data.get("candidates", [])
-            if candidates:
-                parts = candidates[0].get("content", {}).get("parts", [])
-                if parts:
-                    return parts[0].get("text", "").strip()
-    except Exception as e:
-        print(f"[AI Engine] Gemini API call failed: {e}")
+
+    payload = {"contents": contents}
+    if system_text:
+        payload["system_instruction"] = {
+            "parts": [{"text": system_text}]
+        }
+
+    for model in models_to_try:
+        try:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+            res = requests.post(url, headers=headers, json=payload, timeout=9)
+            if res.status_code == 200:
+                data = res.json()
+                candidates = data.get("candidates", [])
+                if candidates:
+                    parts = candidates[0].get("content", {}).get("parts", [])
+                    if parts:
+                        return parts[0].get("text", "").strip()
+            elif res.status_code in [429, 503]:
+                global _gemini_cooldown_until
+                _gemini_cooldown_until = time.time() + 45.0
+                print(f"[AI Engine] Gemini {model} busy/rate-limited ({res.status_code}), trying next fallback model...")
+                continue
+            else:
+                print(f"[AI Engine] Gemini {model} status {res.status_code}: {res.text[:120]}")
+        except Exception as e:
+            print(f"[AI Engine] Gemini API call for {model} failed: {e}")
+            continue
     return None
 
 
@@ -233,12 +271,14 @@ def _call_openai(messages: List[Dict[str, str]], api_key: str) -> Optional[str]:
 
 def _query_multi_provider_llm(conversation, user_text: str, hsk_level: int = 1) -> Optional[str]:
     """
-    Dispatcher that tries available LLM providers in sequence:
-    1. Groq (Fastest free tier)
-    2. Google Gemini (Free tier)
-    3. OpenAI / OpenRouter
-    4. Local Ollama (if running)
+    Intelligent Multi-Provider Dispatcher with Rush Load Balancing:
+    1. Gemini: 1st Priority
+    2. Groq: 2nd Priority & Burst/Rush Load Balancer
+    3. Seamless Automatic Failover (If one fails, immediately try the other)
+    4. Extended Fallbacks: OpenAI -> Ollama -> Database
     """
+    global _request_counter, _gemini_cooldown_until, _groq_cooldown_until
+
     # 1. Build Conversation History Context
     history_messages = [
         {"role": "system", "content": f"{SYSTEM_PROMPT}\nTarget learner proficiency: HSK {hsk_level}. Reply in 1-2 natural Chinese sentences. After the Chinese sentence, you may add a brief English translation in brackets."}
@@ -256,28 +296,55 @@ def _query_multi_provider_llm(conversation, user_text: str, hsk_level: int = 1) 
 
     history_messages.append({"role": "user", "content": user_text})
 
-    # Provider 1: Groq
-    groq_key = _get_env_key("GROQ_API_KEY")
-    if groq_key:
-        reply = _call_groq(history_messages, groq_key)
-        if reply:
-            return reply
-
-    # Provider 2: Gemini
     gemini_key = _get_env_key("GEMINI_API_KEY")
-    if gemini_key:
-        reply = _call_gemini(history_messages, gemini_key)
-        if reply:
-            return reply
+    groq_key = _get_env_key("GROQ_API_KEY")
 
-    # Provider 3: OpenAI
+    with _dispatch_lock:
+        _request_counter += 1
+        req_count = _request_counter
+
+    now = time.time()
+    gemini_cooling = now < _gemini_cooldown_until
+    groq_cooling = now < _groq_cooldown_until
+
+    # Dispatch Priority Strategy:
+    # - Gemini is primary (1st priority).
+    # - If heavy user rush or Gemini is cooling (recent 429/503), balance ~25% load or cooldown to Groq.
+    # - In either case, if the chosen primary fails, it seamlessly and immediately executes the other!
+    rush_divert_to_groq = bool(
+        gemini_key and groq_key and not groq_cooling and (gemini_cooling or (req_count % 4 == 0))
+    )
+
+    if rush_divert_to_groq:
+        primary_order = [("groq", groq_key), ("gemini", gemini_key)]
+    else:
+        primary_order = [("gemini", gemini_key), ("groq", groq_key)]
+
+    for provider, key in primary_order:
+        if not key:
+            continue
+        try:
+            if provider == "gemini":
+                reply = _call_gemini(history_messages, key)
+                if reply:
+                    return reply
+                print("[AI Engine] Gemini call returned empty/failed, failing over to backup...")
+            elif provider == "groq":
+                reply = _call_groq(history_messages, key)
+                if reply:
+                    return reply
+                print("[AI Engine] Groq call returned empty/failed, failing over to backup...")
+        except Exception as e:
+            print(f"[AI Engine] Provider {provider} failed with exception: {e}")
+
+    # Provider 3: OpenAI (if configured)
     openai_key = _get_env_key("OPENAI_API_KEY")
     if openai_key:
         reply = _call_openai(history_messages, openai_key)
         if reply:
             return reply
 
-    # Provider 4: Local Ollama
+    # Provider 4: Local Ollama (if running)
     ollama_url = _get_env_key("OLLAMA_URL") or "http://127.0.0.1:11434"
     ollama_model = _get_env_key("OLLAMA_MODEL") or "qwen2.5:3b"
     reply = _call_ollama(history_messages, ollama_url, ollama_model)
