@@ -1,15 +1,20 @@
 from django.contrib.auth import authenticate
+from django.contrib.auth.password_validation import validate_password
 from rest_framework import status
-from rest_framework.permissions import AllowAny
+from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
+from rest_framework.throttling import ScopedRateThrottle
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 
+from .permissions import IsActiveUser
 from .serializers import SignUpSerializer
 
 
 class SignUpView(APIView):
     permission_classes = [AllowAny]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "auth_signup"
 
     def post(self, request):
         serializer = SignUpSerializer(
@@ -58,20 +63,16 @@ class SignUpView(APIView):
 
 class SignInView(APIView):
     permission_classes = [AllowAny]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "auth_login"
 
     def post(self, request):
         username = request.data.get("username")
         password = request.data.get("password")
 
-        if not username:
+        if not username or not password:
             return Response(
-                {"error": "username is required."},
-                status=status.HTTP_400_BAD_REQUEST,
-            )
-
-        if not password:
-            return Response(
-                {"error": "password is required."},
+                {"error": "Both username and password are required."},
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
@@ -108,10 +109,18 @@ class SignInView(APIView):
                 if user is None and password_raw != password_trimmed:
                     user = authenticate(username=user_obj.username, password=password_trimmed)
 
+        # Uniform rejection response to prevent username enumeration
         if user is None:
             return Response(
                 {"error": "Invalid username or password."},
                 status=status.HTTP_401_UNAUTHORIZED,
+            )
+
+        # Check account active status
+        if not user.is_active:
+            return Response(
+                {"error": "This account is inactive or has been suspended."},
+                status=status.HTTP_403_FORBIDDEN,
             )
 
         refresh = RefreshToken.for_user(user)
@@ -146,20 +155,10 @@ class SignInView(APIView):
 
 
 class UserProfileView(APIView):
-    permission_classes = [AllowAny]
-
-    def _get_target_user(self, request):
-        if request.user and request.user.is_authenticated:
-            return request.user
-        from django.contrib.auth import get_user_model
-        UserModel = get_user_model()
-        return UserModel.objects.first()
+    permission_classes = [IsAuthenticated, IsActiveUser]
 
     def get(self, request):
-        user = self._get_target_user(request)
-        if not user:
-            return Response({"error": "No user found."}, status=status.HTTP_404_NOT_FOUND)
-
+        user = request.user
         from .models import StudentProfile
         from dictionary.views import get_student_learning_summary
         profile, _ = StudentProfile.objects.get_or_create(user=user)
@@ -210,22 +209,29 @@ class UserProfileView(APIView):
         return self.patch(request)
 
     def patch(self, request):
-        user = self._get_target_user(request)
-        if not user:
-            return Response({"error": "No user found."}, status=status.HTTP_404_NOT_FOUND)
-
+        user = request.user
         from .models import StudentProfile
         profile, _ = StudentProfile.objects.get_or_create(user=user)
 
         # Update User model fields if provided
         new_email = request.data.get("email")
-        if new_email and new_email != user.email:
-            user.email = new_email.strip().lower()
+        if new_email and new_email.strip().lower() != user.email.lower():
+            clean_email = new_email.strip().lower()
+            from django.contrib.auth import get_user_model
+            UserModel = get_user_model()
+            if UserModel.objects.filter(email__iexact=clean_email).exclude(pk=user.pk).exists():
+                return Response({"error": "This email is already in use by another account."}, status=status.HTTP_400_BAD_REQUEST)
+            user.email = clean_email
             user.save(update_fields=["email"])
 
         new_username = request.data.get("username")
-        if new_username and new_username != user.username:
-            user.username = new_username.strip()
+        if new_username and new_username.strip() != user.username:
+            clean_username = new_username.strip()
+            from django.contrib.auth import get_user_model
+            UserModel = get_user_model()
+            if UserModel.objects.filter(username__iexact=clean_username).exclude(pk=user.pk).exists():
+                return Response({"error": "This username is already taken."}, status=status.HTTP_400_BAD_REQUEST)
+            user.username = clean_username
             user.save(update_fields=["username"])
 
         # Update StudentProfile fields
@@ -249,14 +255,12 @@ class UserProfileView(APIView):
 
 
 class ChangePasswordView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAuthenticated, IsActiveUser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "auth_login"
 
     def post(self, request):
-        user = request.user if request.user and request.user.is_authenticated else None
-        if not user:
-            from django.contrib.auth import get_user_model
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
+        user = request.user
 
         old_password = request.data.get("old_password") or request.data.get("current_password")
         new_password = request.data.get("new_password")
@@ -273,9 +277,18 @@ class ChangePasswordView(APIView):
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
-        if len(new_password) < 6:
+        if len(new_password) < 8:
             return Response(
-                {"error": "New password must be at least 6 characters."},
+                {"error": "New password must be at least 8 characters long."},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        try:
+            validate_password(new_password, user=user)
+        except Exception as e:
+            error_messages = getattr(e, "messages", [str(e)])
+            return Response(
+                {"error": "Password does not meet security standards.", "details": error_messages},
                 status=status.HTTP_400_BAD_REQUEST,
             )
 

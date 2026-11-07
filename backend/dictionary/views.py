@@ -13,6 +13,9 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.throttling import ScopedRateThrottle
+
+from authentication.permissions import IsAdminOrSuperuser, IsActiveUser
 
 from authentication.models import StudentProfile
 from .models import HSKWord, StudyProgress, UserAchievement, QuizRecord, UserNotification
@@ -186,7 +189,7 @@ def get_student_learning_summary(user):
 class DictionarySearchView(APIView):
 
     def get(self, request):
-        query = request.GET.get("q", "").strip()
+        query = request.GET.get("q", "").strip()[:100]
         hsk = request.GET.get("hsk")
 
         words = HSKWord.objects.all()
@@ -212,20 +215,17 @@ class DictionarySearchView(APIView):
 
         total_count = words.count()
 
-        # Pagination support
+        # Pagination support (capped for DoS prevention)
         try:
             page = max(1, int(request.GET.get("page", 1)))
         except (ValueError, TypeError):
             page = 1
 
         page_size_param = str(request.GET.get("page_size", "50")).strip().lower()
-        if page_size_param in ("all", "0", "-1"):
-            page_size = 10000
-        else:
-            try:
-                page_size = max(10, min(int(page_size_param), 1000))
-            except (ValueError, TypeError):
-                page_size = 50
+        try:
+            page_size = max(10, min(int(page_size_param), 200))
+        except (ValueError, TypeError):
+            page_size = 50
 
         offset = (page - 1) * page_size
         words = words.order_by("hsk_level", "id")[offset : offset + page_size]
@@ -269,8 +269,7 @@ class StudyCardView(APIView):
     def _get_target_user(self, request):
         if request.user and request.user.is_authenticated:
             return request.user
-        from django.contrib.auth import get_user_model
-        return get_user_model().objects.first()
+        return None
 
     def get(self, request):
         hsk = request.GET.get("hsk")
@@ -385,8 +384,19 @@ class StudyAnswerView(APIView):
 
         user = request.user if request.user and request.user.is_authenticated else None
         if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
+            # Anonymous answer: do not modify database or first user/admin account
+            return Response({
+                "message": "Answer recorded locally.",
+                "progress": None,
+                "current_streak": 0,
+                "is_learned": False,
+                "mastery_level": 0,
+                "xp_earned": 10 if correct else 0,
+                "total_xp": 0,
+                "coins": 0,
+                "rank": {"title": "Novice", "tier": 1},
+                "new_badges_unlocked": [],
+            })
 
         progress, created = StudyProgress.objects.get_or_create(
             user=user,
@@ -459,12 +469,18 @@ class StudyProgressView(APIView):
     def get(self, request):
         user = request.user if request.user and request.user.is_authenticated else None
         if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
+            total_words = HSKWord.objects.count()
+            return Response({
+                "total_words": total_words,
+                "studied_words": 0,
+                "learned_words": 0,
+                "remaining_words": total_words,
+                "progress": [],
+            })
 
         progress = StudyProgress.objects.filter(user=user).select_related(
             "word"
-        ) if user else StudyProgress.objects.select_related("word").all()
+        )
 
         serializer = StudyProgressSerializer(
             progress,
@@ -472,8 +488,8 @@ class StudyProgressView(APIView):
         )
 
         total_words = HSKWord.objects.count()
-        learned_words = progress.filter(is_learned=True).count() if user else 0
-        studied_words = progress.count() if user else 0
+        learned_words = progress.filter(is_learned=True).count()
+        studied_words = progress.count()
 
         return Response({
             "total_words": total_words,
@@ -493,10 +509,6 @@ class UserLearningStatusView(APIView):
 
     def get(self, request):
         user = request.user if request.user and request.user.is_authenticated else None
-        if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
-
         if not user:
             return Response({
                 "current_streak": 0,
@@ -537,10 +549,6 @@ class DailyQuizView(APIView):
 
     def get(self, request):
         user = request.user if request.user and request.user.is_authenticated else None
-        if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
-
         try:
             hsk_level = int(request.query_params.get("level", 1))
         except (ValueError, TypeError):
@@ -551,25 +559,38 @@ class DailyQuizView(APIView):
 
     def post(self, request):
         user = request.user if request.user and request.user.is_authenticated else None
-        if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
-
         hsk_level = int(request.data.get("hsk_level", 1))
         answers = request.data.get("answers", [])
         if not isinstance(answers, list):
             return Response({"error": "answers must be a list"}, status=status.HTTP_400_BAD_REQUEST)
+
+        if not user:
+            correct_count = sum(1 for a in answers if a.get("word_id") and a.get("word_id") == a.get("selected_word_id"))
+            return Response({
+                "score": correct_count,
+                "total_questions": len(answers),
+                "accuracy_pct": round((correct_count / len(answers) * 100), 1) if answers else 0,
+                "xp_earned": correct_count * 10,
+                "coins_earned": 5 if correct_count == len(answers) else 0,
+                "total_xp": 0,
+                "coins": 0,
+                "rank": {"title": "Novice", "tier": 1},
+                "new_badges_unlocked": [],
+                "feedback": "লগইন করে প্রতিদিনের কুইজের XP ও ব্যাজ সংরক্ষণ করুন!",
+            })
 
         result = evaluate_daily_quiz(user, hsk_level=hsk_level, answers=answers)
         return Response(result)
 
 
 # ============================================================
-# ADMIN CONTROL PANEL APIS
+# ADMIN CONTROL PANEL APIS (Gold Standard Protected)
 # ============================================================
 
 class AdminStatsView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAdminOrSuperuser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "admin_action"
 
     def get(self, request):
         UserModel = get_user_model()
@@ -644,7 +665,9 @@ class AdminStatsView(APIView):
 
 
 class AdminWordDetailView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAdminOrSuperuser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "admin_action"
 
     def post(self, request):
         serializer = DictionaryWordSerializer(data=request.data)
@@ -668,7 +691,9 @@ class AdminWordDetailView(APIView):
 
 
 class AdminImportHSKView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAdminOrSuperuser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "admin_action"
 
     def post(self, request):
         level = request.data.get("level", "all")
@@ -725,7 +750,9 @@ class AdminImportHSKView(APIView):
 
 
 class AdminUserListView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAdminOrSuperuser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "admin_action"
 
     def get(self, request, pk=None):
         UserModel = get_user_model()
@@ -787,7 +814,9 @@ class AdminUserListView(APIView):
 
 
 class AdminConversationListView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAdminOrSuperuser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "admin_action"
 
     def get(self, request):
         from chatbot.models import Conversation
@@ -814,7 +843,9 @@ class AdminConversationListView(APIView):
 
 
 class AdminDataFilesView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAdminOrSuperuser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "admin_action"
 
     def get(self, request):
         data_dir = Path(__file__).resolve().parent.parent / "data" / "hsk_json"
@@ -859,17 +890,10 @@ class AdminDataFilesView(APIView):
 
 
 class UserNotificationListView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAuthenticated, IsActiveUser]
 
     def get(self, request):
-        user = request.user if request.user and request.user.is_authenticated else None
-        if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
-
-        if not user:
-            return Response({"unread_count": 0, "total_count": 0, "notifications": []})
-
+        user = request.user
         try:
             generate_smart_notifications(user)
         except Exception:
@@ -913,15 +937,10 @@ class UserNotificationListView(APIView):
 
 
 class NotificationMarkReadView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAuthenticated, IsActiveUser]
 
     def post(self, request, pk):
-        user = request.user if request.user and request.user.is_authenticated else None
-        if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
-
-        notif = get_object_or_404(UserNotification, pk=pk, user=user)
+        notif = get_object_or_404(UserNotification, pk=pk, user=request.user)
         notif.is_read = True
         notif.save(update_fields=["is_read"])
         return Response({
@@ -932,15 +951,10 @@ class NotificationMarkReadView(APIView):
 
 
 class NotificationMarkAllReadView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAuthenticated, IsActiveUser]
 
     def post(self, request):
-        user = request.user if request.user and request.user.is_authenticated else None
-        if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
-
-        updated = UserNotification.objects.filter(user=user, is_read=False).update(is_read=True)
+        updated = UserNotification.objects.filter(user=request.user, is_read=False).update(is_read=True)
         return Response({
             "success": True,
             "updated_count": updated,
@@ -948,15 +962,10 @@ class NotificationMarkAllReadView(APIView):
 
 
 class NotificationClearAllView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAuthenticated, IsActiveUser]
 
     def post(self, request):
-        user = request.user if request.user and request.user.is_authenticated else None
-        if not user:
-            UserModel = get_user_model()
-            user = UserModel.objects.first()
-
-        deleted_count, _ = UserNotification.objects.filter(user=user).delete()
+        deleted_count, _ = UserNotification.objects.filter(user=request.user).delete()
         return Response({
             "success": True,
             "deleted_count": deleted_count,
@@ -964,7 +973,9 @@ class NotificationClearAllView(APIView):
 
 
 class AdminNotificationBroadcastView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAdminOrSuperuser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "admin_action"
 
     def get(self, request):
         """Returns recent broadcast log for Admin console."""
@@ -1014,5 +1025,6 @@ class AdminNotificationBroadcastView(APIView):
             "message": f"Successfully delivered notification to {sent_count} learner(s).",
             "sent_count": sent_count,
         })
+
 
 

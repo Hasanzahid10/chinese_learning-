@@ -2,12 +2,15 @@ import os
 import uuid
 
 from django.shortcuts import get_object_or_404
+from django.db.models import Q
 
 from rest_framework import status
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.throttling import ScopedRateThrottle
 
+from authentication.permissions import IsActiveUser, HasInternalAIKey
 from .models import Conversation, ChatMessage
 from .serializers import (
     ConversationSerializer,
@@ -23,7 +26,7 @@ from .serializers import (
 
 class InternalAssistantMessageView(APIView):
 
-    permission_classes = [AllowAny]
+    permission_classes = [HasInternalAIKey]
 
     def post(self, request):
 
@@ -193,7 +196,7 @@ class InternalAssistantMessageView(APIView):
 
 class ConversationOwnerView(APIView):
 
-    permission_classes = [AllowAny]
+    permission_classes = [HasInternalAIKey]
 
     def post(self, request):
 
@@ -276,29 +279,19 @@ class ConversationOwnerView(APIView):
 
 
 # ============================================================
-# CONVERSATIONS
+# CONVERSATIONS (Authenticated & Protected)
 # ============================================================
 
 class ConversationListCreateView(APIView):
 
-    permission_classes = [AllowAny]
-
-    def _get_target_user(self, request):
-        if request.user and request.user.is_authenticated:
-            return request.user
-        from django.contrib.auth import get_user_model
-        UserModel = get_user_model()
-        return UserModel.objects.first()
+    permission_classes = [IsAuthenticated, IsActiveUser]
 
     # --------------------------------------------------------
     # GET /api/chatbot/conversations/
     # --------------------------------------------------------
 
     def get(self, request):
-        user = self._get_target_user(request)
-        if not user:
-            return Response([], status=status.HTTP_200_OK)
-
+        user = request.user
         conversations = Conversation.objects.filter(user=user)
 
         # If no conversation exists yet, automatically create an active one with welcoming message
@@ -328,71 +321,49 @@ class ConversationListCreateView(APIView):
             many=True,
         )
 
-        return Response(
-            serializer.data
-        )
+        return Response(serializer.data)
 
     # --------------------------------------------------------
     # POST /api/chatbot/conversations/
     # --------------------------------------------------------
 
     def post(self, request):
-        user = self._get_target_user(request)
-        if not user:
-            return Response({"error": "User not authenticated."}, status=status.HTTP_401_UNAUTHORIZED)
-
-        title = request.data.get(
-            "title",
-            "New Chat",
-        )
-
-        mode = request.data.get(
-            "mode",
-            "chinese",
-        )
+        user = request.user
+        title = str(request.data.get("title", "New Chat")).strip()[:100]
+        mode = str(request.data.get("mode", "chinese")).strip()[:30]
 
         conversation = Conversation.objects.create(
             user=user,
-            title=title,
-            mode=mode,
+            title=title or "New Chat",
+            mode=mode or "chinese",
         )
 
-        serializer = ConversationSerializer(
-            conversation
-        )
-
-        return Response(
-            serializer.data,
-            status=status.HTTP_201_CREATED,
-        )
+        serializer = ConversationSerializer(conversation)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 # ============================================================
-# CONVERSATION DETAIL
+# CONVERSATION DETAIL (IDOR Protected)
 # ============================================================
 
 class ConversationDetailView(APIView):
 
-    permission_classes = [AllowAny]
-
-    def _get_target_user(self, request):
-        if request.user and request.user.is_authenticated:
-            return request.user
-        from django.contrib.auth import get_user_model
-        UserModel = get_user_model()
-        return UserModel.objects.first()
+    permission_classes = [IsAuthenticated, IsActiveUser]
 
     # --------------------------------------------------------
     # GET /api/chatbot/conversations/<id>/
     # --------------------------------------------------------
 
     def get(self, request, pk):
-        user = self._get_target_user(request)
-        conversation = Conversation.objects.filter(id=pk).first()
+        user = request.user
+        if user.is_staff or user.is_superuser:
+            conversation = Conversation.objects.filter(id=pk).first()
+        else:
+            conversation = Conversation.objects.filter(id=pk, user=user).first()
 
         if not conversation:
             return Response(
-                {"error": "Conversation not found."},
+                {"error": "Conversation not found or access denied."},
                 status=status.HTTP_404_NOT_FOUND,
             )
 
@@ -439,20 +410,14 @@ class ConversationDetailView(APIView):
 
 
 # ============================================================
-# USER CHAT MESSAGE & AI GENERATION
-# Django immediately processes and generates the AI response
+# USER CHAT MESSAGE & AI GENERATION (Throttled & Hardened)
 # ============================================================
 
 class ChatMessageView(APIView):
 
-    permission_classes = [AllowAny]
-
-    def _get_target_user(self, request):
-        if request.user and request.user.is_authenticated:
-            return request.user
-        from django.contrib.auth import get_user_model
-        UserModel = get_user_model()
-        return UserModel.objects.first()
+    permission_classes = [IsAuthenticated, IsActiveUser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "ai_tutor"
 
     # --------------------------------------------------------
     # POST
@@ -464,35 +429,30 @@ class ChatMessageView(APIView):
         request,
         conversation_id,
     ):
-        user = self._get_target_user(request)
-        conversation = Conversation.objects.filter(id=conversation_id).first()
+        user = request.user
+        conversation = Conversation.objects.filter(id=conversation_id, user=user).first()
 
         if not conversation:
-            if not user:
-                return Response(
-                    {"error": "User not authenticated."},
-                    status=status.HTTP_401_UNAUTHORIZED,
-                )
             conversation = Conversation.objects.create(
                 user=user,
                 title="Chinese Practice",
                 mode="chinese",
             )
 
-        content = request.data.get(
-            "message",
-            "",
-        ).strip()
-
-        hsk_level = int(request.data.get("hsk_level", 1) or 1)
-
-        if not content:
+        raw_content = request.data.get("message", "").strip()
+        if not raw_content:
             return Response(
-                {
-                    "error": "Message is required."
-                },
+                {"error": "Message is required."},
                 status=status.HTTP_400_BAD_REQUEST,
             )
+
+        # DoS guard: limit message length to 500 characters
+        content = raw_content[:500]
+
+        try:
+            hsk_level = max(1, min(int(request.data.get("hsk_level", 1) or 1), 6))
+        except (ValueError, TypeError):
+            hsk_level = 1
 
         # 1. Save user message
         user_message = ChatMessage.objects.create(
@@ -548,33 +508,21 @@ class ChatMessageView(APIView):
 
 
 # ============================================================
-# DIRECT AI CHAT ENDPOINT
-# Instant conversation handling without manual conversation setup
+# DIRECT AI CHAT ENDPOINT (Throttled & Hardened)
 # ============================================================
 
 class DirectChatView(APIView):
 
-    permission_classes = [AllowAny]
-
-    def _get_target_user(self, request):
-        if request.user and request.user.is_authenticated:
-            return request.user
-        from django.contrib.auth import get_user_model
-        UserModel = get_user_model()
-        return UserModel.objects.first()
+    permission_classes = [IsAuthenticated, IsActiveUser]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = "ai_tutor"
 
     def post(self, request):
-        user = self._get_target_user(request)
-        if not user:
-            return Response(
-                {"error": "User not authenticated."},
-                status=status.HTTP_401_UNAUTHORIZED,
-            )
-
+        user = request.user
         conv_id = request.data.get("conversation_id")
         conversation = None
         if conv_id:
-            conversation = Conversation.objects.filter(id=conv_id).first()
+            conversation = Conversation.objects.filter(id=conv_id, user=user).first()
 
         if not conversation:
             conversation = Conversation.objects.filter(user=user).first()
@@ -585,14 +533,20 @@ class DirectChatView(APIView):
                     mode="chinese",
                 )
 
-        content = request.data.get("message", "").strip()
-        hsk_level = int(request.data.get("hsk_level", 1) or 1)
-
-        if not content:
+        raw_content = request.data.get("message", "").strip()
+        if not raw_content:
             return Response(
                 {"error": "Message is required."},
                 status=status.HTTP_400_BAD_REQUEST,
             )
+
+        # DoS guard: limit message length to 500 characters
+        content = raw_content[:500]
+
+        try:
+            hsk_level = max(1, min(int(request.data.get("hsk_level", 1) or 1), 6))
+        except (ValueError, TypeError):
+            hsk_level = 1
 
         # 1. Save user message
         user_message = ChatMessage.objects.create(
