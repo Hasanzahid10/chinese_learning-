@@ -40,3 +40,4 @@ class HasInternalAIKey(BasePermission):
         internal_key = request.headers.get("X-Internal-Key")
         expected_key = os.environ.get("AI_INTERNAL_KEY")
         return bool(expected_key and internal_key == expected_key)
+
