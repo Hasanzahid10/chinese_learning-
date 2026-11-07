@@ -44,6 +44,8 @@ class SignUpView(APIView):
                     "username": user.username,
                     "email": user.email,
                     "display_name": display_name,
+                    "is_staff": getattr(user, "is_staff", False),
+                    "is_superuser": getattr(user, "is_superuser", False),
                 },
                 "tokens": {
                     "access": access_token_str,
@@ -132,6 +134,8 @@ class SignInView(APIView):
                     "username": user.username,
                     "email": user.email,
                     "display_name": display_name,
+                    "is_staff": getattr(user, "is_staff", False),
+                    "is_superuser": getattr(user, "is_superuser", False),
                 },
                 "tokens": {
                     "access": access_token_str,
